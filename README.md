@@ -5,7 +5,7 @@
 
 ## Jeffrey Richter's Course
 [?aaS Cloud course from Jeffrey Richter](https://www.youtube.com/watch?v=LkJr0Ld85AE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=4)  
-[Jeffry Richter Presentation, Chapter 1-2-3-4 with Extra materials.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8082887/Jeffry.Richter.Part1.pptx)  
+[Jeffry Richter Presentation, Chapter 1-2-3-4 with Extra materials.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8082914/Jeffry.Richter.Part1.pptx)  
 
 
 # Cost Optimizations materials
