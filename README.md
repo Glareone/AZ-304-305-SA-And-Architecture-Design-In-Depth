@@ -23,6 +23,23 @@
 # Security materials
 ## Design Authorization & Authentication
 ## Design Security
+[Microsoft Trust Center](https://www.microsoft.com/en-ww/trust-center/product-overview)  
+* In-depth information access tp FedRAMP, ISO, SOC audit reports, data protection white papers and different assessment reports
+* Centralized resources around security, compliance and privacy
+
+[Compliance Manager](https://compliance.microsoft.com/compliancemanager)   
+* Manage compliance from a central location
+* Proactive risk assessment
+* Insights and recommended actions
+* Prepare compliance reports for audit
+
+[Data Protection Resources](https://servicetrust.microsoft.com/viewpage/trustdocuments)  
+* Trust documents, GDPR, Compliance guides, Pen test and Security Assessment tests
+
+[Azure Security and Compliance, Blueprints](https://servicetrust.microsoft.com/ViewPage/BlueprintOverview)
+* Industry-specific overview and guidance
+* Customer responsibilities matrix
+* References architectures with threat models
 
 # Governance and Compliance materials
 ## Design Governance 
