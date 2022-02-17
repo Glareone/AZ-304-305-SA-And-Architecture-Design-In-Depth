@@ -10,6 +10,13 @@
 ## AZ-300 AZ-301 AZ-304 AZ-305 Exam tips
 [AZ+301 SKYLINES ACADEMY Slides_Student_Version.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8092664/AZ%2B301%2BSlides_Student%2BVersion_Skylines%2BAcademy.pdf)
 
+### SKYLINES ACADEMY MATERIALS:
+[SECTION-1 Workload requirements](https://www.skylinesacademy.com/az301-section-1)  
+[SECTION-2 Identity and Security](https://www.skylinesacademy.com/az301-section-2)  
+[SECTION-3 Data Platform Solutions](https://www.skylinesacademy.com/az301-section-3)  
+[SECTION-4 Business Continuity](https://www.skylinesacademy.com/az301-section-4)  
+[SECTION-5 Deployment, Migration, Integration](https://www.skylinesacademy.com/az301-section-5)  
+[SECTION-6 Infrastructure Strategy](https://www.skylinesacademy.com/az301-section-6)  
 
 # Cost Optimizations materials
 
