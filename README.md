@@ -10,19 +10,20 @@
 
 <details>
 <summary>Most important screens from Richter's course</summary>
-![4 reasons to split the monolith onto microservices](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)    
+
+![4 reasons to split the monolith onto microservices]](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)   
 </details>
 
 <details>
 <summary>SLA, SLO, SLI</summary>
-Difference: https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli  
+Difference: https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli   
 * SLI Explained in details:  
-http://cs.brown.edu/courses/csci2952-f/slides/Class9.pdf
-SLI Of The Platform
-- Critical Replica Threshold = CRT
-- Available replicas = min(total available pods, CRT)
-- Replica availability = (available replicas / CRT) * 100
-- Critical Replica Availability = mean(replica availability of each service)
+http://cs.brown.edu/courses/csci2952-f/slides/Class9.pdf  
+SLI Of The Platform  
+- Critical Replica Threshold = CRT  
+- Available replicas = min(total available pods, CRT)  
+- Replica availability = (available replicas / CRT) * 100  
+- Critical Replica Availability = mean(replica availability of each service)  
 </details>
 
 ## AZ-300 AZ-301 AZ-304 AZ-305 Exam tips
