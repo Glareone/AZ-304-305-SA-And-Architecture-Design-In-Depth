@@ -11,7 +11,8 @@
 <details>
 <summary>Most important screens from Richter's course</summary>
 
-![4 reasons to split the monolith onto microservices]](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)   
+![4 reasons to split the monolith onto microservices]](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)
+  
 </details>
 
 <details>
