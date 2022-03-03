@@ -8,9 +8,6 @@
 [Jeffry Richter Presentation, Chapter 1-2-3-4 with Extra materials.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8095517/Jeffrey.Richter.Part1.pptx)  
 [Jeffrey Richter Presentation, Chapter 5-6-7-8.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8173857/Jeffrey.Richter.Part2.pptx)
 
-
-![4 reasons to split the monolith onto microservices](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)
-
 <details>
 <summary>Most important screens from Richter's course</summary>
 
