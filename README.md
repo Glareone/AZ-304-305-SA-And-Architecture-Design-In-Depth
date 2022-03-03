@@ -6,6 +6,24 @@
 ## Jeffrey Richter's Course
 [?aaS Cloud course from Jeffrey Richter](https://www.youtube.com/watch?v=LkJr0Ld85AE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=4)   
 [Jeffry Richter Presentation, Chapter 1-2-3-4 with Extra materials.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8095517/Jeffrey.Richter.Part1.pptx)  
+[Jeffrey Richter Presentation, Chapter 5-6-7-8.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8173857/Jeffrey.Richter.Part2.pptx)
+
+<details>
+<summary>Most important screens from Richter's course</summary>
+![4 reasons to split the monolith onto microservices](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)    
+</details>
+
+<details>
+<summary>SLA, SLO, SLI</summary>
+Difference: https://www.atlassian.com/incident-management/kpis/sla-vs-slo-vs-sli  
+* SLI Explained in details:  
+http://cs.brown.edu/courses/csci2952-f/slides/Class9.pdf
+SLI Of The Platform
+- Critical Replica Threshold = CRT
+- Available replicas = min(total available pods, CRT)
+- Replica availability = (available replicas / CRT) * 100
+- Critical Replica Availability = mean(replica availability of each service)
+</details>
 
 ## AZ-300 AZ-301 AZ-304 AZ-305 Exam tips
 [AZ+301 SKYLINES ACADEMY Slides_Student_Version.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8092664/AZ%2B301%2BSlides_Student%2BVersion_Skylines%2BAcademy.pdf)
