@@ -52,6 +52,9 @@ Insights and everything related to that.
 # Security materials
 ## Design Authorization & Authentication
 ## Design Security
+<details>
+<summary>Trust Center, Compliance Manager, Data Protection, Azure Security and Compliance, Blueprints</summary>
+
 [Microsoft Trust Center](https://www.microsoft.com/en-ww/trust-center/product-overview)  
 * In-depth information access tp FedRAMP, ISO, SOC audit reports, data protection white papers and different assessment reports
 * Centralized resources around security, compliance and privacy
@@ -69,6 +72,8 @@ Insights and everything related to that.
 * Industry-specific overview and guidance
 * Customer responsibilities matrix
 * References architectures with threat models
+
+</details>
 
 # Governance and Compliance materials
 ## Design Governance 
