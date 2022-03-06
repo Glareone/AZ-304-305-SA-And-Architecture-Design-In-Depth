@@ -43,6 +43,10 @@ SLI Of The Platform
 [SECTION-5 Deployment, Migration, Integration](https://www.skylinesacademy.com/az301-section-5)  
 [SECTION-6 Infrastructure Strategy](https://www.skylinesacademy.com/az301-section-6)  
 
+# Logging. Monitoring. Design solutions for them. 
+Insights and everything related to that.
+* All information related to logging and monitoring are grouped here: [Logging and Monitoring Information](Logging,Monitoring.md)
+
 # Cost Optimizations materials
 
 # Security materials
@@ -69,11 +73,7 @@ SLI Of The Platform
 # Governance and Compliance materials
 ## Design Governance 
 
-
-
 # Data materials
 ## Design for Data Storage
 ## Design for Storage Accounts
 ## Design for Backups and Recovery
-
-
