@@ -112,6 +112,8 @@ You may need them for:
   7. Billing - to control the amount of requests and to help making a bill for them.
   8. DDos mitigation
 ![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
+  
+  Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.
 ![image](https://user-images.githubusercontent.com/4239376/160920117-1ac1ab2b-7131-40b8-a56e-79c9314e98d9.png)  
 
 
