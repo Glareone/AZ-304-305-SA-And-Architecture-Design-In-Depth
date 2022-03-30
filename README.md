@@ -96,6 +96,21 @@ Insights and everything related to that.
 <details>
 <summary>Forward & Reverse Proxies</summary>
 
+  When people talk about proxy they usually mean forward proxy.  
+  Forward proxy - kind of proxy when you have a several services which reach one resource in the internet. And you may create a service which adds some information (headers) to such request and\or transform them somehow before forwarding (change the address of destination).  
+  Good forward proxy example: Fiddler;  
+    
+    
+  Good reverse proxy examples: Nginx, IIS, API Gateway, Load Balancer, etc.  
+You may need them for:    
+  1. Manage calls coming to your services (Being a facade of your services)
+  2. Check whether coming calls which have basic authentication - are able to interact with the service
+  3. Load Balancing (on OSI level4 for TCP and UDP traffic and for OSI level7 for HTTP\HTTPS traffic)
+  4. SSL termination - request coming to reverse proxy (Nginx for example) may be HTTPS, but forwarded request will be http
+  5. Caching mechanisms
+  6. Throttling - to control the input, e.g. amount of requests per seconds. 
+  7. Billing - to control the amount of requests and to help making a bill for them.
+  8. DDos mitigation
 ![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)
 
 </details>
