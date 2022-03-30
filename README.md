@@ -120,6 +120,9 @@ You may need them for:
 
 ![image](https://user-images.githubusercontent.com/4239376/160920117-1ac1ab2b-7131-40b8-a56e-79c9314e98d9.png)  
 
+  Another example of reverse proxy with load balancer + healthcheck role  
+![image](https://user-images.githubusercontent.com/4239376/160923562-490c43b1-efe8-4ea0-86e0-ce2b47b49f90.png)
+
 
 </details>
 
