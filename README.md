@@ -12,6 +12,7 @@
 
 * Addiional Materials: 
 [The twelve factor application (12-factor)](https://12factor.net/)  
+[8 Fallacies of Distributed Computing Explained](https://arnon.me/wp-content/uploads/Files/fallacies.pdf)  
 
 <details>
 <summary>Most important screens from Richter's course</summary>
