@@ -114,7 +114,10 @@ You may need them for:
   
 ![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
   
-  Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.
+  Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.  
+
+> **_NOTE:_** It's impossible to keep endpoints in sync as service instances come\go. Client code must be robust against this  
+
 ![image](https://user-images.githubusercontent.com/4239376/160920117-1ac1ab2b-7131-40b8-a56e-79c9314e98d9.png)  
 
 
