@@ -91,3 +91,13 @@ Insights and everything related to that.
 ## Design for Data Storage
 ## Design for Storage Accounts
 ## Design for Backups and Recovery
+## Design Networking
+
+<details>
+<summary>Forward & Reverse Proxies</summary>
+
+![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)
+
+</details>
+
+
