@@ -111,7 +111,9 @@ You may need them for:
   6. Throttling - to control the input, e.g. amount of requests per seconds. 
   7. Billing - to control the amount of requests and to help making a bill for them.
   8. DDos mitigation
-![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)
+![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
+![image](https://user-images.githubusercontent.com/4239376/160920117-1ac1ab2b-7131-40b8-a56e-79c9314e98d9.png)  
+
 
 </details>
 
