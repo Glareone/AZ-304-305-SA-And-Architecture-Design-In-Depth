@@ -111,6 +111,7 @@ You may need them for:
   6. Throttling - to control the input, e.g. amount of requests per seconds. 
   7. Billing - to control the amount of requests and to help making a bill for them.
   8. DDos mitigation
+  
 ![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
   
   Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.
