@@ -108,10 +108,10 @@ You may need them for:
   3. Load Balancing (on OSI level4 for TCP and UDP traffic and for OSI level7 for HTTP\HTTPS traffic)
   4. SSL termination - request coming to reverse proxy (Nginx for example) may be HTTPS, but forwarded request will be http
   5. Caching mechanisms
-  6. Throttling - to control the input, e.g. amount of requests per seconds. 
-  7. Billing - to control the amount of requests and to help making a bill for them.
-  8. DDos mitigation
-  
+  6. Throttling - to control the input, e.g. amount of requests per seconds 
+  7. Billing - to control the amount of requests and to help making a bill for them  
+  8. DDos mitigation  
+  9. Retry Policy. It may automatically make a retry to another service instance behind it if the certain one is unreachable    
 ![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
   
   Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.  
