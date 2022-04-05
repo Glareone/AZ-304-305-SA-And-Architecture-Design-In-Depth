@@ -87,7 +87,7 @@ Insights and everything related to that.
 # Governance and Compliance materials
 ## Design Governance 
 Lab:   
-https://docs.microsoft.com/en-us/learn/modules/design-governance/?WT.mc_id=cloudskillschallenge_6fcab8ea-9ad3-49ab-9583-8d12754af26b  
+https://docs.microsoft.com/en-us/learn/paths/design-identity-governance-monitor-solutions/  
 
 Microsoft docs:  
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/  
