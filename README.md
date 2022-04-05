@@ -86,6 +86,12 @@ Insights and everything related to that.
 
 # Governance and Compliance materials
 ## Design Governance 
+Lab:   
+https://docs.microsoft.com/en-us/learn/modules/design-governance/?WT.mc_id=cloudskillschallenge_6fcab8ea-9ad3-49ab-9583-8d12754af26b  
+
+Microsoft docs:  
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/  
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/standard/
 
 # Data materials
 ## Design for Data Storage
