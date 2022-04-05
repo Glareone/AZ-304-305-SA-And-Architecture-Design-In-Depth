@@ -127,6 +127,12 @@ In other words, Azure creates a record that associates a resource with the bluep
 
 2.  A policy can be included as one of many artifacts in a blueprint definition. Including a policy in a blueprint enables the creation of the right pattern or design during assignment of the blueprint. The policy inclusion makes sure that only approved or expected changes can be made to the environment to protect ongoing compliance to the intent of the blueprint.
 
+### Additional Materials
+[Build a cloud governance strategy on Azure](https://docs.microsoft.com/en-us/learn/modules/build-cloud-governance-strategy-azure/)  
+[Describe core Azure architectural components](https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/)  
+[Microsoft Cloud Adoption Framework for Azure](https://docs.microsoft.com/en-us/learn/modules/microsoft-cloud-adoption-framework-for-azure/)  
+[Intro to Azure blueprints](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-blueprints/)  
+
 # Data materials
 ## Design for Data Storage
 ## Design for Storage Accounts
