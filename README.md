@@ -60,7 +60,21 @@ Insights and everything related to that.
 
 # Security materials
 ## Design Authorization & Authentication
+
 ## Design Security
+
+RBAC:  
+![RBAC](https://user-images.githubusercontent.com/4239376/161835404-f9acb169-f5ed-422e-95a4-b9d86b7294ea.png)  
+Policy:  
+![policy](https://user-images.githubusercontent.com/4239376/161835520-9f0175eb-34e9-49fb-b560-c5243f85b8cc.png)
+
+**Consider how Azure policy is different from role-based access control (RBAC).**  
+**It’s important not to confuse Azure Policy and Azure RBAC. Azure RBAC and Azure Policy should be used together to achieve full scope control.**
+
+1.  You use Azure Policy to ensure that the resource state is compliant to your organization’s business rules. Compliance doesn’t depend on who made the change or who has permission to make changes. Azure Policy will evaluate the state of a resource, and act to ensure the resource stays compliant.
+
+2.  You use Azure RBAC to focus on user actions at different scopes. Azure RBAC manages who has access to Azure resources, what they can do with those resources, and what areas they can access. If actions need to be controlled, then use Azure RBAC. If an individual has access to complete an action, but the result is a non-compliant resource, Azure Policy still blocks the action.
+
 <details>
 <summary>Trust Center, Compliance Manager, Data Protection, Azure Security and Compliance, Blueprints</summary>
 
