@@ -115,6 +115,11 @@ https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/standard/
 
 ### Azure blueprints
+
+With Azure Blueprints, the relationship between the blueprint definition (what should be deployed) and the blueprint assignment (what was deployed) is preserved.   
+  
+In other words, Azure creates a record that associates a resource with the blueprint that defines it. This connection helps you track and audit your deployments. Azure Blueprints orchestrates the deployment of various resource templates and other artifacts.
+
 ![Blueprint](https://user-images.githubusercontent.com/4239376/161837081-9e32533c-0294-40fb-b711-54ff5c7d339f.png)
 
 **How are Azure Blueprints different from Azure Policy**  
