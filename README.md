@@ -114,6 +114,14 @@ Microsoft docs:
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/  
 https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/govern/guides/standard/
 
+### Azure blueprints
+![Blueprint](https://user-images.githubusercontent.com/4239376/161837081-9e32533c-0294-40fb-b711-54ff5c7d339f.png)
+
+**How are Azure Blueprints different from Azure Policy**  
+1.  A policy is a default allow and explicit deny system focused on resource properties during deployment and for already existing resources. It supports cloud governance by validating those resources within a subscription adhere to requirements and standards.
+
+2.  A policy can be included as one of many artifacts in a blueprint definition. Including a policy in a blueprint enables the creation of the right pattern or design during assignment of the blueprint. The policy inclusion makes sure that only approved or expected changes can be made to the environment to protect ongoing compliance to the intent of the blueprint.
+
 # Data materials
 ## Design for Data Storage
 ## Design for Storage Accounts
