@@ -75,6 +75,13 @@ Policy:
 
 2.  You use Azure RBAC to focus on user actions at different scopes. Azure RBAC manages who has access to Azure resources, what they can do with those resources, and what areas they can access. If actions need to be controlled, then use Azure RBAC. If an individual has access to complete an action, but the result is a non-compliant resource, Azure Policy still blocks the action.
 
+| Area	           |  Azure Policy                                       |	Role-based Access Control                                    |
+| ---------------- | --------------------------------------------------- | ------------------------------------------------------------- |
+| Description      | Ensure resources are compliant with a set of rules. | Authorization system to provide fine-grained access controls. |
+| Focus            | Focused on the properties of resources.             | Focused on what resources the users can access.               |
+| Implementation   | Specify a set of rules.                             | Assign roles and scopes.                                      |
+| Default access   | By default, rules are set to allow.                 | By default, all access is denied.                             |
+
 <details>
 <summary>Trust Center, Compliance Manager, Data Protection, Azure Security and Compliance, Blueprints</summary>
 
