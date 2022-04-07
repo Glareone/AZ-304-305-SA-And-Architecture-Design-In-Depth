@@ -30,6 +30,14 @@ Azure Monitor stores log data in a Log Analytics workspace, which is an Azure re
 
 * Hybrid: Security audit compliance requirements further complicate this scenario because many organizations implement both deployment models in parallel. This commonly results in a complex, expensive, and hard-to-maintain configuration with gaps in logs coverage.
 
+## Azure Workspace:
+It's a separate place where you can put your logs for Azure Monitor. Could be located in different region (from your application).
+**Could be bound together with Azure RBAC**
+
+**Users have two options for accessing the data:**
+* Workspace-context: You can review all logs in the workspace you have permission to. Queries in this mode are scoped to all data in all tables in the workspace. This is the access mode used when logs are accessed with the workspace as the scope, such as when you select Logs from the Azure Monitor menu in the Azure portal.
+* Resource-context: When you access the workspace for a particular resource, resource group, or subscription, such as when you select Logs from a resource menu in the Azure portal, you can view logs for only resources in all tables that you have access to. Queries in this mode are scoped to only data associated with that resource. This mode also enables granular Azure RBAC.
+
 # Azure Sentinel
 # Azure Insights
 # Azure Workbook
