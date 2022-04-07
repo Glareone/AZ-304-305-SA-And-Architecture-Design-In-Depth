@@ -1,6 +1,6 @@
 # Logging. Monitoring.
 All information related to monitoring is here.
-
+###
 ![image](https://user-images.githubusercontent.com/4239376/156941551-f31607c3-3f0b-4f80-882e-fbe80553b3f1.png)
 
 **Here is a list to consider ensuring you are monitoring your workloads with performance and scalability in mind:**
@@ -51,3 +51,12 @@ Workbooks: it's a canvas for data analysis with rich abilities to create visual 
 
 **Combine features provided by Microsoft Sentinel and Azure Monitor with Azure Data Explorer to build a flexible and cost-optimized end-to-end monitoring solution**
 * Use Azure Data Explorer for full flexibility and control in all aspects for all types of logs in the following scenarios:
+
+###
+# LABS AND ADDITIONAL MATERIALS
+## LABS
+[log lab](https://docs.microsoft.com/en-us/learn/modules/monitor-diagnose-and-troubleshoot-azure-storage/)
+[incident response, alerts in Azure](https://docs.microsoft.com/en-us/learn/modules/incident-response-with-alerting-on-azure/)
+## ADDITIONAL MATERIALS 
+[Data Explorer materials, when to use](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-data-explorer/)
+[Full Stack monitoring option, material](https://docs.microsoft.com/en-us/learn/modules/design-monitoring-strategy-on-azure/)
