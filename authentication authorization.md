@@ -75,3 +75,21 @@ Flow:
 | Identity providers supported |	External users can collaborate using work accounts, school accounts, any email address, SAML and WS-Fed based identity providers, Gmail, and Facebook.	| Consumer users with local application accounts (any email address or user name), various supported social identities, and users with corporate and government-issued identities via SAML/WS-Fed based identity provider federation. |
 | External user management |	External users are managed in the same directory as employees but are typically annotated as guest users. Guest users can be managed the same way as employees, added to the same groups, and so on. |	External users are managed in the Azure AD B2C directory. They're managed separately from the organization's employee and partner directory (if any). |
 | Branding | Host/inviting organization's brand is used. |	Fully customizable branding per application or organization. |
+
+## Azure Conditional Access, Policies
+![image](https://user-images.githubusercontent.com/4239376/162588527-83116c26-8901-4d51-860a-49ff76ac5927.png)
+* MFA
+* Require access to services only through approved client applications. For example, only allow users to access Office 365 services from a mobile device if they use approved client apps, like the Outlook mobile app.
+* Require users to access applications only from managed devices. 
+* Block access from untrusted sources, such as access from unknown or unexpected locations.
+
+** When to use: **
+1. Use for enabling multifactor authentication for more granular control
+2. Test by using report-only mode. Report-only mode allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment.
+3. Exclude geographic areas from which you never expect a sign-in. 
+4. Require managed devices. The proliferation of supported devices to access your cloud resources 
+5. Require approved client applications. 
+6. Respond to potentially compromised accounts.
+7. Block access. Blocking access overrides all other assignments for a user and has the power to block your entire organization from signing on to your tenant.
+8. Block legacy authentication protocols.
+9. Use the `What If` tool. The [What If tool](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool) helps you plan and troubleshoot your Conditional Access policies.
