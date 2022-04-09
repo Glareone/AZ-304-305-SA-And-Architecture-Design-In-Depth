@@ -65,3 +65,9 @@ There are two representations of applications in Azure AD:
 
 * Clients upload and download data via a front-end proxy service, which performs authentication. This front-end proxy service allows the validation of business rules. But for large amounts of data, or high-volume transactions, creating a service that can scale to match demand may be expensive or difficult.
 * A lightweight service authenticates the client as needed and then generates a SAS. Once the client application receives the SAS, it can access storage account resources directly. Access permissions are defined by the SAS and for the interval allowed by the SAS. The SAS mitigates the need for routing all data through the front-end proxy service.
+
+# LABS
+[Conditional Access](https://docs.microsoft.com/en-us/learn/modules/plan-implement-administer-conditional-access/)  
+[Manage Access review](https://docs.microsoft.com/en-us/learn/modules/plan-implement-manage-access-review/)
+[B2B + MFA](https://docs.microsoft.com/en-us/learn/modules/enable-external-collaboration-with-b2b/)
+[B2C + MFA](https://docs.microsoft.com/en-us/learn/modules/enable-external-access-with-b2c/)
