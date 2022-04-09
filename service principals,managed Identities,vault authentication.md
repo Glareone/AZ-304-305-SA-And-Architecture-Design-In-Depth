@@ -37,7 +37,7 @@ WHEN:
 * Apps and users authenticate to Key Vault using an Azure AD authentication token. Getting a token from Azure AD requires a secret or certificate because anyone with a token could use the app identity to access all the secrets in the vault. To access resources that are secured by an Azure AD tenant, the entity that requires access must be represented by a security principal. This requirement is true for both users (user principal) and applications (service principal). 
 
 ### Select application service principals
-all info is here: [Microsoft Docs](https://docs.microsoft.com/en-us/learn/modules/design-authentication-authorization-solutions/9-design-service-principals)
+all info is here: [Microsoft Docs](https://docs.microsoft.com/en-us/learn/modules/design-authentication-authorization-solutions/9-design-service-principals)  
 There are three types of service principal:
 
 **Application**
