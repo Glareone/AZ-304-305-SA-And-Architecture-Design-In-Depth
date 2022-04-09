@@ -166,8 +166,16 @@ As with any app, it's important you back up the data related to your AKS cluster
 * [General Purpose:](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)  
 ![image](https://user-images.githubusercontent.com/4239376/162592247-1a1165a2-bb1c-4b18-ab2b-ba5a70853f95.png)
 
-* [Premium Tier:](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)  
+* [Business Critical Tier:](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)  
+The next service tier to consider is Business Critical, which can generally achieve the highest performance and availability of all Azure SQL service tiers (General Purpose, Hyperscale, Business Critical). Business Critical is meant for mission-critical applications that need low latency and minimal downtime.
+
 ![image](https://user-images.githubusercontent.com/4239376/162592250-d8011db7-7076-4b5d-8bf6-8f0cff7691fa.png)
+
+
+* [Hyperscale](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)
+The Hyperscale service tier is currently available for Azure SQL Database, and not Azure SQL Managed Instance. This service tier has a unique architecture because it uses a tiered layer of caches and page servers to expand the ability to quickly access database pages without having to access the data file directly.
+
+![image](https://user-images.githubusercontent.com/4239376/162592288-e356d6d2-ce51-43c3-b242-3da051f5c880.png)
 
 
 ## Design for Storage Accounts
