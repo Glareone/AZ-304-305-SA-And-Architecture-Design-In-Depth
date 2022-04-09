@@ -144,6 +144,25 @@ In other words, Azure creates a record that associates a resource with the bluep
 
 # Data materials
 ## Design for Data Storage
+
+In Case of AKS:  
+
+**Infrastructure-based asynchronous replication**  
+* Your apps might require persistent storage. In Kubernetes, you can use persistent volumes to persist data storage. These persistent volumes are mounted to a node VM and then exposed to the pods. Typically, you provide a common storage point where apps write their data. This data is then replicated across regions and accessed locally, as displayed in the following graphic.  
+![image](https://user-images.githubusercontent.com/4239376/162592090-a7dcaf19-4520-43a5-92a4-c432ced9e304.png)
+
+**Application-based asynchronous replication**  
+* Kubernetes currently provides no native implementation for application-based asynchronous replication. However, because containers and Kubernetes are loosely coupled, you should be able to use any traditional app or language approach to replicate storage.  
+![image](https://user-images.githubusercontent.com/4239376/162592096-c469aebf-51ec-4b41-965e-36210c5c3f0a.png)
+
+**Consider Azure Backup or Velero**  
+As with any app, it's important you back up the data related to your AKS clusters and their apps. When your apps consume and store data which is persisted on disks or in files, you should schedule frequent backups or take regular snapshots of that data. You can use several tools for these backup operations, including:  
+
+* Azure Disks: Azure Disks can use built-in snapshot technologies. However, your apps might need to flush writes-to-disk before the snapshot operation.
+
+* Velero: Velero can back up persistent volumes along with additional cluster resources and configurations.
+
+
 ## Design for Storage Accounts
 ## Design for Backups and Recovery
 ## Design Networking
