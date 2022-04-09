@@ -61,8 +61,12 @@ Insights and everything related to that.
 # Cost Optimizations materials
 
 # Security materials
-## [Design Authorization & Authentication](authentication%20authorization.md)
-* Azure AD, Azure AD Connect, Azure AD Connect sync, Azure AD B2B, Azure AD B2C, Azure AD Conditional Policies 
+## [Design Authorization & Authentication, Azure AD, Key Vault, Managed Identities, SAS](authentication%20authorization.md)
+* Azure AD, Azure AD Connect, Azure AD Connect sync, Azure AD B2B, Azure AD B2C, Azure AD Conditional Policies
+* Managed Identities, User-defined, System-defined
+* Azure Key Vault, when to use  
+* SAS Token, when to use  
+ 
 All information related to Authorization and Authentication is here: [Authentication, Authorization, Azure AD and features](authentication%20authorization.md)
 ## [Managed Identities, Authentication Vault](service%20principals%2Cmanaged%20Identities%2Cvault%20authentication.md)
 
