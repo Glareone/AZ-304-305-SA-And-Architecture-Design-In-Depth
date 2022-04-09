@@ -30,8 +30,9 @@ Password hash synchronization is one of the sign-in methods used to accomplish h
 Password Hash Sync also enables leaked credential detection for your hybrid accounts. 
 
 ## Azure AD Access Review
-* As new employees join, how do we ensure they have the access they need to be productive?
-* As users switch teams or leave the company, how do we make sure that their old access is removed?
+* As new employees join, how do we ensure they have the access they need to be productive?  
+* As users switch teams or leave the company, how do we make sure that their old access is removed?  
+
 Answer: AD Access Review, https://docs.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview
 
 ## Azure AD B2B (Business to business)
