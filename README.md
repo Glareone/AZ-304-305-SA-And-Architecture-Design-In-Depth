@@ -54,16 +54,16 @@ SLI Of The Platform
 [SECTION-5 Deployment, Migration, Integration](https://www.skylinesacademy.com/az301-section-5)  
 [SECTION-6 Infrastructure Strategy](https://www.skylinesacademy.com/az301-section-6)  
 
-# Logging. Monitoring. Design solutions for them. 
+# [Logging. Monitoring. Design solutions for them](Logging,Monitoring.md) 
 Insights and everything related to that.
 * All information related to logging and monitoring are grouped here: [Logging and Monitoring Information](Logging,Monitoring.md)
 
 # Cost Optimizations materials
 
 # Security materials
-## Design Authorization & Authentication
+## [Design Authorization & Authentication](authentication%20authorization.md)
 * Azure AD, Azure AD Connect, Azure AD Connect sync, Azure AD B2B, Azure AD B2C, Azure AD Conditional Policies 
-* All information related to Authorization and Authentication is here: [Authentication, Authorization, Azure AD and features](authentication%20authorization.md)
+All information related to Authorization and Authentication is here: [Authentication, Authorization, Azure AD and features](authentication%20authorization.md)
 
 ## Design Security
 
