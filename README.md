@@ -62,6 +62,8 @@ Insights and everything related to that.
 
 # Security materials
 ## Design Authorization & Authentication
+* Azure AD, Azure AD Connect, Azure AD Connect sync, Azure AD B2B, Azure AD B2C, Azure AD Conditional Policies 
+* All information related to Authorization and Authentication is here: [Authentication, Authorization, Azure AD and features](authentication%20authorization.md)
 
 ## Design Security
 
