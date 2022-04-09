@@ -162,6 +162,13 @@ As with any app, it's important you back up the data related to your AKS cluster
 
 * Velero: Velero can back up persistent volumes along with additional cluster resources and configurations.
 
+## Design for Relational Data Storage
+* [General Purpose:](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)  
+![image](https://user-images.githubusercontent.com/4239376/162592247-1a1165a2-bb1c-4b18-ab2b-ba5a70853f95.png)
+
+* [Premium Tier:](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)  
+![image](https://user-images.githubusercontent.com/4239376/162592250-d8011db7-7076-4b5d-8bf6-8f0cff7691fa.png)
+
 
 ## Design for Storage Accounts
 ## Design for Backups and Recovery
