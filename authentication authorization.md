@@ -21,6 +21,14 @@ Features:
 * Turn on password hash synchronization. Password hash synchronization is a feature used to sync user password hashes from an on-premises Active Directory instance to a cloud-based Azure AD instance. This sync helps to protect against leaked credentials being replayed from previous sign-ins.
 * Enable single sign-on (SSO).
 
+### Azure AD Connect. Azure AD Password Hash Synchronization (Password Hash Sync)
+
+![image](https://user-images.githubusercontent.com/4239376/162587500-0850cd64-825f-4b2f-bfff-3a478111befc.png)
+
+Password hash synchronization is one of the sign-in methods used to accomplish hybrid identity. Azure AD Connect synchronizes a hash, of the hash, of a user's password from an on-premises Active Directory instance to a cloud-based Azure AD instance.
+
+Password Hash Sync also enables leaked credential detection for your hybrid accounts. 
+
 ## Azure AD B2B
 ![Azure AD Business to Business](https://user-images.githubusercontent.com/4239376/162587353-0ddc76be-f953-4018-b391-0f374fd5d949.png)
 
