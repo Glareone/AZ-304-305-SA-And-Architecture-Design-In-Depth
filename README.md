@@ -148,6 +148,9 @@ In other words, Azure creates a record that associates a resource with the bluep
 ## Design for Backups and Recovery
 ## Design Networking
 
+![traffic manager](https://user-images.githubusercontent.com/4239376/162591418-4fbb911b-b8b7-4e92-b125-f5ce75e0514a.png)
+
+
 <details>
 <summary>Forward & Reverse Proxies</summary>
 
