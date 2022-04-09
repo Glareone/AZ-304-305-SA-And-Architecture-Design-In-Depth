@@ -48,3 +48,15 @@ There are three types of service principal:
 
 **Legacy** 
 * This type of service principal represents a legacy app, which is an app created before app registrations were introduced or an app created through legacy experiences. A legacy service principal can have credentials, service principal names, reply URLs, and other properties that an authorized user can edit, but does not have an associated app registration. The service principal can only be used in the tenant where it was created.
+
+![service principals](https://user-images.githubusercontent.com/4239376/162589813-26d2631a-858e-43bb-9268-5d5c5da90d52.png)
+**Applications represented in Azure AD**
+There are two representations of applications in Azure AD:  
+
+1. Application objects - Although there are exceptions, application objects can be considered the definition of an application.
+2. Service principals - Can be considered an instance of an application. Service principals generally reference an application object, and one application object can be referenced by multiple service principals across directories.
+
+**An application object has:**
+* A 1:1 relationship with the software application
+* A 1:many relationship with its corresponding service principal object(s).
+
