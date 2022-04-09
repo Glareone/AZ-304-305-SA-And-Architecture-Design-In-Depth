@@ -177,6 +177,13 @@ The Hyperscale service tier is currently available for Azure SQL Database, and n
 
 ![image](https://user-images.githubusercontent.com/4239376/162592288-e356d6d2-ce51-43c3-b242-3da051f5c880.png)
 
+### Active Geo-Replication
+![image](https://user-images.githubusercontent.com/4239376/162592346-69027042-6b4c-4b2d-a5a5-4bc054f9394a.png)
+Active geo-replication is available for:    
+* Azure SQL Database: You can configure active geo-replication for any database in any elastic database pool.   
+You can use active geo-replication to:   
+* Create a readable secondary replica in a different region.  
+* Fail over to a secondary database if your primary database fails or needs to be taken offline.  
 
 ## Design for Storage Accounts
 ## Design for Backups and Recovery
