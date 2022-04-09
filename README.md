@@ -148,7 +148,23 @@ In other words, Azure creates a record that associates a resource with the bluep
 ## Design for Backups and Recovery
 ## Design Networking
 
+### Traffic Manager
 ![traffic manager](https://user-images.githubusercontent.com/4239376/162591418-4fbb911b-b8b7-4e92-b125-f5ce75e0514a.png)
+
+**Failover scenarios:**  
+
+![image](https://user-images.githubusercontent.com/4239376/162591580-754d5eb3-e634-4baa-8373-3af2109558a1.png)
+
+* Manually, by using Azure DNS, this failover solution uses the standard DNS mechanism to fail over to your backup site. This option works best when used in conjunction with the cold standby or the pilot light approaches.
+
+* Automatically, by using Traffic Manager, with more complex architectures and multiple sets of resources capable of performing the same function, you can configure Azure Traffic Manager (based on DNS). Traffic Manager checks the health of your resources and routes the traffic from the non-healthy resource to the healthy resource automatically.
+
+High Availability with Traffic Manager:
+| Approach |	Description |
+| -------- | ------------ |
+| Active/Passive with cold standby	| Your VMs (and other appliances) that are running in the standby region aren't active until needed. However, your production environment is replicated to a different region. This approach is cost-effective but takes longer to undertake a complete failover. |
+| Active/Passive with pilot light	| You establish the standby environment with a minimal configuration; it has only the necessary services running to support a minimal and critical set of apps. In its default form, this approach can only execute minimal functionality. However, it can scale up and spawn more services, as needed, to take more of the production load during a failover. |
+| Active/Passive with warm standby | Your standby region is pre-warmed and is ready to take the base load. Auto scaling is on, and all the instances are up and running. This approach isn't scaled to take the full production load but is functional, and all services are up and running. |
 
 
 <details>
