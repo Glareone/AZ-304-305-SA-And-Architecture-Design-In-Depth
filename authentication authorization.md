@@ -83,7 +83,7 @@ Flow:
 * Require users to access applications only from managed devices. 
 * Block access from untrusted sources, such as access from unknown or unexpected locations.
 
-** When to use: **
+**When to use:**
 1. Use for enabling multifactor authentication for more granular control
 2. Test by using report-only mode. Report-only mode allows administrators to evaluate the impact of Conditional Access policies before enabling them in their environment.
 3. Exclude geographic areas from which you never expect a sign-in. 
@@ -93,3 +93,15 @@ Flow:
 7. Block access. Blocking access overrides all other assignments for a user and has the power to block your entire organization from signing on to your tenant.
 8. Block legacy authentication protocols.
 9. Use the `What If` tool. The [What If tool](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/what-if-tool) helps you plan and troubleshoot your Conditional Access policies.
+
+## Azure Risk Policies, Identity Protection
+Risk: https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/concept-identity-protection-risks  
+Risk detections in Azure AD Identity Protection include any identified suspicious actions related to user accounts in the directory.   
+
+#### User risk policies. 
+A user risk represents the probability that a given identity or account is compromised. For example, the user's valid credentials have been leaked.  
+
+![risk policies](https://user-images.githubusercontent.com/4239376/162588667-59488621-6d43-48cc-9322-90727a101d3a.png)  
+![risk policies flow](https://user-images.githubusercontent.com/4239376/162588679-bfe2e683-8f0d-4e2c-99ec-dbb5aee6adfa.png)  
+
+
