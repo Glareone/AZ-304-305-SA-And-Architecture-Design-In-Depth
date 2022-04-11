@@ -145,6 +145,8 @@ In other words, Azure creates a record that associates a resource with the bluep
 # Data materials
 ## Design for Data Storage
 
+* Azure SQL Server vs Azure SQL Managed Instance, difference: [CHECK THIS LINK](https://medium.com/awesome-azure/azure-difference-between-azure-sql-database-and-azure-sql-managed-instance-sql-mi-2e61e4485a65)  
+
 In Case of AKS:  
 
 **Infrastructure-based asynchronous replication**  
