@@ -1,4 +1,8 @@
 # Architecture patterns
+
+![image](https://user-images.githubusercontent.com/4239376/193664508-ce5aebaf-4212-4473-a924-def6d0d00620.png)
+
+
 * DDD, Hexagonal, Onion, Clean, CQRS: https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/  
 * Anemic model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
 * Anemic model vs Full Domain Model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
