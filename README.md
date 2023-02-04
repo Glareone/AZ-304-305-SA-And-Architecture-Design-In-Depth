@@ -7,6 +7,10 @@
 * Anemic model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
 * Anemic model vs Full Domain Model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
 
+# Architecture Influence Cycle
+
+![image](https://user-images.githubusercontent.com/4239376/216790069-a05f07e9-1130-44b3-8103-cc35a8e9e5e6.png)
+
 # AZ-304 SA Azure Architecture Design Exam materials
 
 ## Powershell intro
