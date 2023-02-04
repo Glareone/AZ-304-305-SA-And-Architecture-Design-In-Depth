@@ -11,10 +11,7 @@
 
 ![image](https://user-images.githubusercontent.com/4239376/216790069-a05f07e9-1130-44b3-8103-cc35a8e9e5e6.png)
 
-# AZ-304 SA Azure Architecture Design Exam materials
-
-## Powershell intro
-[powershell materials coming from Skylines Academy](https://slstudentpublic.blob.core.windows.net/operations/PowerShell%20Guide_AZ__Skylines%20Academy-v3-Student.pdf)
+# Architecture Materials. Common
 
 ## Jeffrey Richter's Course
 [?aaS Cloud course from Jeffrey Richter](https://www.youtube.com/watch?v=LkJr0Ld85AE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=4)   
@@ -25,25 +22,32 @@
 [Jeffrey Richter, API Versioning, Troubleshooting, Steps towards Microservices(what need to take into account).pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8446143/Jeffrey.Richter.Part.5.pptx)  
 [Jeffrey Richter, Idempotency, Retry Policy, Exactly Once Strategy.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8492428/Richter.s.Club.Part.6.pptx)
 
-
-* Addiional Materials:  
-[The twelve factor application (12-factor)](https://12factor.net/)  
-
 <details>
 <summary>8 Fallacies of Distributed Computing Explained</summary>
 
-LINK TO THE MATERIAL: [8 Fallacies of Distributed Computing Explained](https://arnon.me/wp-content/uploads/Files/fallacies.pdf)  
-![image](https://user-images.githubusercontent.com/4239376/160911869-107d5917-fbaa-4a1f-87c9-9c30d953b607.png)
-  
+## LINK TO THE MATERIAL: 
+  [8_Fallacies_of_Distributed_Computing_Explained.pdf](https://arnon.me/wp-content/uploads/Files/fallacies.pdf)  
+  ![image](https://user-images.githubusercontent.com/4239376/160911869-107d5917-fbaa-4a1f-87c9-9c30d953b607.png)
 </details>
-
 
 <details>
-<summary>Most important screens from Richter's course</summary>
+<summary>4 Reasons to split monolith onto microservices. Richter's slide</summary>
 
 ![4 reasons to split the monolith onto microservices](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)
-  
 </details>
+
+## Addiional Materials:  
+[The twelve factor application (12-factor)](https://12factor.net/)  
+
+## Carnegie Mellon Univercity Slides. SOlution Architecture Principles in Practice
+[Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
+[Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
+
+
+# Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
+
+## Powershell intro
+[powershell materials coming from Skylines Academy](https://slstudentpublic.blob.core.windows.net/operations/PowerShell%20Guide_AZ__Skylines%20Academy-v3-Student.pdf)
 
 <details>
 <summary>SLA, SLO, SLI</summary>
