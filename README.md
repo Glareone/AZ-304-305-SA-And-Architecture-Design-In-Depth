@@ -39,10 +39,19 @@
 ## Addiional Materials:  
 [The twelve factor application (12-factor)](https://12factor.net/)  
 
-## Carnegie Mellon Univercity Slides. SOlution Architecture Principles in Practice
+# Carnegie Mellon Univercity
+## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
 [Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
 
+## Carnegie Mellon Univercity. Quality Attributes
+<details>
+<summary>Quality attributes. How better bescribe them.</summary>
+
+Instead of just saying that performance is important for you - you need to create scenarios.  
+Each scenario should have 6 points starting from **what's happening**, **from where this stimulus comes**, **in which circumstances**, and until **how to react**
+![image](https://user-images.githubusercontent.com/4239376/216836571-6a032251-b01c-4c98-8d17-37be0e318ef2.png)
+</details>
 
 # Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
 
