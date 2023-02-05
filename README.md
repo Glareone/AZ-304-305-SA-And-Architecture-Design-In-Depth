@@ -55,9 +55,12 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/216837073-309a98a0-1646-427e-a5dd-459d5a9d56ac.png)
   
 ![image](https://user-images.githubusercontent.com/4239376/216837142-53749ba5-7047-407d-9552-2113b9ea93de.png)
-  
+
+# Scenario for Availability. First slide - all spectre what's covered. The second and third - what we exactly handle and what we expect
 ![image](https://user-images.githubusercontent.com/4239376/216837612-503affeb-d665-4e16-8c5b-61c0c3ccba99.png)
 ![image](https://user-images.githubusercontent.com/4239376/216837663-e859d2d2-2b06-4fe9-aba5-2af9381015c2.png)
+![image](https://user-images.githubusercontent.com/4239376/216837739-a9fd6d0e-6640-4764-b49c-65e0869e08f0.png)
+
 </details>
 
 # Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
