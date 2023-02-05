@@ -46,13 +46,15 @@
 
 ## Carnegie Mellon Univercity. Quality Attributes
 <details>
-<summary>Quality attributes. How better bescribe them.</summary>
+<summary>Quality attributes. How better bescribe them. Concrete example.</summary>
 
 Instead of just saying that performance is important for you - you need to create scenarios.  
 Each scenario should have 6 points starting from **what's happening**, **from where this stimulus comes**, **in which circumstances**, and until **how to react**
 ![image](https://user-images.githubusercontent.com/4239376/216836571-6a032251-b01c-4c98-8d17-37be0e318ef2.png)
 
 ![image](https://user-images.githubusercontent.com/4239376/216837073-309a98a0-1646-427e-a5dd-459d5a9d56ac.png)
+  
+![image](https://user-images.githubusercontent.com/4239376/216837142-53749ba5-7047-407d-9552-2113b9ea93de.png)
 </details>
 
 # Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
