@@ -64,13 +64,29 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 <details>
-<summary>Tactics to achieve Quality Attributes</summary>
+<summary>Tactics to achieve Quality Attributes. Examples for Availability. Recovery From Faults</summary>
 
 ![image](https://user-images.githubusercontent.com/4239376/219443466-cafefd3a-c0e4-4b13-a899-85c3fefedbe3.png)
 
 * as example: for Availability you need to care about
   - Passive redundancy - copy your data\state to extra instances and make hot replacement when needed
   - Condition Monitoring - control when failure occured in your instance and react on this event - restart instance, isolate, etc.
+
+# Example of Tactics. Detect Faults
+![image](https://user-images.githubusercontent.com/4239376/219454833-6dcd413d-4c1c-431e-a486-ae217ae1e25b.png)
+![image](https://user-images.githubusercontent.com/4239376/219454878-86e76828-e622-45a5-8a70-fee5a637df05.png)
+
+* Voting is used in airplanes where several processes make same calculations in parallel and majority wins. 
+  - Usually system element as Monitor is looking at the output of each process. If one of processes shows wrong results - it's deemed to be faulty. 
+
+## Recovery from Faults
+![image](https://user-images.githubusercontent.com/4239376/219455672-4168787e-0661-4fb9-a8a0-09d82a73a32d.png)
+![image](https://user-images.githubusercontent.com/4239376/219457315-12f9a0ce-23e0-43ca-880b-545e6f7955f0.png)
+![image](https://user-images.githubusercontent.com/4239376/219457198-9453516c-c94b-4f78-b674-36ee65cafc5f.png)
+
+## Prevent Faults
+![image](https://user-images.githubusercontent.com/4239376/219458116-d4b56387-3cea-45b1-a12e-261c91b38ab3.png)
+
 
 </details>
 
