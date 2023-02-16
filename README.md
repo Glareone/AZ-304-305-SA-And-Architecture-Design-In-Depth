@@ -44,7 +44,7 @@
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
 [Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
 
-## Carnegie Mellon Univercity. Quality Attributes
+## Carnegie Mellon Univercity. Quality Attributes. Tactics to achieve Quality Attributes
 <details>
 <summary>Quality attributes. How better bescribe them. Concrete examples.</summary>
 
@@ -60,6 +60,17 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/216837612-503affeb-d665-4e16-8c5b-61c0c3ccba99.png)
 ![image](https://user-images.githubusercontent.com/4239376/216837663-e859d2d2-2b06-4fe9-aba5-2af9381015c2.png)
 ![image](https://user-images.githubusercontent.com/4239376/216837739-a9fd6d0e-6640-4764-b49c-65e0869e08f0.png)
+
+</details>
+
+<details>
+<summary>Tactics to achieve Quality Attributes</summary>
+
+![image](https://user-images.githubusercontent.com/4239376/219443466-cafefd3a-c0e4-4b13-a899-85c3fefedbe3.png)
+
+* as example: for Availability you need to care about
+  - Passive redundancy - copy your data\state to extra instances and make hot replacement when needed
+  - Condition Monitoring - control when failure occured in your instance and react on this event - restart instance, isolate, etc.
 
 </details>
 
