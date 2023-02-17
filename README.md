@@ -166,6 +166,32 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/219758203-12ca33d8-a1f9-425e-8a80-c6a60820d3c1.png)
 </details>
 
+<details>
+<summary>Notations for Architecture View. General and Examples. Model View. Uses View. Generalization View</summary>
+  
+## In General
+![image](https://user-images.githubusercontent.com/4239376/219767641-0daf212d-bd61-4951-bee8-1cfe58730bb0.png)
+  
+## Notations for Model View. Decomposition View
+![image](https://user-images.githubusercontent.com/4239376/219768121-f3f11f5c-c7d1-416c-8685-10ec33d73a7e.png)
+![image](https://user-images.githubusercontent.com/4239376/219768319-704392bc-1e2d-40e1-9f85-9df01996cb24.png)
+
+## Notations for Uses View
+![image](https://user-images.githubusercontent.com/4239376/219769094-191645c6-7ab3-43d4-b44c-c85dc2de8967.png)
+![image](https://user-images.githubusercontent.com/4239376/219769647-f230d72b-4b9d-46a3-a6ee-96ac05068bd9.png)
+
+## Notation for Generalization View  
+![image](https://user-images.githubusercontent.com/4239376/219770915-23fc3251-6d7a-4109-9f57-62bb06a36d17.png)
+![image](https://user-images.githubusercontent.com/4239376/219771007-2fbf4a07-19fe-4f79-8181-0ef73f1567b3.png)
+
+  
+## Notation for Layered View. Usually used for portability and usability
+  ![image](https://user-images.githubusercontent.com/4239376/219770808-18b27353-f509-4f9f-914e-7782ccb71e99.png)
+  ![image](https://user-images.githubusercontent.com/4239376/219773917-cf2bfc2a-2591-40d0-b0fd-19cad08c9e30.png)
+![image](https://user-images.githubusercontent.com/4239376/219774409-6d108a9e-032b-4a31-a150-48aeee4c01e3.png)
+
+</details>
+
 
 ## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
