@@ -105,25 +105,35 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 
 ## Documenting Software Architecture
 <details>
-<summary>Important Concepts of documentation. View-Based Documentation. Types of Views</summary>
+<summary>General. Important Concepts of documentation. View-Based Documentation. Types of Views</summary>
 
 ![image](https://user-images.githubusercontent.com/4239376/219750980-0702e5a3-6db3-4685-8cc5-4ff8e6c228fc.png)
 ![image](https://user-images.githubusercontent.com/4239376/219751691-e04c96f0-98d0-4c14-abbd-d38499b950eb.png)
 ![image](https://user-images.githubusercontent.com/4239376/219752525-21bdeb6b-73e2-4244-85cb-d89c34bfd830.png)
 ![image](https://user-images.githubusercontent.com/4239376/219753485-0a6e408f-8b03-4352-86bf-64cd1276527e.png)
-
-
 </details>
 
 <details>
-<summary>Model View</summary>
+<summary>General. Apply Views. Information on Views. Structural vs Behavioral. Traced-Oriented vs Comprehensive Language</summary>
+  
+![image](https://user-images.githubusercontent.com/4239376/219764493-bb8a40a1-1c48-47f6-b645-c1b74ce155da.png)
+![image](https://user-images.githubusercontent.com/4239376/219765559-21e3002f-dfed-4194-bead-43bbf1b44e8d.png)
+![image](https://user-images.githubusercontent.com/4239376/219766076-169470dd-895c-4f87-a5e7-cf4239948e86.png)
+
+## Documenting Behavior. 99% of time in practice you work with traced-oriented language
+  ![image](https://user-images.githubusercontent.com/4239376/219766349-2580debe-8de2-4e34-83b9-a74bb8e5459d.png)
+  ![image](https://user-images.githubusercontent.com/4239376/219766543-89790e34-53cb-4704-81fe-a441e496b271.png)
+</details>
+
+<details>
+<summary>View Type: Model View</summary>
   
 ![image](https://user-images.githubusercontent.com/4239376/219754486-909a08c1-065a-425b-b96a-4abbe3918578.png)
 ![image](https://user-images.githubusercontent.com/4239376/219755899-118d7db1-d026-42f5-a001-7166f934a7d8.png)
 </details>
 
 <details>
-<summary>Component And Connector View</summary>
+<summary>View Type: Component And Connector View</summary>
   
 **Shortly: how your code maps on resources. Where it executes. What major parameters it has:**  
   - Processor cores vs processes  
@@ -146,7 +156,12 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 <details>
-<summary>Allocation View</summary>
+<summary>View Type: Allocation View</summary>
+  
+**Shortly: About requirements where and how application runs**
+  - Memory requirements  
+  - Processor requirements  
+  - Execution in processes and threads
   
 ![image](https://user-images.githubusercontent.com/4239376/219758203-12ca33d8-a1f9-425e-8a80-c6a60820d3c1.png)
 </details>
