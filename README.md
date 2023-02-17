@@ -98,6 +98,12 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 <details>
+<summary>Tactics: Performance Tactics</summary>
+  
+  ![image](https://user-images.githubusercontent.com/4239376/219783403-b62a5757-2dce-4a24-b6d8-8efa13f0f5f6.png)
+</details>
+
+<details>
 <summary>Quality Attribute Utility Tree. Example</summary>
 
 ![image](https://user-images.githubusercontent.com/4239376/219745438-b23a5a65-1658-4d88-a7c8-b94564fd151d.png)
