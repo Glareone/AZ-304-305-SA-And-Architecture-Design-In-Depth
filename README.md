@@ -70,7 +70,6 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/216837612-503affeb-d665-4e16-8c5b-61c0c3ccba99.png)
 ![image](https://user-images.githubusercontent.com/4239376/216837663-e859d2d2-2b06-4fe9-aba5-2af9381015c2.png)
 ![image](https://user-images.githubusercontent.com/4239376/216837739-a9fd6d0e-6640-4764-b49c-65e0869e08f0.png)
-
 </details>
 
 <details>
@@ -96,6 +95,12 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 
 ## Prevent Faults
 ![image](https://user-images.githubusercontent.com/4239376/219458116-d4b56387-3cea-45b1-a12e-261c91b38ab3.png)
+</details>
+
+<details>
+<summary>Quality Attribute Utility Tree. Example</summary>
+
+![image](https://user-images.githubusercontent.com/4239376/219745438-b23a5a65-1658-4d88-a7c8-b94564fd151d.png)
 </details>
 
 ## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
