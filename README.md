@@ -3,17 +3,18 @@
 ![image](https://user-images.githubusercontent.com/4239376/193664508-ce5aebaf-4212-4473-a924-def6d0d00620.png)
 
 
-* DDD, Hexagonal, Onion, Clean, CQRS: https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/  
-* Anemic model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
-* Anemic model vs Full Domain Model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
-
 # Architecture Influence Cycle
 
 ![image](https://user-images.githubusercontent.com/4239376/216790069-a05f07e9-1130-44b3-8103-cc35a8e9e5e6.png)
 
-# Architecture Materials. Common
+# Architecture Materials. General Materials
 
-## Jeffrey Richter's Course
+## Materials
+* DDD, Hexagonal, Onion, Clean, CQRS: https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/  
+* Anemic model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
+* Anemic model vs Full Domain Model (Fowler): https://martinfowler.com/bliki/AnemicDomainModel.html
+
+## Jeffrey Richter's Course. Slides
 [?aaS Cloud course from Jeffrey Richter](https://www.youtube.com/watch?v=LkJr0Ld85AE&list=PL9XzOCngAkqs0Q8ZRdafnSYExKQurZrBY&index=4)   
 [Jeffry Richter Presentation, Why cloud apps, Embracing Failures, Orchestrators, Virtualization.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8095517/Jeffrey.Richter.Part1.pptx)  
 [Jeffrey Richter Presentation, Regions and Microservices.pptx](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/8173857/Jeffrey.Richter.Part2.pptx)  
@@ -24,8 +25,6 @@
 
 <details>
 <summary>8 Fallacies of Distributed Computing Explained</summary>
-
-## LINK TO THE MATERIAL: 
   [8_Fallacies_of_Distributed_Computing_Explained.pdf](https://arnon.me/wp-content/uploads/Files/fallacies.pdf)  
   ![image](https://user-images.githubusercontent.com/4239376/160911869-107d5917-fbaa-4a1f-87c9-9c30d953b607.png)
 </details>
@@ -36,15 +35,26 @@
 ![4 reasons to split the monolith onto microservices](https://user-images.githubusercontent.com/4239376/156473112-b224feef-fec9-4184-8d58-b5a40ee6005a.png)
 </details>
 
-## Addiional Materials:  
+<details>
+<summary>twelve factor application (12 factor explained)</summary>
+
 [The twelve factor application (12-factor)](https://12factor.net/)  
+</details>
 
 # Carnegie Mellon Univercity
-## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
-[Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
-[Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
+## Attribute-Driven Design (ADD)
+<details>
+<summary>Attribute-Driven Design in details</summary>
 
-## Carnegie Mellon Univercity. Quality Attributes. Tactics to achieve Quality Attributes
+![image](https://user-images.githubusercontent.com/4239376/219737318-33fdf14c-4016-4b84-aa1f-1fd1d98d69fa.png)
+![image](https://user-images.githubusercontent.com/4239376/219737873-0937a52a-1cff-45d6-9f9e-7641bc8a0812.png)
+![image](https://user-images.githubusercontent.com/4239376/219737976-69233f3c-1892-485c-a3f8-b0622fbdb769.png)
+![image](https://user-images.githubusercontent.com/4239376/219738102-f4737655-fa84-449b-9e7f-c004eaf815b3.png)
+![image](https://user-images.githubusercontent.com/4239376/219738215-f930b053-57e1-4c80-b4a2-8137cafb60e8.png)
+![image](https://user-images.githubusercontent.com/4239376/219738320-b984478d-3469-4b6d-ad35-6ac1638b58d4.png)
+</details>
+
+## Quality Attributes. Tactics to achieve Quality Attributes
 <details>
 <summary>Quality attributes. How better bescribe them. Concrete examples.</summary>
 
@@ -86,9 +96,12 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 
 ## Prevent Faults
 ![image](https://user-images.githubusercontent.com/4239376/219458116-d4b56387-3cea-45b1-a12e-261c91b38ab3.png)
-
-
 </details>
+
+## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
+[Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
+[Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
+
 
 # Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
 
