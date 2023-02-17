@@ -103,10 +103,58 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/219745438-b23a5a65-1658-4d88-a7c8-b94564fd151d.png)
 </details>
 
+## Documenting Software Architecture
+<details>
+<summary>Important Concepts of documentation. View-Based Documentation. Types of Views</summary>
+
+![image](https://user-images.githubusercontent.com/4239376/219750980-0702e5a3-6db3-4685-8cc5-4ff8e6c228fc.png)
+![image](https://user-images.githubusercontent.com/4239376/219751691-e04c96f0-98d0-4c14-abbd-d38499b950eb.png)
+![image](https://user-images.githubusercontent.com/4239376/219752525-21bdeb6b-73e2-4244-85cb-d89c34bfd830.png)
+![image](https://user-images.githubusercontent.com/4239376/219753485-0a6e408f-8b03-4352-86bf-64cd1276527e.png)
+
+
+</details>
+
+<details>
+<summary>Model View</summary>
+  
+![image](https://user-images.githubusercontent.com/4239376/219754486-909a08c1-065a-425b-b96a-4abbe3918578.png)
+![image](https://user-images.githubusercontent.com/4239376/219755899-118d7db1-d026-42f5-a001-7166f934a7d8.png)
+</details>
+
+<details>
+<summary>Component And Connector View</summary>
+  
+**Shortly: how your code maps on resources. Where it executes. What major parameters it has:**  
+  - Processor cores vs processes  
+  - Sockets  
+  - REST APIs (dependency relationships between information carriers)  
+  - Where your code is executed: Client Machine vs Server, PC or Mobile.  
+  
+** Attachments:**  
+  - Output from one port to another Input port  
+
+** Quality of service information**  
+  - Amount of requests per hour
+  - Latency
+  
+![image](https://user-images.githubusercontent.com/4239376/219756377-f2a44236-6311-41d7-884c-680fbcff8d4d.png)
+  
+## For what?
+![image](https://user-images.githubusercontent.com/4239376/219757698-00198569-458e-4212-8650-9e5cc46eab9e.png)
+  
+</details>
+
+<details>
+<summary>Allocation View</summary>
+  
+![image](https://user-images.githubusercontent.com/4239376/219758203-12ca33d8-a1f9-425e-8a80-c6a60820d3c1.png)
+</details>
+
+
 ## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
 [Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
-
 
 # Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
 
