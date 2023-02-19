@@ -42,6 +42,7 @@
 </details>
 
 # Carnegie Mellon Univercity
+* https://sites.google.com/site/softwarearchitectureinpractice/home
 ## Attribute-Driven Design (ADD)
 <details>
 <summary>Attribute-Driven Design in details</summary>
@@ -164,10 +165,16 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 <details>
 <summary>View Type: Allocation View</summary>
   
+Details: https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/d-allocation-views
+  
 **Shortly: About requirements where and how application runs**
   - Memory requirements  
   - Processor requirements  
   - Execution in processes and threads
+  
+**Allocation View consist of:**
+  - Deployment view (how and where you deploy your app)
+  - Implementation View
   
 ![image](https://user-images.githubusercontent.com/4239376/219758203-12ca33d8-a1f9-425e-8a80-c6a60820d3c1.png)
 </details>
@@ -198,6 +205,22 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 
 </details>
 
+<details>
+<summary>What View You need to Document. General pieces of advice</summary>
+
+1) Check who is your stakeholders
+2) What diagrams each of them need to understand and sell your product
+3) Consolidate views (if their number is too high)
+4) Rationale of your design decisions
+5) Functional, Non-functional attributes and constraints of your system
+5) Legend on all diagrams
+
+![image](https://user-images.githubusercontent.com/4239376/219941203-af146802-c388-4838-a3b8-77e9fd0a3a4c.png)
+
+## Put the legent to each diagram:
+![image](https://user-images.githubusercontent.com/4239376/219941239-eeba534c-d85e-4238-8249-21867e7d0250.png)
+
+</details>
 
 ## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
