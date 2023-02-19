@@ -222,6 +222,22 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
+## Architecture Evaluation. Measure and Output
+<details>
+<summary>Architecture Evaluation. Approaches and Techniques. Evaluation Output</summary>
+  
+## Measuring Techniques:
+  ![image](https://user-images.githubusercontent.com/4239376/219947397-c787f8f7-53da-4818-927b-32fe8611981d.png)  
+  ![image](https://user-images.githubusercontent.com/4239376/219947410-f742722d-53a2-4804-8f61-ae022e2f076f.png)  
+
+
+![image](https://user-images.githubusercontent.com/4239376/219947351-91171157-58e5-48ce-84f3-115cd8e13c09.png)
+  
+## Evaluation Output:
+  ![image](https://user-images.githubusercontent.com/4239376/219947542-c6efb33a-6684-4096-9413-141a4f922cca.png)
+
+</details>
+
 ## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
 [Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
