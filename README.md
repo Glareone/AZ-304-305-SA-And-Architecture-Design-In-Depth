@@ -222,7 +222,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
-## Architecture Evaluation. Measure and Output
+## Architecture Evaluation. Measure and Output. ATAM
 <details>
 <summary>Architecture Evaluation. Approaches and Techniques. Evaluation Output</summary>
   
@@ -235,6 +235,68 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   
 ## Evaluation Output:
   ![image](https://user-images.githubusercontent.com/4239376/219947542-c6efb33a-6684-4096-9413-141a4f922cca.png)
+
+
+</details>
+
+<details>
+<summary>ATAM. Risk identification method</summary>
+
+## ATAM Conceptual flow
+![image](https://user-images.githubusercontent.com/4239376/220183242-4d28d4ff-a481-438d-a775-0285700bfee3.png)
+
+**The point of ATAM is only to find risks, not to mitigate them**
+**You can do that through elisit the right questions to architects, senior designers and key developers**
+**So, its risk identification method, not risk resolution method**
+**We do not provide precise analysis**
+
+![image](https://user-images.githubusercontent.com/4239376/220177894-ed64d574-279d-416b-ac61-47ed606582d7.png)
+  ![image](https://user-images.githubusercontent.com/4239376/220177967-ad83a3e5-d1a4-4deb-a442-f148c3202193.png)
+  
+## When to use:
+![image](https://user-images.githubusercontent.com/4239376/220178382-b1586c49-ab82-446d-b4d6-55731a89c60a.png)
+
+* After creating architecture, but not so much code is in place;
+* Check existing system architecture, evaluate it;
+* Decide whether we will build this system or buy it from 3rd party vendor;
+
+## ATAM Phases
+
+![image](https://user-images.githubusercontent.com/4239376/220178633-17f036b9-4d31-4504-95eb-36e5aa364a7c.png)
+
+## Phase 0: gather a small group of architects and evaluators and discuss what you are going to evaluate, what you have, etc.
+![image](https://user-images.githubusercontent.com/4239376/220178875-643d783f-e955-492c-986f-4eca794eecd3.png)
+
+## Phase 1: explain what ATAM is about, what the process, who needs to be there, expectations
+### Business goals from Project Owners;
+### Architect presents an architecture;
+### Utility Tree; L,M,H - how important in terms of business (1st value, Highly important, Low importance) and how risky (2nd, High risks, Low risks). 
+![image](https://user-images.githubusercontent.com/4239376/220179072-6a68a464-a184-48b1-a720-dfb58929144d.png)
+![image](https://user-images.githubusercontent.com/4239376/220179604-f19362d3-3da5-45f8-b481-681ba6843722.png)
+![image](https://user-images.githubusercontent.com/4239376/220179811-6fb41f20-fa54-4dac-86e7-d114e6730dfd.png)
+
+**H,H scenarios - our main business scenarios and drivers we must focus on**
+
+## Scenarios:
+![image](https://user-images.githubusercontent.com/4239376/220180682-b6bfbf30-eabf-4a6a-96ba-da6c4705c201.png)
+![image](https://user-images.githubusercontent.com/4239376/220180725-bf8d950c-d9ac-4799-bbb1-87c34355654e.png)
+![image](https://user-images.githubusercontent.com/4239376/220181588-7da30598-a423-45c5-aed8-2e98e8a355f0.png)
+![image](https://user-images.githubusercontent.com/4239376/220181745-d3e64522-cd1a-4902-b89c-b9735a46fc8b.png)
+
+## Risks and Tradeoffs:
+![image](https://user-images.githubusercontent.com/4239376/220182147-5160504e-a1cf-4f09-8d2e-742f0c97a031.png)
+![image](https://user-images.githubusercontent.com/4239376/220182228-399221a5-d26b-45bf-9132-6d070f1cb64d.png)
+
+Non-risks may become risks if situation changed
+
+## Phase 2. More like QAW, workshop, scenario brainstorming. we do more architecture analysis, gather more scenarios from broader group and map on architecture approaches:
+![image](https://user-images.githubusercontent.com/4239376/220182604-1a883d10-d985-43bc-b9ea-88aad3a95c54.png)
+![image](https://user-images.githubusercontent.com/4239376/220182751-72bf4b4e-3b52-4063-8b46-7bd38e63a744.png)
+
+## Phase 3. Formal meeting\presentation about findings
+![image](https://user-images.githubusercontent.com/4239376/220183052-87c55330-4b6a-42ee-910f-4965a16cb273.png)
+![image](https://user-images.githubusercontent.com/4239376/220183077-3bd0cde0-9e6f-4cda-8ef5-b4e61f732edc.png)
+
 
 </details>
 
