@@ -1,3 +1,8 @@
+# How Much of Architecture is needed?
+
+![image](https://user-images.githubusercontent.com/4239376/220193660-847a6bc1-be2d-4027-ae57-ca5e1d157c33.png)
+
+
 # Architecture patterns
 
 ![image](https://user-images.githubusercontent.com/4239376/193664508-ce5aebaf-4212-4473-a924-def6d0d00620.png)
@@ -283,7 +288,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 ![image](https://user-images.githubusercontent.com/4239376/220181588-7da30598-a423-45c5-aed8-2e98e8a355f0.png)
 ![image](https://user-images.githubusercontent.com/4239376/220181745-d3e64522-cd1a-4902-b89c-b9735a46fc8b.png)
 
-## Risks and Tradeoffs:
+## Risks and Tradeoffs. Non-risks:
 ![image](https://user-images.githubusercontent.com/4239376/220182147-5160504e-a1cf-4f09-8d2e-742f0c97a031.png)
 ![image](https://user-images.githubusercontent.com/4239376/220182228-399221a5-d26b-45bf-9132-6d070f1cb64d.png)
 
