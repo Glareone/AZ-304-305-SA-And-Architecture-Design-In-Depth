@@ -2,6 +2,9 @@
 
 ![image](https://user-images.githubusercontent.com/4239376/220193660-847a6bc1-be2d-4027-ae57-ca5e1d157c33.png)
 
+# Architecture lifecycle. QAW (workshop), ADD (Attribute-Driven Design), V&B (Views and Beyond), ATAM (Architecture Tradeoffs Analysis)
+![image](https://user-images.githubusercontent.com/4239376/220447398-072fc142-a2a0-4986-85dc-a44f061c69ab.png)
+
 
 # Architecture patterns
 
@@ -301,9 +304,12 @@ Non-risks may become risks if situation changed
 ## Phase 3. Formal meeting\presentation about findings
 ![image](https://user-images.githubusercontent.com/4239376/220183052-87c55330-4b6a-42ee-910f-4965a16cb273.png)
 ![image](https://user-images.githubusercontent.com/4239376/220183077-3bd0cde0-9e6f-4cda-8ef5-b4e61f732edc.png)
-
-
 </details>
+
+## Architecture Rule of Thumb. Rules to follow in architecture
+https://www.linkedin.com/pulse/architecture-10-rules-thumb-matthew-golzari/  
+https://medium.com/@i.gorton/six-rules-of-thumb-for-scaling-software-architectures-a831960414f9  
+
 
 ## Carnegie Mellon Univercity Slides. Solution Architecture Principles in Practice
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
