@@ -317,6 +317,10 @@ https://medium.com/@i.gorton/six-rules-of-thumb-for-scaling-software-architectur
 [Solution Architecture Principles in Practice.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609704/SAPP.V13.-.2021.pdf)  
 [Solution Architecture Principles in Practice,_Student_Workbook_2020.pdf](https://github.com/Glareone/AZ-304-SA-Azure-Architect-Design/files/10609706/SAPP_Student_Workbook_2020.pdf)  
 
+## SEI Exams
+SEI Software Architecture Professional Exam: https://www.sei.cmu.edu/education-outreach/courses/course.cfm?courseCode=V19
+Service-based Architecture Professional Cert: https://www.sei.cmu.edu/education-outreach/credentials/credential.cfm?customel_datapageid_14047=15189
+
 # Architecture Materials. AZ-304 SA Azure Architecture Design Exam materials
 
 ## Powershell intro
@@ -530,7 +534,6 @@ You may need them for:
 
   Another example of reverse proxy with load balancer + healthcheck role  
 ![image](https://user-images.githubusercontent.com/4239376/160923562-490c43b1-efe8-4ea0-86e0-ce2b47b49f90.png)
-
 
 </details>
 
