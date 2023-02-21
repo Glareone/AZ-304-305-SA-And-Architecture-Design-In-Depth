@@ -33,7 +33,9 @@
 
 <details>
 <summary>8 Fallacies of Distributed Computing Explained</summary>
+  
   [8_Fallacies_of_Distributed_Computing_Explained.pdf](https://arnon.me/wp-content/uploads/Files/fallacies.pdf)  
+  
   ![image](https://user-images.githubusercontent.com/4239376/160911869-107d5917-fbaa-4a1f-87c9-9c30d953b607.png)
 </details>
 
