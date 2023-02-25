@@ -10,6 +10,11 @@
 
 ![image](https://user-images.githubusercontent.com/4239376/193664508-ce5aebaf-4212-4473-a924-def6d0d00620.png)
 
+# Architecture style vs pattern
+
+![image](https://user-images.githubusercontent.com/4239376/221378280-11755114-81b2-4bc8-8542-ff368b353e50.png)
+Pattern consists of 3 parts - Problem, Context, and Solution.  Patterns tells more about context in which Solution appeared.
+On the other hand style is about Solution, it well describes what exactly was selected, without detailed explanation "why". (Leonard Bass)
 
 # Architecture Influence Cycle
 
