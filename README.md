@@ -129,7 +129,41 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/219745438-b23a5a65-1658-4d88-a7c8-b94564fd151d.png)
 </details>
 
-## Documenting Software Architecture
+## Architecture Styles and their Documentation. Module Styles, C&C Styles, Allocation Styles.
+<details>
+<summary>Module Styles: Decomposition, Uses, Generalization, Layered, Data Model, Aspects styles</summary>
+
+**Module Styles:**
+  - Decomposition Style
+  - Uses Style
+  - Generalization Style
+  - Layered Style
+  - Data Model Style
+  - Aspects Style
+</details>
+
+<details>
+<summary>Component and Connector Styles: Pipe and Filter, Client-Server, Service-Oriented (SOA), Publish-Subscribe, Shared-Data styles</summary>
+
+**Components and Connectors style:**
+  - Pipe-and-filter Style
+  - Client-Server Style
+  - Service-Oriented Style
+  - Publish-Subscribe Style
+  - Shared-Data Style
+</details>
+
+<details>
+<summary>Allocation Styles: Deployment, Install, Work Assignment styles</summary>
+
+**Allocation Style:**
+  - Deployment Style
+  - Install Style
+  - Work Assignment Style
+
+</details>
+
+## Architecture Views. Documenting Software Architecture. 
 <details>
 <summary>General. Important Concepts of documentation. View-Based Documentation. Types of Views</summary>
 
