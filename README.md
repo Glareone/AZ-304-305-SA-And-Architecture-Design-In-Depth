@@ -163,7 +163,7 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 
 </details>
 
-## Architecture Views. Documenting Software Architecture. 
+## Architecture Views. Documenting Software Architecture. Properties to document in your Architecture Document
 <details>
 <summary>General. Important Concepts of documentation. View-Based Documentation. Types of Views</summary>
 
@@ -171,6 +171,18 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/219751691-e04c96f0-98d0-4c14-abbd-d38499b950eb.png)
 ![image](https://user-images.githubusercontent.com/4239376/219752525-21bdeb6b-73e2-4244-85cb-d89c34bfd830.png)
 ![image](https://user-images.githubusercontent.com/4239376/219753485-0a6e408f-8b03-4352-86bf-64cd1276527e.png)
+</details>
+
+<details>
+<summary>General. Select Properties to document. Examples in terms of Quality Attribute</summary>
+  
+![image](https://user-images.githubusercontent.com/4239376/221413977-72f09477-0606-4971-bf51-6e66cfd0a099.png)
+![image](https://user-images.githubusercontent.com/4239376/221414027-074597a6-9243-4ce3-ab41-b18641a77d61.png)
+
+**Example:** 
+  1) Performance Attribute: you need to document best and worst response time properties. Or maximum number of event that element can service per time unit (per secord or per minute).
+  2) Security: perhaps you need to document the level of encryption and authorization rules for different elements and relations.
+  
 </details>
 
 <details>
