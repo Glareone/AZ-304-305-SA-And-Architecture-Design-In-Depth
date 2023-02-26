@@ -130,9 +130,18 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 ## Architecture Styles and their Documentation. Module Styles, C&C Styles, Allocation Styles.
+### General Information
 <details>
 <summary>Module Styles: Decomposition, Uses, Generalization, Layered, Data Model, Aspects styles</summary>
 
+Module styles are closer to code.
+Used for: 
+  - code construction, 
+  - analysis (impact of changes, planning, or for budgeting concerns).
+  - education (onboarding new team-members).  
+  - Buils vs Buy. You can use Decomposition in order to understand what is better for you - build on your own or buy this product from 3rd party vendor.
+  
+  
 **Module Styles:**
   - Decomposition Style
   - Uses Style
@@ -140,6 +149,52 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
   - Layered Style
   - Data Model Style
   - Aspects Style
+  
+  ![image](https://user-images.githubusercontent.com/4239376/221414618-4dabdf97-d94c-4c52-b2d4-e3b2228df14c.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221414764-645dc4a1-df4d-4b6d-8350-013e6ea4181d.png)
+
+## Notations and Usage. Informal or semi-formal notation: Box and Lines or UML
+  ![image](https://user-images.githubusercontent.com/4239376/221415139-34a69a26-2c1f-4a76-8971-e87a8e63cb25.png)  
+</details>
+
+### Module Styles in details.
+<details>
+<summary>Module Styles: Decomposition Style</summary>
+
+  ## Decomposition Style. Notations
+  ![image](https://user-images.githubusercontent.com/4239376/221415293-65b42494-f3a5-419c-a736-23ff09066f3d.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221415534-c3f6a92c-ce24-4fcd-a6b1-7d1f1b34d9aa.png)
+
+</details>
+
+<details>
+<summary>Module Styles: Uses Style</summary>
+  
+* Useful for planning an incremental development when you have several dependencies and you need to know where all of them will be available for you;
+* Useful in debugging and testing because you can stub and mock your dependencies, or you want to isolate from where the issue comes;
+* Useful to validate dependencies and avoid circular dependencies which not letting you make incremental deployment and delivery
+* Tracing changes when you want to guarantee that other dependencies will not suffer
+  
+![image](https://user-images.githubusercontent.com/4239376/221415843-84a4554b-894a-44f4-9de3-b1fe1c7206d2.png)
+  
+## Example:
+  ![image](https://user-images.githubusercontent.com/4239376/221416972-cc11bf0c-903d-4758-8605-b1eb95f4c047.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221416956-ddebcf5f-5170-463a-a2f8-189b3378dd5c.png)
+
+</details>
+
+<details>
+<summary>Module Styles: Generalization Style</summary>
+
+ * Useful for code analyzing
+ * Useful for Architecture Representation Creation.
+ * Useful for Application Skeleton creation 
+  ![image](https://user-images.githubusercontent.com/4239376/221417418-e5997c27-d6bb-41d3-adc4-0fe462d522d9.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221417477-d5baedf8-cb7f-41e0-952d-7991bc1dc9db.png)
+  
+## Example:
+  ![image](https://user-images.githubusercontent.com/4239376/221417678-a1ec8823-a725-47e2-af3a-5d958ae12a95.png)
+
 </details>
 
 <details>
@@ -250,13 +305,10 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 ![image](https://user-images.githubusercontent.com/4239376/221411778-c6468fee-accf-412f-939a-864b5bf14686.png)
 ![image](https://user-images.githubusercontent.com/4239376/221411761-752fdcc2-58bd-43ca-8e8c-d509ba6240f1.png)
 ![image](https://user-images.githubusercontent.com/4239376/221411860-2d316ac7-b9d3-475f-ac0d-32db91dc063d.png)
-
-
-
 </details>
 
 <details>
-<summary>Notations for Architecture View. General and Examples. Model View. Uses View. Generalization View</summary>
+<summary>Notations for Architecture View. Model View. Uses View. Generalization View</summary>
   
 ## In General
 ![image](https://user-images.githubusercontent.com/4239376/219767641-0daf212d-bd61-4951-bee8-1cfe58730bb0.png)
