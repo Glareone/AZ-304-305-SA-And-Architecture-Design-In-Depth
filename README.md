@@ -2,7 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/4239376/220193660-847a6bc1-be2d-4027-ae57-ca5e1d157c33.png)
 
-# Architecture lifecycle. QAW (workshop), ADD (Attribute-Driven Design), V&B (Views and Beyond), ATAM (Architecture Tradeoffs Analysis)
+# Architecture lifecycle
+## QAW (workshop) => ADD (Attribute-Driven Design) => V&B (Views and Beyond) => ATAM (Architecture Tradeoffs Analysis)
 ![image](https://user-images.githubusercontent.com/4239376/220447398-072fc142-a2a0-4986-85dc-a44f061c69ab.png)
 
 
@@ -13,8 +14,11 @@
 # Architecture style vs pattern
 
 ![image](https://user-images.githubusercontent.com/4239376/221378280-11755114-81b2-4bc8-8542-ff368b353e50.png)
-Pattern consists of 3 parts - Problem, Context, and Solution.  Patterns tells more about context in which Solution appeared.
+* Pattern consists of 3 parts - Problem, Context, and Solution.     
+* Patterns tells more about context in which Solution appeared.  
 On the other hand style is about Solution, it well describes what exactly was selected, without detailed explanation "why". (Leonard Bass)
+* Style is higher level of abstraction, style can demonstrate elements and their relations
+* Pattern shows exact way of "how to achieve that using exact way". Details: https://www.geeksforgeeks.org/difference-between-architectural-style-architectural-patterns-and-design-patterns/
 
 # Architecture Influence Cycle
 
@@ -155,7 +159,7 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 <details>
-<summary>View Type: Component And Connector View</summary>
+<summary>View Type: (C&C) Component And Connector View</summary>
   
 **Shortly: how your code maps on resources. Where it executes. What major parameters it has:**  
   - Processor cores vs processes  
@@ -192,6 +196,17 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   - Implementation View
   
 ![image](https://user-images.githubusercontent.com/4239376/219758203-12ca33d8-a1f9-425e-8a80-c6a60820d3c1.png)
+</details>
+
+<details>
+<summary>Heterogenerity Architecture Style & View: Demonstrate a mix of approaches on one diagram. Examples</summary>
+
+![image](https://user-images.githubusercontent.com/4239376/221411778-c6468fee-accf-412f-939a-864b5bf14686.png)
+![image](https://user-images.githubusercontent.com/4239376/221411761-752fdcc2-58bd-43ca-8e8c-d509ba6240f1.png)
+![image](https://user-images.githubusercontent.com/4239376/221411860-2d316ac7-b9d3-475f-ac0d-32db91dc063d.png)
+
+
+
 </details>
 
 <details>
