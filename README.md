@@ -130,7 +130,7 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 ## Architecture Styles and their Documentation. Module Styles, C&C Styles, Allocation Styles.
-### General Information
+### Module Styles. General Information
 <details>
 <summary>Module Styles: Decomposition, Uses, Generalization, Layered, Data Model, Aspects styles</summary>
 
@@ -139,7 +139,7 @@ Used for:
   - code construction, 
   - analysis (impact of changes, planning, or for budgeting concerns).
   - education (onboarding new team-members).  
-  - Buils vs Buy. You can use Decomposition in order to understand what is better for you - build on your own or buy this product from 3rd party vendor.
+  - Build vs Buy. You can use Decomposition in order to understand what is better for you - build on your own or buy this product from 3rd party vendor.
   
   
 **Module Styles:**
@@ -256,20 +256,87 @@ Used for:
   
 ## Data Model Evolution over time
   ![image](https://user-images.githubusercontent.com/4239376/221659918-5f4de157-f47e-4c65-a60f-7daf39678ba8.png)
-
-
 </details>
+
+### Component and Connector Styles. General Information
 
 <details>
 <summary>Component and Connector Styles: Pipe and Filter, Client-Server, Service-Oriented (SOA), Publish-Subscribe, Shared-Data styles</summary>
 
-**Components and Connectors style:**
+  Used for: 
+  - Performance, Security, Availability (Runtime attributes) analysis
+  - Education
+  - Construction. C&C Style could describe behavior that elements must demonstrate when they work together
+  - Could help to describe how very specific part of the system works
+  
+  **Components and Connectors style:**
   - Pipe-and-filter Style
   - Client-Server Style
   - Service-Oriented Style
   - Publish-Subscribe Style
   - Shared-Data Style
+  - Repository Style
+  - Others
+  
+  ![image](https://user-images.githubusercontent.com/4239376/221666963-84141b64-a2ec-4c43-867b-818b47d44046.png)
+  * DataFlow, Call-Return, Event-Based, Repository are Sub-families of C&C Styles
+
+  ** Rules of C&C Style:**
+  * In C&C style Component could be a runtime of interaction or Data Store. Component has ports to the outside world;
+  * Connector connects components. Connector has roles which could be called;
+  * Ports and Roles are just special interfaces of Components and Connectors respectively;
+  * The Only one relation between elements -  Attachment; It describes Attachment between Components and Connectors
+  * In Architecture Connector is not just a procedure call, but could be very sophisticated computation;
+  * C&C Diagram could have Quality attributes which help with analysis;
+  * For different Quality Attributes could be useful different C&C Styles
+##
+
+  
+![image](https://user-images.githubusercontent.com/4239376/221663449-adbd158e-1a6e-4d68-865a-c42d62d13fdb.png)
 </details>
+
+### Component and Connector Styles in details
+
+<details>
+<summary>C&C Style: Pipe and Filter. Pipes and Filters in UML. Yahoo! Pipes</summary>
+  
+  * Good for cases when data is transformed serially
+  * Series of Filters or Series of Pipes one after another is prohibited by Style
+  * Good for Functional composition Data Analysis (what the output could be knowing the function and input)
+  ![image](https://user-images.githubusercontent.com/4239376/221673213-b2fe6651-b132-46e8-be2d-b8c2573472e3.png)
+
+  ## In UML
+  * Dependency arrow is not recommended to use, but it's possible. Better to use straight line as connector
+  ![image](https://user-images.githubusercontent.com/4239376/221676884-f1a36c06-86e7-4527-a048-8719d7699443.png)
+  
+  ## Yahoo! pipes. 
+  * Introduced by Yahoo.
+  * 7 Filters and Blue Pipes from top to bottom. On the right there are support modules for mainline "components"(in Yahoo terminology).
+  ![image](https://user-images.githubusercontent.com/4239376/221677752-d500d433-b308-47fa-bbb3-7c8b00a77e34.png)
+
+</details>
+
+<details>
+<summary>C&C Style: Client-Server</summary>
+
+</details>
+
+<details>
+<summary>C&C Style: Service-Oriented (SOA)</summary>
+
+</details>
+
+<details>
+<summary>C&C Style: Publish-Subscribe</summary>
+
+</details>
+
+<details>
+<summary>C&C Style: Shared-Data</summary>
+
+</details>
+
+### Allocation Styles. General Information
 
 <details>
 <summary>Allocation Styles: Deployment, Install, Work Assignment styles</summary>
@@ -280,6 +347,8 @@ Used for:
   - Work Assignment Style
 
 </details>
+
+### Allocation Styles in details
 
 ## Architecture Views. Documenting Software Architecture. Properties to document in your Architecture Document
 <details>
