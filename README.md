@@ -234,6 +234,28 @@ Used for:
   * Instead of crosscut arrows all aspects are bundled into the package
   * Annotation is attached to each aspect
   ![image](https://user-images.githubusercontent.com/4239376/221657134-db818990-aa9b-404f-a8be-11f7d46240a9.png)
+</details>
+
+<details>
+<summary>Module Styles: Data Model Style. ERD & UML Notation</summary>
+  
+  * Useful to depict Data Entities and relations between them
+  * Useful for impact analysis
+  * Helps to implement modules which have access to the data
+  * Useful in Domain Analysis
+  * Useful for performance optimizations
+  ![image](https://user-images.githubusercontent.com/4239376/221658549-1e3ab4c3-b782-47f7-bae9-2e1a28b7235a.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221658815-403a3442-9704-4f5c-8ba8-8a3c67a6c534.png)
+  
+## Example
+  ![image](https://user-images.githubusercontent.com/4239376/221659107-29e5e581-af26-451d-a357-bda74553fb8b.png)
+  * In ERD Notation
+  ![image](https://user-images.githubusercontent.com/4239376/221659278-3eea7d6e-74f5-44cc-bb8e-104c3d926ee8.png)
+  * The same diagram in UML Notation
+  ![image](https://user-images.githubusercontent.com/4239376/221659365-a077448e-cc9a-4e37-bd3f-e23eb815f3e4.png)
+  
+## Data Model Evolution over time
+  ![image](https://user-images.githubusercontent.com/4239376/221659918-5f4de157-f47e-4c65-a60f-7daf39678ba8.png)
 
 
 </details>
