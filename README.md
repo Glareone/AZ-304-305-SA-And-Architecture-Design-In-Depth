@@ -198,6 +198,47 @@ Used for:
 </details>
 
 <details>
+<summary>Module Styles: Layered Style</summary>
+
+  * Useful for Modificability
+  ![image](https://user-images.githubusercontent.com/4239376/221652956-da0ab18a-672f-4e11-a6bd-7b62115c81aa.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221652909-e1f4324d-143a-4bd2-aec3-294e9ba5c867.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221653213-e59c2425-6b38-4a62-83aa-d8e8a5250432.png)
+
+* Concentric diagram could not be equivalent to stack diagram because there is ambiguity and it's not clear if B1-B2-B3 can use each other (especially B1-B3 because they touch each other).
+
+## Informal notation in Layered style
+  ![image](https://user-images.githubusercontent.com/4239376/221653857-172df0ed-b447-47e6-9a56-b4f257ea9095.png)
+</details>
+
+<details>
+<summary>Module Styles: Aspects Style (Also known as Multi-dimentional separation of concerns)</summary>
+
+  * Style to depict relations between classes or set of classes (their aspect modules)
+  * Could be used to understand the strategy for error handling. When Set of modules want to use one protocol (handling policy) for handling error if it occurs.
+  * Could be useful for application decomposition
+  * Could be useful to understand the scalability of solution
+  ![image](https://user-images.githubusercontent.com/4239376/221654756-b8756777-471d-46d7-a87b-02d5c3a0eef8.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221655253-cdee236e-f696-45f6-8db3-72a27f40a4a8.png)
+
+## Example
+  * Colored bar represents the aspect in module
+  * Could be used only when code is already exist
+  ![image](https://user-images.githubusercontent.com/4239376/221655911-aef2229c-c6bc-4cf8-8842-1eaac8c471d3.png)
+  * To understand the scalability the best strategy is to create UML Class diagram
+  ![image](https://user-images.githubusercontent.com/4239376/221656264-e4574a8b-9f51-4cc9-b7dd-95fb922b92c5.png)
+  * For very large apps you need to use non-graphical diagram because in very large apps with dozens of classes and their aspects your UML diagram will be a hell
+  ![image](https://user-images.githubusercontent.com/4239376/221656726-ecb021a7-d1ac-46b7-91f0-a14f2a2e3466.png)
+
+## Good example of diagram which uses UML without crosscut arrows
+  * Instead of crosscut arrows all aspects are bundled into the package
+  * Annotation is attached to each aspect
+  ![image](https://user-images.githubusercontent.com/4239376/221657134-db818990-aa9b-404f-a8be-11f7d46240a9.png)
+
+
+</details>
+
+<details>
 <summary>Component and Connector Styles: Pipe and Filter, Client-Server, Service-Oriented (SOA), Publish-Subscribe, Shared-Data styles</summary>
 
 **Components and Connectors style:**
