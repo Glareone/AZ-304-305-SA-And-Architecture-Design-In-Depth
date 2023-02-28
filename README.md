@@ -360,11 +360,70 @@ Used for:
 <details>
 <summary>C&C Style: Publish-Subscribe</summary>
 
+  * Pure event-based style
+  * Useful if you dont know all of your subscribers or you dont know their amount.
+  * Useful for sending information for unknown recipients
+  * Event distributor can be depicted as a bus or a component
+  ![image](https://user-images.githubusercontent.com/4239376/221972871-a4617f16-ce1b-40f0-bcdb-7391f891ef32.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221973758-66d1776b-a4c2-44ad-be4b-63b6d3a31c6a.png)
+  
+  ## Constraints
+  * Need to understand which components can listen to which events. Some events could be not public
+  * Components can listen their own events (sometimes answer yes, sometimes no)
+
+  ## Example
+  * this diagram shows more than just publish-subscribe and it's okay
+  ![image](https://user-images.githubusercontent.com/4239376/221974858-01fdbd57-f986-4d32-816f-134010f21df7.png)
+
+
 </details>
 
 <details>
 <summary>C&C Style: Shared-Data</summary>
 
+  * If you see big fat database in the middle of the diagram - it's definitely Shared-Data Style
+  * Useful for enterprise management system
+  ![image](https://user-images.githubusercontent.com/4239376/221978566-4b0b6f80-050f-47d3-89a9-b7e525b08a11.png)
+  ## Example
+  ![image](https://user-images.githubusercontent.com/4239376/221978825-2177669c-6898-4709-93d4-87dde2f9036b.png)
+</details>
+
+<details>
+<summary>C&C Style: Combination of styles</summary>
+
+  ![image](https://user-images.githubusercontent.com/4239376/221984339-37fbb2f2-2d34-4ccb-9f0d-1e1cc482be34.png)
+  * same diagram depicted in another style, it loses stylistic richness
+  * doesnt let you draw your conclusion in any certainty
+  ![image](https://user-images.githubusercontent.com/4239376/221985031-c7b47240-89c6-45f3-ad4c-7b176a6cdbf9.png)
+
+</details>
+  
+<details>
+<summary>C&C Style: Crosscutting issues in different C&C Styles. Grouping in Tiers. Multi-tier Notation</summary>
+  
+  * Cross-communication processes issues (when different processes share resources)
+  ![image](https://user-images.githubusercontent.com/4239376/221979558-185f15c5-20dd-44b3-8a72-9d3eaee2de14.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221979864-2f80b12e-ab71-41a8-8147-78484f9389e6.png)
+
+  ## Tiers. Commonly in Client-Server style
+  * Useful to declare connections between tiers (only allowed to communicate with these exact tiers and not with others)
+  * Tiers could be pass-through, but should be exclicitly declared
+  * Grouping components in tiers, for example Tier execution
+  * Client Tier also could be described what clients it has: thin or fat: Thin clients are generally embedded within a web browser. Fat must be installed on the client's machine.
+  * Tiers could be depicted as packages in UML notation
+  ![image](https://user-images.githubusercontent.com/4239376/221980133-d9a386ff-03cb-4361-bd57-453e92fc6f0f.png)
+  * We can declare how tiers are communicating
+  ![image](https://user-images.githubusercontent.com/4239376/221980780-b1df0f97-673b-41ef-afd2-ceaf577014e6.png)
+
+  ## Multi-tier notation
+  ![image](https://user-images.githubusercontent.com/4239376/221981704-573b4730-8e82-43aa-acd8-a338cdfff9f8.png)
+  * Tiers could be depicted as packages in UML notation
+  ![image](https://user-images.githubusercontent.com/4239376/221981886-4243f96b-1f8d-49f0-a4e4-b83651260eeb.png)
+
+  ## Dynamic Creation and Destruction
+  * Could be done in State-Machine diagram
+  ![image](https://user-images.githubusercontent.com/4239376/221982291-8bde9206-97ee-46f0-9be5-7da8687ac3bf.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221982337-233a7fdb-eda5-4755-aa6d-76999479b94f.png)
 </details>
 
 ### Allocation Styles. General Information
