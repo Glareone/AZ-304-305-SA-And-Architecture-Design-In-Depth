@@ -319,10 +319,41 @@ Used for:
 <details>
 <summary>C&C Style: Client-Server</summary>
 
+  * Useful for performance, availability, dependability, security analysis
+  * Useful when you need to depict amount of clients at the same time
+  * Useful when you need to create a strategy "what to do if one server becomes compromised"
+  ![image](https://user-images.githubusercontent.com/4239376/221964686-3d093474-6e14-4c63-955a-3089f0f52890.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221965154-25e22081-de05-4216-a4be-ca9af922e32d.png)
+
+## Example
+  ![image](https://user-images.githubusercontent.com/4239376/221965783-dd5a1c4d-4998-4c3a-a2ba-f381b48dfd06.png)
+
+
 </details>
 
 <details>
-<summary>C&C Style: Service-Oriented (SOA)</summary>
+<summary>C&C Style: Service-Oriented (SOA). Web Services</summary>
+  
+  * Useful for property analysis which could be associated with service or with service client;
+  * Services could be not discoverable and not dynamically bound
+  ![image](https://user-images.githubusercontent.com/4239376/221966350-9b8c10ed-4c70-486d-aed3-1bdc53f1a580.png)
+  * ESB - Enterprise Service Bus, special component which takes routing of messages
+  ![image](https://user-images.githubusercontent.com/4239376/221967351-d75aaaad-394f-4c0f-bc10-89b04cf9d505.png)
+  
+  **Use cases:**
+    - services made by different languages, for different platforms, or by different teams\organizations
+    - services which have different styles
+    - helps with integration of external components
+    - for repackaging legacy systems. you can rehabilitate pieces of legacy system one by one
+
+  ## Web Services
+  * Web Services is not a synonym of SOA: SOA is architecture style but Web Services is one of many technologies you may choose to implement SOA
+  * Micro-service Architecture, WebServices, Micro-Macro Service Architecture, COBRA - are part of SOA Style
+  ![image](https://user-images.githubusercontent.com/4239376/221968481-47ca56dd-0cbf-4093-92c8-9ed53ff81314.png)
+
+  ## SOA In practice
+  ![image](https://user-images.githubusercontent.com/4239376/221968912-d4f7947b-37b5-43b9-8898-12e7ff12c421.png)
+  ![image](https://user-images.githubusercontent.com/4239376/221971666-1624ff29-7162-4ff7-85d6-628147806a19.png)
 
 </details>
 
