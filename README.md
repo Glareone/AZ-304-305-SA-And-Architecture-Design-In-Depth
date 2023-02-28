@@ -399,7 +399,13 @@ Used for:
 </details>
   
 <details>
-<summary>C&C Style: Crosscutting issues in different C&C Styles. Grouping in Tiers. Multi-tier Notation</summary>
+<summary>C&C Style: Crosscutting issues in different C&C Styles. Grouping in Tiers. Tiers vs Layers. Multi-tier Notation</summary>
+  
+  ## Tiers vs Layers
+  * Layers are used more in Model View. Tiers in C&C view.
+  * They can be mapped one-to-one, but it's also possible to map several layers to one tier
+  * Tiers are used to check cohesion of components in C&C view
+  * Tiers also could be transformed into Packages in UML Notation
   
   * Cross-communication processes issues (when different processes share resources)
   ![image](https://user-images.githubusercontent.com/4239376/221979558-185f15c5-20dd-44b3-8a72-9d3eaee2de14.png)
