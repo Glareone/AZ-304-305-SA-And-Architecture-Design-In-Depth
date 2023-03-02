@@ -624,7 +624,11 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
-## Documeenting Interfaces. Documenting Behavior
+## Documenting Architecture
+![image](https://user-images.githubusercontent.com/4239376/222563674-d1be3db7-90f9-4917-895d-1be225da216b.png)
+![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
+
+### Documeenting Interfaces. Documenting Behavior
 <details>
 <summary>Documeenting: Interfaces. Documenting them. Examples</summary>
 
