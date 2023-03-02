@@ -644,6 +644,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 <details>
 <summary>Documeenting: Behavior</summary>
 
+  ![image](https://user-images.githubusercontent.com/4239376/222555628-6f8ef5fa-34e7-43a6-85f7-a730c4c9533e.png)
   ![image](https://user-images.githubusercontent.com/4239376/222554986-461ac3d8-e743-4b1e-8a7c-d4e7bb63f6d6.png)
 
 </details>
