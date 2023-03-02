@@ -624,6 +624,30 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
+## Documeenting Interfaces. Documenting Behavior
+<details>
+<summary>Documeenting: Interfaces. Documenting them. Examples</summary>
+
+  ## General idea
+  ![image](https://user-images.githubusercontent.com/4239376/222552044-50e2b3b4-6878-4372-a89e-d6fa725fe6e8.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222550018-dd23ec6a-5537-44c9-9e77-85465681a37e.png)
+  
+  
+  ## Examples
+  ![image](https://user-images.githubusercontent.com/4239376/222549841-46290b9c-5884-485d-80f4-6c78b18bc491.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222550281-64a7f6ce-da46-4905-b8c7-cc15e9e70a42.png)
+  ## UML Example with explanation
+  ![image](https://user-images.githubusercontent.com/4239376/222550783-c1c47361-a110-457c-97d6-8d6c729a2327.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222550913-55861eba-1a50-4a6e-9a8c-cd9376b21a60.png)
+</details>
+
+<details>
+<summary>Documeenting: Behavior</summary>
+
+  ![image](https://user-images.githubusercontent.com/4239376/222554986-461ac3d8-e743-4b1e-8a7c-d4e7bb63f6d6.png)
+
+</details>
+
 ## Architecture Evaluation. Measure and Output. ATAM
 <details>
 <summary>Architecture Evaluation. Approaches and Techniques. Evaluation Output</summary>
@@ -637,8 +661,6 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   
 ## Evaluation Output:
   ![image](https://user-images.githubusercontent.com/4239376/219947542-c6efb33a-6684-4096-9413-141a4f922cca.png)
-
-
 </details>
 
 <details>
