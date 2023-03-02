@@ -131,6 +131,8 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 
 ## Architecture Styles and their Documentation. Module Styles, C&C Styles, Allocation Styles.
 ### Module Styles. General Information
+![image](https://user-images.githubusercontent.com/4239376/222542413-c1f8c442-b7f1-474f-b99f-733206e61a20.png)
+
 <details>
 <summary>Module Styles: Decomposition, Uses, Generalization, Layered, Data Model, Aspects styles</summary>
 
@@ -164,7 +166,6 @@ Used for:
   ## Decomposition Style. Notations
   ![image](https://user-images.githubusercontent.com/4239376/221415293-65b42494-f3a5-419c-a736-23ff09066f3d.png)
   ![image](https://user-images.githubusercontent.com/4239376/221415534-c3f6a92c-ce24-4fcd-a6b1-7d1f1b34d9aa.png)
-
 </details>
 
 <details>
@@ -177,7 +178,7 @@ Used for:
   
 ![image](https://user-images.githubusercontent.com/4239376/221415843-84a4554b-894a-44f4-9de3-b1fe1c7206d2.png)
   
-## Example:
+  ## Example:
   ![image](https://user-images.githubusercontent.com/4239376/221416972-cc11bf0c-903d-4758-8605-b1eb95f4c047.png)
   ![image](https://user-images.githubusercontent.com/4239376/221416956-ddebcf5f-5170-463a-a2f8-189b3378dd5c.png)
 
@@ -192,7 +193,7 @@ Used for:
   ![image](https://user-images.githubusercontent.com/4239376/221417418-e5997c27-d6bb-41d3-adc4-0fe462d522d9.png)
   ![image](https://user-images.githubusercontent.com/4239376/221417477-d5baedf8-cb7f-41e0-952d-7991bc1dc9db.png)
   
-## Example:
+  ## Example:
   ![image](https://user-images.githubusercontent.com/4239376/221417678-a1ec8823-a725-47e2-af3a-5d958ae12a95.png)
 
 </details>
@@ -205,9 +206,9 @@ Used for:
   ![image](https://user-images.githubusercontent.com/4239376/221652909-e1f4324d-143a-4bd2-aec3-294e9ba5c867.png)
   ![image](https://user-images.githubusercontent.com/4239376/221653213-e59c2425-6b38-4a62-83aa-d8e8a5250432.png)
 
-* Concentric diagram could not be equivalent to stack diagram because there is ambiguity and it's not clear if B1-B2-B3 can use each other (especially B1-B3 because they touch each other).
+  * Concentric diagram could not be equivalent to stack diagram because there is ambiguity and it's not clear if B1-B2-B3 can use each other (especially B1-B3 because   they touch each other).
 
-## Informal notation in Layered style
+  ## Informal notation in Layered style
   ![image](https://user-images.githubusercontent.com/4239376/221653857-172df0ed-b447-47e6-9a56-b4f257ea9095.png)
 </details>
 
@@ -441,10 +442,55 @@ Used for:
   - Deployment Style
   - Install Style
   - Work Assignment Style
+  
+  ![image](https://user-images.githubusercontent.com/4239376/222535079-b08e5e93-2a2c-4183-a700-539ea5685a0b.png)
+
 
 </details>
 
 ### Allocation Styles in details
+<details>
+<summary>Allocation Styles: Deployment</summary>
+
+  * Puts Software to Hardware mapping  
+  * Good for performance, availability, durability, disaster recovery analysis
+  ![image](https://user-images.githubusercontent.com/4239376/222535336-bae21403-26f1-4dbe-aa87-2965a0f2f64d.png)
+  
+  ![image](https://user-images.githubusercontent.com/4239376/222535775-0f73f484-da32-4330-86d4-14f5143d3902.png)
+
+  ## Examples
+  ![image](https://user-images.githubusercontent.com/4239376/222536385-e6f4b0dc-8e5d-40bc-9734-43acc771ccee.png)
+  * Boxes depict hardware boxes or processors 
+  ![image](https://user-images.githubusercontent.com/4239376/222536532-9d44d7c3-ad33-4a62-8463-354dfb519636.png)
+</details>
+
+<details>
+<summary>Allocation Styles: Install</summary>
+
+  * Useful for creation build-deploy procedures 
+  ![image](https://user-images.githubusercontent.com/4239376/222536844-dadfe787-ec0c-4a30-9a69-19fc08690e54.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222537239-ac2dd177-5817-4ded-bc03-c136488e819b.png)
+
+  ## Example
+  ![image](https://user-images.githubusercontent.com/4239376/222539121-59d6839e-8fcf-4d55-a952-eff063d6440f.png)
+  * Same in UML with demonstration internal components
+  * EAR - Enterprice Archive. JAR - Java Archive files
+  ![image](https://user-images.githubusercontent.com/4239376/222539273-403f3d31-c76d-493d-9f27-fbe3b202f856.png)
+</details>
+
+<details>
+<summary>Allocation Styles: Work Assignment. "Who will do the job". Specializations: Platform-style, Competence-center, Open-Source</summary>
+
+  ![image](https://user-images.githubusercontent.com/4239376/222540193-470d6f2f-61ce-421b-b374-baa919aa8257.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222540537-90f1a5e2-f463-4f78-8b3b-848367e1c780.png)
+  
+  ## Example
+  ![image](https://user-images.githubusercontent.com/4239376/222541615-0b19cafe-e1df-4324-9191-236378ac4c96.png)
+  
+  ## Specialization. Platform-style vs Competence-center vs Open-Source
+  ![image](https://user-images.githubusercontent.com/4239376/222541757-f7374526-7edc-4763-ae9e-76e83d55b5a4.png)
+
+</details>
 
 ## Architecture Views. Documenting Software Architecture. Properties to document in your Architecture Document
 <details>
