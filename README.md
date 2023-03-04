@@ -629,10 +629,49 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 <details>
 <summary>General Principles</summary>
 
-![image](https://user-images.githubusercontent.com/4239376/222563674-d1be3db7-90f9-4917-895d-1be225da216b.png)
-![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222563674-d1be3db7-90f9-4917-895d-1be225da216b.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
+</details>
+
+<details>
+<summary>What Views to choose. 3 step principle: Build Stakeholders table, Combine Views (rule of thumb), Prioritize documentation</summary>
+  
+  ## Stakeholders table
+  * PS: It's also important to include at least one Model, one C&C diagrams to your documentation.
+  * Build Stakeholders table
+  * Dont accept all their wishes, you need to document architectures which help them in their work, not "just nice to have"
+  ![image](https://user-images.githubusercontent.com/4239376/222925407-e7c2869c-f300-43ac-9958-90275ffdc5cd.png)
+  ## Which View to apply?
+  ![image](https://user-images.githubusercontent.com/4239376/222925817-5dda8d2e-f878-4f0c-81e1-8a2e15725d32.png)
+
+  ### Example using real system
+  ![image](https://user-images.githubusercontent.com/4239376/222925500-55417008-c32d-4691-af8e-e408ec4b5848.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222925612-4554746d-07c5-4c4a-b182-843c3ec2b318.png)
+  * D - detailed, S - some information, O - Overview
+  ![image](https://user-images.githubusercontent.com/4239376/222925937-9d719e3e-7701-4d5d-bb9f-bcb9cea5a0a7.png)
+  
+  ## Combine Views. use Rule of Thumb 
+  ![image](https://user-images.githubusercontent.com/4239376/222926283-b7eb536c-dffb-4db7-9f83-903e0bde45aa.png)
+  ### Example. View set
+  * Instead of 12 diagrams we selected 8 and decide to make combine view for 2. It means we need 7 diagrams
+  * It still could make our documentation redundant, so we need to prioritize them and combine-simplify them if they are not super important  
+  ![image](https://user-images.githubusercontent.com/4239376/222926337-4b001d74-5a19-4e63-8ec9-98a332c47d6f.png)
+  
+  ## Prioritize and Stage documentation
+  * Hints
+  * Go with high overview (not detailed architecture). It lets developers start their job and will help forming budgets
+  * High overview helps to begin the analysis
+  ![image](https://user-images.githubusercontent.com/4239376/222926513-46a5a78e-6f88-4b65-8cff-23c0398d2b55.png)
+  ### Merging different views together
+  * Having 7 views after prioritization we receive 3 primary and 4 minor views.
+  ![image](https://user-images.githubusercontent.com/4239376/222926577-3c71e88d-2281-4f16-b4bc-b4a455c18cf3.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222926652-0f548d93-e874-42b8-b934-2ebdb43575ee.png)
+
+  ## Summary
+  ![image](https://user-images.githubusercontent.com/4239376/222926737-871d0a6e-0ccf-4eba-81fb-83c4e7c203ee.png)
 
 </details>
+
 
 <details>
 <summary>Documenting: Interfaces.</summary>
