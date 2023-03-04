@@ -566,7 +566,7 @@ Used for:
 </details>
 
 <details>
-<summary>View Type: Allocation View</summary>
+<summary>View Type: Allocation View: Deployment, Implementation views. Their Refinements</summary>
   
 Details: https://sites.google.com/site/softwarearchitectureinpractice/9-documenting-software-architecture/d-allocation-views
   
@@ -580,6 +580,14 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   - Implementation View
   
 ![image](https://user-images.githubusercontent.com/4239376/219758203-12ca33d8-a1f9-425e-8a80-c6a60820d3c1.png)
+  
+  ## Implementation Refinement
+  * On the right we reveal that our connector is event dispatcher
+  * It might help to understand how teams need to change their interfaces to interact with dispatcher appropriately
+  * New questions to architect may appear and potentially you need to put your attention to how exactly event bus will work and what limitations now you have
+  * diagram on the left could be interested to people who are not so interested in tech details. The right - people who are more concerned about design
+  ![image](https://user-images.githubusercontent.com/4239376/222928073-ed5d5464-9395-49e4-9bba-f18ca36bda11.png)
+
 </details>
 
 <details>
