@@ -1,3 +1,16 @@
+# Contents
+# Table of contents
+0. [AWS Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
+1. [How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
+    a. [Architecture lifecycle](#architecture-patterns)
+    b. [Architecture patterns](#architecture-patterns)  
+    c. [Architecture style vs pattern](#architecture-style-vs-pattern)  
+    d. [Architecture Influence Cycle](#architecture-influence-cycle)
+2. [Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
+3. [Attribute-Driven Design](#attribute-driven-design-add)
+4. [Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
+5. [Architecture Style](##architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)
+    
 # How Much of Architecture is needed?
 
 ![image](https://user-images.githubusercontent.com/4239376/220193660-847a6bc1-be2d-4027-ae57-ca5e1d157c33.png)
