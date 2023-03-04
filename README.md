@@ -778,6 +778,31 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/222922024-92e9ca52-9c40-43c0-8401-cca2b6960bc0.png)
 </details>
 
+<details>
+<summary>Documeenting: Context Diagrams. Their Notations. System, environment, Relations. in C&C and Layered view.</summary>
+  
+  ![image](https://user-images.githubusercontent.com/4239376/222928379-9ef55983-3525-4eba-9639-b3c4920f9f8e.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222928419-f4c57623-b4b6-4249-9ecf-62db235092d9.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222928516-f320bcc8-e52e-433b-88da-1cfef24318b3.png)
+  
+  ## Example and explanation
+  ### General idea
+  * apply Context diagram only to one view in order to not repeat yourself each time
+  * you may show on context diagram the system itself and its runtime interactions with environment
+  * Runtime suggests C&C View for that
+  ![image](https://user-images.githubusercontent.com/4239376/222928523-05467fa5-ddc7-49fb-ab30-61936350b6cb.png)
+  
+  ## Context in layered View
+  ![image](https://user-images.githubusercontent.com/4239376/222928707-8ba5d094-e983-44a8-8a7e-85e5a5916fcf.png)
+  ## In other views
+  ![image](https://user-images.githubusercontent.com/4239376/222928839-51a8beb3-4f50-4126-b192-66d85d476d26.png)
+
+  ## Notations. Boxes and Lines, UML.
+  ![image](https://user-images.githubusercontent.com/4239376/222928927-ded7f17d-16c3-41a0-a64b-b87241bbf476.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222928986-ddb0b82a-5146-4695-85be-1c365a86e795.png)
+
+</details>
+
 ## Architecture Evaluation. Measure and Output. ATAM
 <details>
 <summary>Architecture Evaluation. Approaches and Techniques. Evaluation Output</summary>
