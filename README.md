@@ -161,11 +161,20 @@ Used for:
 
 ### Module Styles in details.
 <details>
-<summary>Module Styles: Decomposition Style</summary>
+<summary>Module Styles: Decomposition Style. Decomposition Refinement</summary>
 
   ## Decomposition Style. Notations
   ![image](https://user-images.githubusercontent.com/4239376/221415293-65b42494-f3a5-419c-a736-23ff09066f3d.png)
   ![image](https://user-images.githubusercontent.com/4239376/221415534-c3f6a92c-ce24-4fcd-a6b1-7d1f1b34d9aa.png)
+  
+  ## Decomposition Refinement
+  * Need to understand if inner structure is needed
+  ![image](https://user-images.githubusercontent.com/4239376/222927910-23eaac9e-f2c8-4425-ae3c-2650176d8428.png)
+  
+  ## Decomposition refinement in UML
+  ![image](https://user-images.githubusercontent.com/4239376/222927980-c104e55d-0a45-4759-9313-03114a3d1b51.png)
+
+
 </details>
 
 <details>
