@@ -1,20 +1,28 @@
 # Contents
 # Table of contents
-0. [AWS Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
-1. [How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
+0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
+1. [Azure](#governance-and-compliance-materials)
+    a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)
+    b. [Azure: Authentication & Authorization](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/authentication%20authorization.md)
+    c. [Azure: Service Principal, Managed Identity, and Service Connection](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/service%20principals%2Cmanaged%20Identities%2Cvault%20authentication.md)
+    d. [Azure: Data Materials](#data-materials)
+    e. [Azure: Design Relational Data Storage](#design-for-relational-data-storage)
+    f. [Azure: Active Geo-replication](#active-geo-replication)
+    g. [Azure: Networking](#design-networking)
+    h. [Azure: High Availability and Traffic Manager](#high-availability-with-traffic-manager)
+4. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
     a. [Architecture lifecycle](#architecture-patterns)  
     b. [Architecture patterns](#architecture-patterns)  
     c. [Architecture style vs pattern](#architecture-style-vs-pattern)  
     d. [Architecture Influence Cycle](#architecture-influence-cycle)  
-2. [Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
-3. [Attribute-Driven Design](#attribute-driven-design-add)
-4. [Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
-5. [Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
+5. [Architecture: Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
+6. [Architecture: Attribute-Driven Design](#attribute-driven-design-add)
+7. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
+8. [Architecture: Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-6. [Architecture Views](#architecture-views-documenting-software-architecture-properties-to-document-in-your-architecture-document)
-7. [Documenting Architecture. Recommendations](#documenting-architecture)
+10. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)
     
     
 # How Much of Architecture is needed?
@@ -77,6 +85,38 @@ On the other hand style is about Solution, it well describes what exactly was se
 <summary>twelve factor application (12 factor explained)</summary>
 
 [The twelve factor application (12-factor)](https://12factor.net/)  
+</details>
+
+<details>
+<summary>Forward & Reverse Proxies</summary>
+
+  When people talk about proxy they usually mean forward proxy.  
+  Forward proxy - kind of proxy when you have a several services which reach one resource in the internet. And you may create a service which adds some information (headers) to such request and\or transform them somehow before forwarding (change the address of destination).  
+  Good forward proxy example: Fiddler;  
+    
+    
+  Good reverse proxy examples: Nginx, IIS, API Gateway, Load Balancer, etc.  
+You may need them for:    
+  1. Manage calls coming to your services (Being a facade of your services)
+  2. Check whether coming calls which have basic authentication - are able to interact with the service
+  3. Load Balancing (on OSI level4 for TCP and UDP traffic and for OSI level7 for HTTP\HTTPS traffic)
+  4. SSL termination - request coming to reverse proxy (Nginx for example) may be HTTPS, but forwarded request will be http
+  5. Caching mechanisms
+  6. Throttling - to control the input, e.g. amount of requests per seconds 
+  7. Billing - to control the amount of requests and to help making a bill for them  
+  8. DDos mitigation  
+  9. Retry Policy. It may automatically make a retry to another service instance behind it if the certain one is unreachable    
+![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
+  
+  Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.  
+
+> **_NOTE:_** It's impossible to keep endpoints in sync as service instances come\go. Client code must be robust against this  
+
+![image](https://user-images.githubusercontent.com/4239376/160920117-1ac1ab2b-7131-40b8-a56e-79c9314e98d9.png)  
+
+  Another example of reverse proxy with load balancer + healthcheck role  
+![image](https://user-images.githubusercontent.com/4239376/160923562-490c43b1-efe8-4ea0-86e0-ce2b47b49f90.png)
+
 </details>
 
 # Carnegie Mellon Univercity
@@ -1078,44 +1118,11 @@ You can use active geo-replication to:
 
 * Automatically, by using Traffic Manager, with more complex architectures and multiple sets of resources capable of performing the same function, you can configure Azure Traffic Manager (based on DNS). Traffic Manager checks the health of your resources and routes the traffic from the non-healthy resource to the healthy resource automatically.
 
-High Availability with Traffic Manager:
+## High Availability with Traffic Manager:
 | Approach |	Description |
 | -------- | ------------ |
 | Active/Passive with cold standby	| Your VMs (and other appliances) that are running in the standby region aren't active until needed. However, your production environment is replicated to a different region. This approach is cost-effective but takes longer to undertake a complete failover. |
 | Active/Passive with pilot light	| You establish the standby environment with a minimal configuration; it has only the necessary services running to support a minimal and critical set of apps. In its default form, this approach can only execute minimal functionality. However, it can scale up and spawn more services, as needed, to take more of the production load during a failover. |
 | Active/Passive with warm standby | Your standby region is pre-warmed and is ready to take the base load. Auto scaling is on, and all the instances are up and running. This approach isn't scaled to take the full production load but is functional, and all services are up and running. |
-
-
-<details>
-<summary>Forward & Reverse Proxies</summary>
-
-  When people talk about proxy they usually mean forward proxy.  
-  Forward proxy - kind of proxy when you have a several services which reach one resource in the internet. And you may create a service which adds some information (headers) to such request and\or transform them somehow before forwarding (change the address of destination).  
-  Good forward proxy example: Fiddler;  
-    
-    
-  Good reverse proxy examples: Nginx, IIS, API Gateway, Load Balancer, etc.  
-You may need them for:    
-  1. Manage calls coming to your services (Being a facade of your services)
-  2. Check whether coming calls which have basic authentication - are able to interact with the service
-  3. Load Balancing (on OSI level4 for TCP and UDP traffic and for OSI level7 for HTTP\HTTPS traffic)
-  4. SSL termination - request coming to reverse proxy (Nginx for example) may be HTTPS, but forwarded request will be http
-  5. Caching mechanisms
-  6. Throttling - to control the input, e.g. amount of requests per seconds 
-  7. Billing - to control the amount of requests and to help making a bill for them  
-  8. DDos mitigation  
-  9. Retry Policy. It may automatically make a retry to another service instance behind it if the certain one is unreachable    
-![image](https://user-images.githubusercontent.com/4239376/160917251-4cdcd9b5-f2cb-449f-89b3-38ce42d11def.png)  
-  
-  Reverse proxy example. RP-I is Reverse proxy and it plays a load balancer role here.  
-
-> **_NOTE:_** It's impossible to keep endpoints in sync as service instances come\go. Client code must be robust against this  
-
-![image](https://user-images.githubusercontent.com/4239376/160920117-1ac1ab2b-7131-40b8-a56e-79c9314e98d9.png)  
-
-  Another example of reverse proxy with load balancer + healthcheck role  
-![image](https://user-images.githubusercontent.com/4239376/160923562-490c43b1-efe8-4ea0-86e0-ce2b47b49f90.png)
-
-</details>
 
 
