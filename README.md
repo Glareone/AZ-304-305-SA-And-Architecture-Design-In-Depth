@@ -1,7 +1,7 @@
 # Contents
 # Table of contents
 0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
-1. [Azure](#governance-and-compliance-materials)  
+1. [Azure Solution Architect in Practice](#governance-and-compliance-materials)  
     a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)  
     b. [Azure: Authentication & Authorization](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/authentication%20authorization.md)  
     c. [Azure: Service Principal, Managed Identity, and Service Connection](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/service%20principals%2Cmanaged%20Identities%2Cvault%20authentication.md)  
@@ -9,20 +9,21 @@
     e. [Azure: Design Relational Data Storage](#design-for-relational-data-storage)  
     f. [Azure: Active Geo-replication](#active-geo-replication)  
     g. [Azure: Networking](#design-networking)  
-    h. [Azure: High Availability and Traffic Manager](#high-availability-with-traffic-manager)  
-4. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
+    h. [Azure: High Availability and Traffic Manager](#high-availability-with-traffic-manager)   
+2. [Azure: Skylines Academies materials](#skylines-academy-materials)
+3. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
     a. [Architecture lifecycle](#architecture-patterns)  
     b. [Architecture patterns](#architecture-patterns)  
     c. [Architecture style vs pattern](#architecture-style-vs-pattern)  
     d. [Architecture Influence Cycle](#architecture-influence-cycle)  
-5. [Architecture: Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
-6. [Architecture: Attribute-Driven Design](#attribute-driven-design-add)
-7. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
-8. [Architecture: Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
+4. [Architecture: Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
+5. [Architecture: Attribute-Driven Design](#attribute-driven-design-add)
+6. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
+7. [Architecture: Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-10. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)
+8. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)
     
     
 # How Much of Architecture is needed?
