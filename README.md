@@ -2,14 +2,20 @@
 # Table of contents
 0. [AWS Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
 1. [How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
-    a. [Architecture lifecycle](#architecture-patterns)
+    a. [Architecture lifecycle](#architecture-patterns)  
     b. [Architecture patterns](#architecture-patterns)  
     c. [Architecture style vs pattern](#architecture-style-vs-pattern)  
-    d. [Architecture Influence Cycle](#architecture-influence-cycle)
+    d. [Architecture Influence Cycle](#architecture-influence-cycle)  
 2. [Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
 3. [Attribute-Driven Design](#attribute-driven-design-add)
 4. [Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
-5. [Architecture Style](##architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)
+5. [Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
+    a. [Module Styles](#module-styles-general-information)  
+    b. [Component & Connectors Styles](#components-and-connectors-styles)  
+    c. [Allocation Styles](#allocation-styles)  
+6. [Architecture Views](#architecture-views-documenting-software-architecture-properties-to-document-in-your-architecture-document)
+7. [Documenting Architecture. Recommendations](#documenting-architecture)
+    
     
 # How Much of Architecture is needed?
 
@@ -186,8 +192,6 @@ Used for:
   
   ## Decomposition refinement in UML
   ![image](https://user-images.githubusercontent.com/4239376/222927980-c104e55d-0a45-4759-9313-03114a3d1b51.png)
-
-
 </details>
 
 <details>
@@ -281,7 +285,7 @@ Used for:
   ![image](https://user-images.githubusercontent.com/4239376/221659918-5f4de157-f47e-4c65-a60f-7daf39678ba8.png)
 </details>
 
-### Component and Connector Styles. General Information
+## Components and Connectors Styles
 
 <details>
 <summary>Component and Connector Styles: Pipe and Filter, Client-Server, Service-Oriented (SOA), Publish-Subscribe, Shared-Data styles</summary>
@@ -317,8 +321,6 @@ Used for:
   
 ![image](https://user-images.githubusercontent.com/4239376/221663449-adbd158e-1a6e-4d68-865a-c42d62d13fdb.png)
 </details>
-
-### Component and Connector Styles in details
 
 <details>
 <summary>C&C Style: Pipe and Filter. Pipes and Filters in UML. Yahoo! Pipes</summary>
@@ -455,7 +457,7 @@ Used for:
   ![image](https://user-images.githubusercontent.com/4239376/221982337-233a7fdb-eda5-4755-aa6d-76999479b94f.png)
 </details>
 
-### Allocation Styles. General Information
+### Allocation Styles
 
 <details>
 <summary>Allocation Styles: Deployment, Install, Work Assignment styles</summary>
@@ -466,11 +468,8 @@ Used for:
   - Work Assignment Style
   
   ![image](https://user-images.githubusercontent.com/4239376/222535079-b08e5e93-2a2c-4183-a700-539ea5685a0b.png)
-
-
 </details>
 
-### Allocation Styles in details
 <details>
 <summary>Allocation Styles: Deployment</summary>
 
@@ -530,7 +529,7 @@ Used for:
 ![image](https://user-images.githubusercontent.com/4239376/221413977-72f09477-0606-4971-bf51-6e66cfd0a099.png)
 ![image](https://user-images.githubusercontent.com/4239376/221414027-074597a6-9243-4ce3-ab41-b18641a77d61.png)
 
-**Example:** 
+  **Example:** 
   1) Performance Attribute: you need to document best and worst response time properties. Or maximum number of event that element can service per time unit (per secord or per minute).
   2) Security: perhaps you need to document the level of encryption and authorization rules for different elements and relations.
   
