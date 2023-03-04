@@ -625,12 +625,17 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 ## Documenting Architecture
+
+<details>
+<summary>General Principles</summary>
+
 ![image](https://user-images.githubusercontent.com/4239376/222563674-d1be3db7-90f9-4917-895d-1be225da216b.png)
 ![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
 
-### Documeenting Interfaces. Documenting Behavior
+</details>
+
 <details>
-<summary>Documeenting: Interfaces. Documenting them. Examples</summary>
+<summary>Documenting: Interfaces.</summary>
 
   ## General idea
   ![image](https://user-images.githubusercontent.com/4239376/222552044-50e2b3b4-6878-4372-a89e-d6fa725fe6e8.png)
@@ -646,7 +651,9 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>Documeenting: Behavior</summary>
+<summary>Documeenting: Behavior. Dynamic properties vs static properties. TTR, Throughput</summary>
+
+  * Behavior documentation is needed to declare dynamic properties of built system: time to response, throughput, etc.
 
   ![image](https://user-images.githubusercontent.com/4239376/222555628-6f8ef5fa-34e7-43a6-85f7-a730c4c9533e.png)
   ![image](https://user-images.githubusercontent.com/4239376/222554986-461ac3d8-e743-4b1e-8a7c-d4e7bb63f6d6.png)
