@@ -651,13 +651,75 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>Documeenting: Behavior. Dynamic properties vs static properties. TTR, Throughput</summary>
+<summary>Documeenting: Behavior. Dynamic properties vs static properties. time to response (TTR), Throughput</summary>
 
   * Behavior documentation is needed to declare dynamic properties of built system: time to response, throughput, etc.
+  * It supports system analysis as it executes.
+  * Answers on "in what order components interact".
+  * Depicts transition from State to State to State
+  * What the system status under certain circumstances
+  * How the system startup
+  * Can guarantee that the system works as indended under variety of conditions
+  
 
   ![image](https://user-images.githubusercontent.com/4239376/222555628-6f8ef5fa-34e7-43a6-85f7-a730c4c9533e.png)
   ![image](https://user-images.githubusercontent.com/4239376/222554986-461ac3d8-e743-4b1e-8a7c-d4e7bb63f6d6.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222921012-1964adb9-8a08-4872-8283-881b1fbdde71.png)
 
+</details>
+
+<details>
+<summary>Documeenting: Behavior. When and why. Trace-oriented vs Comprehensive language</summary>
+  
+  * useful in documenting interfaces and templates
+  ![image](https://user-images.githubusercontent.com/4239376/222922289-8a7c27b8-f18a-4897-bd8e-fb0475fad424.png)
+  ![image](https://user-images.githubusercontent.com/4239376/222922355-f65356c3-2b55-4763-919e-5ba560250ce4.png)
+  
+  * Both Comprehensive and Trace-oriented may represent the whole system and any part of sub-systems
+  ![image](https://user-images.githubusercontent.com/4239376/222922370-38d3f5cd-47ce-42ed-beaa-d36cc22e9cbc.png)
+</details>
+
+<details>
+<summary>Documeenting: Behavior. Trace-oriented Language & Comprehensive Language. BPMN Notation. Diagrams: Collaboration, Sequence, Activity</summary>
+
+  ![image](https://user-images.githubusercontent.com/4239376/222921068-c67086cf-9669-47c0-8dd7-dad10dd0efd4.png)
+  ### Trace-oriented Language
+  * Trace-oriented language answers on the question "what happens when particular stimulus arrives or in specific state"
+  * It does not help us to capture all possible behaviors unless you are collecting them
+  
+  ### Comprehensive Language
+  * Shows complete behavior of that system
+  * usually Statemachine or StateChart diagrams
+  
+  ![image](https://user-images.githubusercontent.com/4239376/222921260-f3723b65-4f50-49bf-a7ff-dd94635d4cd4.png)
+  
+  ## Activity diagram
+  ![image](https://user-images.githubusercontent.com/4239376/222921360-51199c1a-fdba-42dc-8c97-ca25cda87c36.png)
+  ### Activity diagram example
+  ![image](https://user-images.githubusercontent.com/4239376/222921496-812f3388-a3e0-4b6a-8306-27117f5cefef.png)
+  
+  ## BPMN
+  ![image](https://user-images.githubusercontent.com/4239376/222921628-ee26e08b-e1d8-46dc-8e82-9d6abcc615b7.png)
+  ### BPMN Example (Same diagram as Activity diagram, but with another focus)
+  ![image](https://user-images.githubusercontent.com/4239376/222921667-52c55c0d-6e89-44ca-8202-5ddb0ca2aee5.png)
+
+  ## Sequence (rely on Trace-oriented Language)
+  * Sequence diagram shows only one trace, not all possible traces
+  ![image](https://user-images.githubusercontent.com/4239376/222921715-3d57174f-9f0a-4ee5-9dfb-6c80135441ef.png)
+  ### Sequence diagram example
+  ![image](https://user-images.githubusercontent.com/4239376/222921768-af5b8e15-352b-4fcf-a67e-cf95fcb41d4a.png)
+  ### Sequence diagram in UML
+  ![image](https://user-images.githubusercontent.com/4239376/222921839-94b7eee0-2ddd-41f3-ae08-ea1c1c2cc482.png)
+  
+  ## State Machine diagram
+  * Not good for showing interactions among components becaue states are not software modules, but state of subsystem or system
+  * Tend to be well understood by developers and programmers, but not managers without giving extra explanation
+  ![image](https://user-images.githubusercontent.com/4239376/222921891-1d1c157f-921d-45b4-9246-93c4ffcc4618.png)
+  ### State Machine example
+  * It's possible that two different transactions could become eligible
+  * State machine diagram could depict parallel processes
+  * One state machine could depend on another state machine
+  ![image](https://user-images.githubusercontent.com/4239376/222922024-92e9ca52-9c40-43c0-8401-cca2b6960bc0.png)
 </details>
 
 ## Architecture Evaluation. Measure and Output. ATAM
