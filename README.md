@@ -25,6 +25,8 @@
     c. [Allocation Styles](#allocation-styles)  
 8. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)
     
+# Other Good Articles
+1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
     
 # How Much of Architecture is needed?
 
