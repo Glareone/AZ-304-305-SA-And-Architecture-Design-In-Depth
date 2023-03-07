@@ -10,6 +10,7 @@
     f. [Azure: Active Geo-replication](#active-geo-replication)  
     g. [Azure: Networking](#design-networking)  
     h. [Azure: High Availability and Traffic Manager](#high-availability-with-traffic-manager)   
+    i. [Azure: Architecture examples by Microsoft](https://learn.microsoft.com/en-us/azure/architecture/browse)
 2. [Azure: Skylines Academies materials](#skylines-academy-materials)
 3. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
     a. [Architecture lifecycle](#architecture-patterns)  
