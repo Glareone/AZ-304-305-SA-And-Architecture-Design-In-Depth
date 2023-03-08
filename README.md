@@ -24,7 +24,7 @@
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-8. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)  
+8. [Documenting Architecture. Views. Combine Views. Hybrid view](#documenting-architecture)  
     a. [Documenting Decisions. Topic 2. Documenting Complex Architecture Decisions](#documenting-architecture)
     
 # Other Good Articles
@@ -708,7 +708,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>What Views to choose. 3 step principle: Build Stakeholders table, Combine Views (rule of thumb), Prioritize documentation</summary>
+<summary>What Views to choose. 3 step principle: Build Stakeholders table, Combine Views (rule of thumb), Prioritize documentation. Part 1</summary>
   
   ## Stakeholders table
   * PS: It's also important to include at least one Model, one C&C diagrams to your documentation.
@@ -744,6 +744,29 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ## Summary
   ![image](https://user-images.githubusercontent.com/4239376/222926737-871d0a6e-0ccf-4eba-81fb-83c4e7c203ee.png)
 
+</details>
+
+<details>
+<summary>Combine Views. Hybrid Views. Overlay Part 2</summary>
+  
+    ![image](https://user-images.githubusercontent.com/4239376/223840773-c21c271c-69c9-45d5-9ae5-6f3f18b582d6.png)
+    
+    ## Overlay approach. Examples
+    ![image](https://user-images.githubusercontent.com/4239376/223841089-cc13f9af-5f42-46d6-85e5-35183a969926.png)
+    ![image](https://user-images.githubusercontent.com/4239376/223841397-d70f9259-b3ae-4f23-864f-682e1c2a21ef.png)
+    
+    ## Case. Example
+    * we had 2 small diagrams and decided to merge them together
+    ![image](https://user-images.githubusercontent.com/4239376/223844752-5c8c2aee-6f7c-483f-afa3-2d0de69f7653.png)
+    * such overlaying might recognize the component which is not well defined and understand how we gonna built it
+    ![image](https://user-images.githubusercontent.com/4239376/223844578-77799319-ff59-42b3-805d-89a25d91b9dc.png)
+
+    ## Tips and Tricks
+    * in case of aspects and generalization: aspects are special kind of classes and in generalization view they overlay very easily
+    ![image](https://user-images.githubusercontent.com/4239376/223843789-456293eb-4946-4fd5-84fd-9847d0932695.png)
+    
+    ## Summary
+    ![image](https://user-images.githubusercontent.com/4239376/223845280-8bbf9e0e-e683-4542-bb16-888ef3314f20.png)
 </details>
 
 
