@@ -24,7 +24,8 @@
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-8. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)
+8. [Architecture: Documenting Architecture. Recommendations](#documenting-architecture)  
+    a. [Documenting Decisions. Topic 2. Documenting Complex Architecture Decisions](#documenting-architecture)
     
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
