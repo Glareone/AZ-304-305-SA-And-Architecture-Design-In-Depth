@@ -763,7 +763,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>Documeenting: Behavior. Dynamic properties vs static properties. time to response (TTR), Throughput</summary>
+<summary>Documenting: Behavior. Dynamic properties vs static properties. time to response (TTR), Throughput</summary>
 
   * Behavior documentation is needed to declare dynamic properties of built system: time to response, throughput, etc.
   * It supports system analysis as it executes.
@@ -781,7 +781,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>Documeenting: Behavior. When and why. Trace-oriented vs Comprehensive language</summary>
+<summary>Documenting: Behavior. When and why. Trace-oriented vs Comprehensive language</summary>
   
   * useful in documenting interfaces and templates
   ![image](https://user-images.githubusercontent.com/4239376/222922289-8a7c27b8-f18a-4897-bd8e-fb0475fad424.png)
@@ -792,7 +792,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>Documeenting: Behavior. Trace-oriented Language & Comprehensive Language. BPMN Notation. Diagrams: Collaboration, Sequence, Activity</summary>
+<summary>Documenting: Behavior. Trace-oriented Language & Comprehensive Language. BPMN Notation. Diagrams: Collaboration, Sequence, Activity</summary>
 
   ![image](https://user-images.githubusercontent.com/4239376/222921068-c67086cf-9669-47c0-8dd7-dad10dd0efd4.png)
   ### Trace-oriented Language
@@ -835,7 +835,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
 
 <details>
-<summary>Documeenting: Context Diagrams. Their Notations. System, environment, Relations. in C&C and Layered view.</summary>
+<summary>Documenting: Context Diagrams. Their Notations. System, environment, Relations. in C&C and Layered view.</summary>
   
   ![image](https://user-images.githubusercontent.com/4239376/222928379-9ef55983-3525-4eba-9639-b3c4920f9f8e.png)
   ![image](https://user-images.githubusercontent.com/4239376/222928419-f4c57623-b4b6-4249-9ecf-62db235092d9.png)
@@ -856,6 +856,35 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ## Notations. Boxes and Lines, UML.
   ![image](https://user-images.githubusercontent.com/4239376/222928927-ded7f17d-16c3-41a0-a64b-b87241bbf476.png)
   ![image](https://user-images.githubusercontent.com/4239376/222928986-ddb0b82a-5146-4695-85be-1c365a86e795.png)
+
+</details>
+
+<details>
+<summary>Documenting: Decisions. Capturing Complex Architecture Decisions. 12 steps-parts document</summary>
+
+    ## General rule. When and What
+    * If decision took 5 minutes - probably it's not worth to document. 
+    * If 5 days - so, yes.
+    * Document the future steps especially if you have concerns regarding decisions you have made. Good start point in the next communication with your manager.
+    ![image](https://user-images.githubusercontent.com/4239376/223834467-f9975bd9-c437-4ccc-a17e-07d944182c05.png)
+    ![image](https://user-images.githubusercontent.com/4239376/223836065-2825f193-04b1-43ce-9310-a2113a1da90a.png)
+    ![image](https://user-images.githubusercontent.com/4239376/223837076-d5b362f8-93ab-4ae6-9589-ad1efc845b82.png)
+
+    ## Complex Architecture Decisions
+    * Consists of 12 steps. All are on slides
+  
+    ![image](https://user-images.githubusercontent.com/4239376/223829002-161b8c0f-a735-4497-a073-1933de5385d5.png)
+    ![image](https://user-images.githubusercontent.com/4239376/223830359-9b0b91ee-e779-4096-96d6-a3a9d6ac1ea5.png)
+    
+    * in section 9 you may declare what temporarly decisions you have made. It's useful because you can declare unfortunate cases when you need to move back and reconsider because you hit the dead end.
+    * Under affected Artifacts you can but what's affected - budgets and\or schedules. 
+    ![image](https://user-images.githubusercontent.com/4239376/223831203-4abd96b4-bb18-4612-8bd5-e582927ac21e.png)
+</details>
+
+<details>
+<summary>Documenting: Evaluation of Alternatives and Objectives</summary>
+
+  ![image](https://user-images.githubusercontent.com/4239376/223833507-2e513487-057b-4606-a659-0f88d2d51e95.png)
 
 </details>
 
