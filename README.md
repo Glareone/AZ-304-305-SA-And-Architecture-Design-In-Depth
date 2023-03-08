@@ -707,6 +707,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
 </details>
 
+### Combine Views. Hydrid View
 <details>
 <summary>What Views to choose. 3 step principle: Build Stakeholders table, Combine Views (rule of thumb), Prioritize documentation. Part 1</summary>
   
@@ -769,9 +770,10 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
     ![image](https://user-images.githubusercontent.com/4239376/223845280-8bbf9e0e-e683-4542-bb16-888ef3314f20.png)
 </details>
 
+### Documenting Interfaces, Behavior, Context
 
 <details>
-<summary>Documenting: Interfaces.</summary>
+<summary>Documenting: Interfaces</summary>
 
   ## General idea
   ![image](https://user-images.githubusercontent.com/4239376/222552044-50e2b3b4-6878-4372-a89e-d6fa725fe6e8.png)
@@ -801,7 +803,6 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/222555628-6f8ef5fa-34e7-43a6-85f7-a730c4c9533e.png)
   ![image](https://user-images.githubusercontent.com/4239376/222554986-461ac3d8-e743-4b1e-8a7c-d4e7bb63f6d6.png)
   ![image](https://user-images.githubusercontent.com/4239376/222921012-1964adb9-8a08-4872-8283-881b1fbdde71.png)
-
 </details>
 
 <details>
