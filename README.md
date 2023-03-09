@@ -754,24 +754,25 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 <details>
 <summary>Combine Views. Hybrid Views. Overlay Part 2</summary>
   
-    ![image](https://user-images.githubusercontent.com/4239376/223840773-c21c271c-69c9-45d5-9ae5-6f3f18b582d6.png)
+ ![image](https://user-images.githubusercontent.com/4239376/223840773-c21c271c-69c9-45d5-9ae5-6f3f18b582d6.png)
     
-    ## Overlay approach. Examples
-    ![image](https://user-images.githubusercontent.com/4239376/223841089-cc13f9af-5f42-46d6-85e5-35183a969926.png)
-    ![image](https://user-images.githubusercontent.com/4239376/223841397-d70f9259-b3ae-4f23-864f-682e1c2a21ef.png)
+ ## Overlay approach. Examples  
+ ![image](https://user-images.githubusercontent.com/4239376/223841089-cc13f9af-5f42-46d6-85e5-35183a969926.png)
+ ![image](https://user-images.githubusercontent.com/4239376/223841397-d70f9259-b3ae-4f23-864f-682e1c2a21ef.png)
     
-    ## Case. Example
-    * we had 2 small diagrams and decided to merge them together
-    ![image](https://user-images.githubusercontent.com/4239376/223844752-5c8c2aee-6f7c-483f-afa3-2d0de69f7653.png)
-    * such overlaying might recognize the component which is not well defined and understand how we gonna built it
-    ![image](https://user-images.githubusercontent.com/4239376/223844578-77799319-ff59-42b3-805d-89a25d91b9dc.png)
+ ## Case. Example   
+ * we had 2 small diagrams and decided to merge them together
+ ![image](https://user-images.githubusercontent.com/4239376/223844752-5c8c2aee-6f7c-483f-afa3-2d0de69f7653.png)
+ * such overlaying might recognize the component which is not well defined and understand how we gonna built it
+ ![image](https://user-images.githubusercontent.com/4239376/223844578-77799319-ff59-42b3-805d-89a25d91b9dc.png)
 
-    ## Tips and Tricks
-    * in case of aspects and generalization: aspects are special kind of classes and in generalization view they overlay very easily
-    ![image](https://user-images.githubusercontent.com/4239376/223843789-456293eb-4946-4fd5-84fd-9847d0932695.png)
+ ## Tips and Tricks
+ * in case of aspects and generalization: aspects are special kind of classes and in generalization view they overlay very easily
+ ![image](https://user-images.githubusercontent.com/4239376/223843789-456293eb-4946-4fd5-84fd-9847d0932695.png)
     
-    ## Summary
-    ![image](https://user-images.githubusercontent.com/4239376/223845280-8bbf9e0e-e683-4542-bb16-888ef3314f20.png)
+ ## Summary
+ ![image](https://user-images.githubusercontent.com/4239376/223845280-8bbf9e0e-e683-4542-bb16-888ef3314f20.png)
+    
 </details>
 
 ### Documenting Interfaces, Behavior, Context
@@ -891,23 +892,22 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 <details>
 <summary>Documenting: Decisions. Capturing Complex Architecture Decisions. 12 steps-parts document</summary>
 
-    ## General rule. When and What
-    * If decision took 5 minutes - probably it's not worth to document. 
-    * If 5 days - so, yes.
-    * Document the future steps especially if you have concerns regarding decisions you have made. Good start point in the next communication with your manager.
-    ![image](https://user-images.githubusercontent.com/4239376/223834467-f9975bd9-c437-4ccc-a17e-07d944182c05.png)
-    ![image](https://user-images.githubusercontent.com/4239376/223836065-2825f193-04b1-43ce-9310-a2113a1da90a.png)
-    ![image](https://user-images.githubusercontent.com/4239376/223837076-d5b362f8-93ab-4ae6-9589-ad1efc845b82.png)
+ ## General rule. When and What
+ * If decision took 5 minutes - probably it's not worth to document. 
+ * If 5 days - so, yes.
+ * Document the future steps especially if you have concerns regarding decisions you have made. Good start point in the next communication with your manager.
+ ![image](https://user-images.githubusercontent.com/4239376/223834467-f9975bd9-c437-4ccc-a17e-07d944182c05.png)
+ ![image](https://user-images.githubusercontent.com/4239376/223836065-2825f193-04b1-43ce-9310-a2113a1da90a.png)
+ ![image](https://user-images.githubusercontent.com/4239376/223837076-d5b362f8-93ab-4ae6-9589-ad1efc845b82.png)
 
-    ## Complex Architecture Decisions
-    * Consists of 12 steps. All are on slides
-  
-    ![image](https://user-images.githubusercontent.com/4239376/223829002-161b8c0f-a735-4497-a073-1933de5385d5.png)
-    ![image](https://user-images.githubusercontent.com/4239376/223830359-9b0b91ee-e779-4096-96d6-a3a9d6ac1ea5.png)
+ ## Complex Architecture Decisions
+ * Consists of 12 steps. All are on slides
+ ![image](https://user-images.githubusercontent.com/4239376/223829002-161b8c0f-a735-4497-a073-1933de5385d5.png)
+ ![image](https://user-images.githubusercontent.com/4239376/223830359-9b0b91ee-e779-4096-96d6-a3a9d6ac1ea5.png)
     
-    * in section 9 you may declare what temporarly decisions you have made. It's useful because you can declare unfortunate cases when you need to move back and reconsider because you hit the dead end.
-    * Under affected Artifacts you can but what's affected - budgets and\or schedules. 
-    ![image](https://user-images.githubusercontent.com/4239376/223831203-4abd96b4-bb18-4612-8bd5-e582927ac21e.png)
+ * in section 9 you may declare what temporarly decisions you have made. It's useful because you can declare unfortunate cases when you need to move back and reconsider because you hit the dead end.
+ * Under affected Artifacts you can but what's affected - budgets and\or schedules. 
+ ![image](https://user-images.githubusercontent.com/4239376/223831203-4abd96b4-bb18-4612-8bd5-e582927ac21e.png)
 </details>
 
 <details>
@@ -922,39 +922,39 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 <details>
 <summary>6 steps of Documentation Review Process</summary>
 
-    ### Overall
-    * Avoid the type of review process when you gather people two weeks before deadline.
-    ![image](https://user-images.githubusercontent.com/4239376/224145126-6d7d9abc-950c-400c-b63d-7375eddc4981.png)
+ ### Overall
+ * Avoid the type of review process when you gather people two weeks before deadline.
+ ![image](https://user-images.githubusercontent.com/4239376/224145126-6d7d9abc-950c-400c-b63d-7375eddc4981.png)
     
-    ### Step 1. Identify Stakeholders
-    ![image](https://user-images.githubusercontent.com/4239376/224145744-0a64ea6e-9266-4899-a80d-8213786205a4.png)
-    ![image](https://user-images.githubusercontent.com/4239376/224146183-c5ef2b36-a58b-4453-ad01-162ebca873de.png)
+ ### Step 1. Identify Stakeholders
+ ![image](https://user-images.githubusercontent.com/4239376/224145744-0a64ea6e-9266-4899-a80d-8213786205a4.png)
+ ![image](https://user-images.githubusercontent.com/4239376/224146183-c5ef2b36-a58b-4453-ad01-162ebca873de.png)
 
-    ### Step 2. Identify Artifacts needed to be on hand for the review
-    #### Also it's important to understand what else stakeholders need along with architecture diagrams
-    ![image](https://user-images.githubusercontent.com/4239376/224146813-6ebe3746-d1ad-43f3-b346-7e820e477558.png)
+ ### Step 2. Identify Artifacts needed to be on hand for the review
+ #### Also it's important to understand what else stakeholders need along with architecture diagrams
+ ![image](https://user-images.githubusercontent.com/4239376/224146813-6ebe3746-d1ad-43f3-b346-7e820e477558.png)
     
-    ### Step 3. Build question set
-    #### Worst scenario if you ask reviewers "let us know what you think!"
-    ![image](https://user-images.githubusercontent.com/4239376/224147576-676e21a3-baf5-4bd3-a9de-e497c7cacb62.png)
+ ### Step 3. Build question set
+ #### Worst scenario if you ask reviewers "let us know what you think!"
+ ![image](https://user-images.githubusercontent.com/4239376/224147576-676e21a3-baf5-4bd3-a9de-e497c7cacb62.png)
 
-    ### Step 4. Plan the Review. Manage date, participants, assign questions
-    #### Options: group workshop, all in one room or separate meetings in parallel. One-one interviews are also applicable
-    ![image](https://user-images.githubusercontent.com/4239376/224148458-3f69b3cc-ed38-4a35-b93d-0713327179dd.png)
-    ![image](https://user-images.githubusercontent.com/4239376/224148890-61819e28-f85a-4a4e-9f7c-f7b17f34da0d.png)
-    #### New option: Active design review
-    * Avoid the type of review process when you gather people two weeks before deadline.
-    ![image](https://user-images.githubusercontent.com/4239376/224149473-77acdc22-ecff-419f-b910-84058f573d17.png)
+ ### Step 4. Plan the Review. Manage date, participants, assign questions
+ #### Options: group workshop, all in one room or separate meetings in parallel. One-one interviews are also applicable
+ ![image](https://user-images.githubusercontent.com/4239376/224148458-3f69b3cc-ed38-4a35-b93d-0713327179dd.png)
+ ![image](https://user-images.githubusercontent.com/4239376/224148890-61819e28-f85a-4a4e-9f7c-f7b17f34da0d.png)
+ #### New option: Active design review
+ * Avoid the type of review process when you gather people two weeks before deadline.
+ ![image](https://user-images.githubusercontent.com/4239376/224149473-77acdc22-ecff-419f-b910-84058f573d17.png)
 
-    ### Step 5. Perform the Review session
-    * Gather questions and answers
-    * Gather strenght and weaknesses of your document
-    ![image](https://user-images.githubusercontent.com/4239376/224151878-4d191a2b-c1f8-48cc-93c3-6d7b7d42408e.png)
+ ### Step 5. Perform the Review session
+ * Gather questions and answers
+ * Gather strenght and weaknesses of your document
+ ![image](https://user-images.githubusercontent.com/4239376/224151878-4d191a2b-c1f8-48cc-93c3-6d7b7d42408e.png)
     
-    ### Step 6. Summarize results
-    * Aggregate questions from reviewers
-    * Find problems in document. It's not simple "Pass\Fail", it's about finding weaknesses in documentaion
-    ![image](https://user-images.githubusercontent.com/4239376/224152101-c42fa067-943b-4849-8800-f51c665695f4.png)
+ ### Step 6. Summarize results
+ * Aggregate questions from reviewers
+ * Find problems in document. It's not simple "Pass\Fail", it's about finding weaknesses in documentaion
+ ![image](https://user-images.githubusercontent.com/4239376/224152101-c42fa067-943b-4849-8800-f51c665695f4.png)
 </details>
 
 ## Architecture Evaluation. Measure and Output. ATAM
