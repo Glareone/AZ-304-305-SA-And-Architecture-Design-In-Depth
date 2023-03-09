@@ -24,8 +24,12 @@
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-8. [Documenting Architecture. Views. Combine Views. Hybrid view](#documenting-architecture)  
-    a. [Documenting Decisions. Topic 2. Documenting Complex Architecture Decisions](#documenting-architecture)
+8. [Documenting Architecture. Views. Combine Views. Hybrid view](#documenting-architecture)    
+9. [Documenting Complex Architecture Decisions. Part2](#documenting-architecture)   
+    a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
+    b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
+10. [Reviewing Architecture Documentation](#reviewing-architecture-documentation)
+11. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
     
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
@@ -912,6 +916,8 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/223833507-2e513487-057b-4606-a659-0f88d2d51e95.png)
 
 </details>
+
+## Reviewing Architecture Documentation
 
 ## Architecture Evaluation. Measure and Output. ATAM
 <details>
