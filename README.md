@@ -917,7 +917,45 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
-## Reviewing Architecture Documentation
+## Reviewing Architecture Documentation. 6 Steps. Active Reviewing 
+
+<details>
+<summary>6 steps of Documentation Review Process</summary>
+
+    ### Overall
+    * Avoid the type of review process when you gather people two weeks before deadline.
+    ![image](https://user-images.githubusercontent.com/4239376/224145126-6d7d9abc-950c-400c-b63d-7375eddc4981.png)
+    
+    ### Step 1. Identify Stakeholders
+    ![image](https://user-images.githubusercontent.com/4239376/224145744-0a64ea6e-9266-4899-a80d-8213786205a4.png)
+    ![image](https://user-images.githubusercontent.com/4239376/224146183-c5ef2b36-a58b-4453-ad01-162ebca873de.png)
+
+    ### Step 2. Identify Artifacts needed to be on hand for the review
+    #### Also it's important to understand what else stakeholders need along with architecture diagrams
+    ![image](https://user-images.githubusercontent.com/4239376/224146813-6ebe3746-d1ad-43f3-b346-7e820e477558.png)
+    
+    ### Step 3. Build question set
+    #### Worst scenario if you ask reviewers "let us know what you think!"
+    ![image](https://user-images.githubusercontent.com/4239376/224147576-676e21a3-baf5-4bd3-a9de-e497c7cacb62.png)
+
+    ### Step 4. Plan the Review. Manage date, participants, assign questions
+    #### Options: group workshop, all in one room or separate meetings in parallel. One-one interviews are also applicable
+    ![image](https://user-images.githubusercontent.com/4239376/224148458-3f69b3cc-ed38-4a35-b93d-0713327179dd.png)
+    ![image](https://user-images.githubusercontent.com/4239376/224148890-61819e28-f85a-4a4e-9f7c-f7b17f34da0d.png)
+    #### New option: Active design review
+    * Avoid the type of review process when you gather people two weeks before deadline.
+    ![image](https://user-images.githubusercontent.com/4239376/224149473-77acdc22-ecff-419f-b910-84058f573d17.png)
+
+    ### Step 5. Perform the Review session
+    * Gather questions and answers
+    * Gather strenght and weaknesses of your document
+    ![image](https://user-images.githubusercontent.com/4239376/224151878-4d191a2b-c1f8-48cc-93c3-6d7b7d42408e.png)
+    
+    ### Step 6. Summarize results
+    * Aggregate questions from reviewers
+    * Find problems in document. It's not simple "Pass\Fail", it's about finding weaknesses in documentaion
+    ![image](https://user-images.githubusercontent.com/4239376/224152101-c42fa067-943b-4849-8800-f51c665695f4.png)
+</details>
 
 ## Architecture Evaluation. Measure and Output. ATAM
 <details>
