@@ -704,7 +704,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
-## Documenting Architecture. General Structure. General Principles
+## Documenting Architecture. General Structure. General Principles. Mapping Requirements
 
 <details>
 <summary>General Document Structure. General Principles</summary>
@@ -715,6 +715,25 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ### Principles
   ![image](https://user-images.githubusercontent.com/4239376/222563674-d1be3db7-90f9-4917-895d-1be225da216b.png)
   ![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
+</details>
+
+<details>
+<summary>Mapping requirements to design Decisions. Microsoft template</summary>
+   
+  ![image](https://user-images.githubusercontent.com/4239376/224508691-b3b81391-06cf-4a69-8884-70552b85d4bf.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224508707-c0da686e-1674-4477-885e-01aa103787db.png)
+    
+  ### Where to record such mapping
+  ![image](https://user-images.githubusercontent.com/4239376/224508792-3dcb67a9-98a5-45b4-993a-508f99e6071a.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224508893-e6429d6d-0916-40cc-8f46-eeeace94a586.png)
+  #### Allocation view could be used to depict mapping between requirements and design decisions.
+  * if could be a part of software design explanation
+  ![image](https://user-images.githubusercontent.com/4239376/224508958-113a9bf9-1311-4bed-9c72-676cee75b49c.png)
+
+  ### Summary. Microsoft Reference Template
+  ![image](https://user-images.githubusercontent.com/4239376/224509116-712e6221-efe0-444e-963b-3dc904303c2e.png)
+
+
 </details>
 
 ### Combine Views. Hydrid View
