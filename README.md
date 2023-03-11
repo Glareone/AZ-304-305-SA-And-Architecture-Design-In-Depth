@@ -968,7 +968,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/224507419-fe7938dc-2e72-41aa-b589-24d99c6c7c52.png)
 </details>
 
-## Views and Beyond. Alternatives: ISO\IEC 42010, DoDAF, Documentation in Agile
+## Views and Beyond. Alternatives: ISO 42010 (ISO\IEC 42010), DoDAF, Documentation in Agile
 
 <details>
 <summary>Views and Beyond. Template for Beyong view and rationale</summary>
@@ -989,7 +989,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 </details>
     
 <details>
-<summary>ISO\IEC 42010 (also known as IEEE 1471-2000). Alternative to "Views and Beyond"</summary>
+<summary>ISO\IEC 42010 (also known as IEEE 1471-2000). ISO42010 vs "Views and Beyond".Alternative to "Views and Beyond"</summary>
 
   ## ISO\IEC 42010. Also known as IEEE 1471-2000. Enterprise standard.
   ![image](https://user-images.githubusercontent.com/4239376/224509578-f4e4d2c7-a4e3-4ba9-9052-e45e4bb53de1.png)
@@ -1007,9 +1007,24 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/224510165-c2ca1700-8bef-4d0e-b4f2-5dc890759709.png)
   ![image](https://user-images.githubusercontent.com/4239376/224510187-4ad380de-18f6-4716-b8e7-aa3c3a3ba22c.png)
 
-    
 </details>
+ 
+<details>
+<summary>ISO 42010 vs Views and Beyond. Differences and Similarities</summary>
     
+  ## ISO42010 vs Beyong Views
+  ![image](https://user-images.githubusercontent.com/4239376/224510316-ac8b2be9-2dd5-4548-886c-5f821c710179.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224510384-b92d0260-2209-413d-a4e0-e18fc1d05eef.png)
+    
+  * 42010 requires explicit identification of stakeholders and their concerns
+  ![image](https://user-images.githubusercontent.com/4239376/224510432-92126ea6-08d9-4251-ad92-b4952f5d3bb8.png)
+    
+  * 42010 requires that you define the viewpoints. In Views and Beyond it's close to "architecture styles"
+  ![image](https://user-images.githubusercontent.com/4239376/224510492-ee76885d-6449-46d0-a6a4-14c0eb7b43ca.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224510589-e6dae783-8204-4915-984e-ac4ac27b8a03.png)
+
+</details>
+ 
 <details>
 <summary>DoDAF. Alternatives to "Views and Beyond"</summary>
 
