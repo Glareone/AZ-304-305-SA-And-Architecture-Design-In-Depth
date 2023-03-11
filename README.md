@@ -28,7 +28,8 @@
 9. [Documenting Complex Architecture Decisions. Part2](#documenting-architecture)   
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
-10. [Reviewing Architecture Documentation](#reviewing-architecture-documentation)
+    c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)
+10. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 11. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
     
 # Other Good Articles
@@ -914,7 +915,34 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 <summary>Documenting: Evaluation of Alternatives and Objectives</summary>
 
   ![image](https://user-images.githubusercontent.com/4239376/223833507-2e513487-057b-4606-a659-0f88d2d51e95.png)
+</details>
 
+### View Packets. Alternatives. How to build and document
+
+<details>
+<summary>Documenting: View Packets</summary>
+
+  * View packets is the way to split complex diagrams on parts. 
+  * Each view has parent, child, and\or siblings.
+  * In case you have view packets the overall document will lot a bit another
+  ![image](https://user-images.githubusercontent.com/4239376/224507126-fc519721-56f8-4a0f-bbb4-57568cf1fdcd.png)
+    
+  * View packets could also be very useful in ADD because inside View packet you can solve specific attribute questions.
+  * Create view and assign it particular responsibilities
+  * It also useful to save chronological predecessors 
+  ![image](https://user-images.githubusercontent.com/4239376/224507219-dba56a0a-c73e-4eb0-a7a4-90ff33ce7164.png)
+
+
+  ## Examples when view packets could be helpful
+  ![image](https://user-images.githubusercontent.com/4239376/224507152-d38ca4d3-8906-43ab-a206-13427185af5a.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224507166-8ea6f1f8-86a4-4871-8d6f-cffecbecb231.png)
+  
+  ## Alternatives
+  1. Make huge unwieldy diagram but use the tool to present and use it with zoon-in, zoom-out, and fly-through abilities
+  2. Series of diagrams
+  
+  ## Summary
+  ![image](https://user-images.githubusercontent.com/4239376/224507419-fe7938dc-2e72-41aa-b589-24d99c6c7c52.png)
 </details>
 
 ## Reviewing Architecture Documentation. 6 Steps. Active Reviewing 
