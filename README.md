@@ -1027,11 +1027,45 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
  
 <details>
 <summary>DoDAF. Alternatives to "Views and Beyond"</summary>
+  
+ ## Summary. NOT A GREAT CHOICE.
+ ![image](https://user-images.githubusercontent.com/4239376/224510816-2ab24d1b-9bb8-41b1-924c-06547b4e1bf3.png)
+ ![image](https://user-images.githubusercontent.com/4239376/224510826-c0a4e519-4f4e-4a45-bc78-cca1795611d1.png)
 
+    
+ ## General Structure
+ ![image](https://user-images.githubusercontent.com/4239376/224510748-11bb7ae4-40ce-44cd-8c17-6d903db9ef92.png)
+    
+ ### DoDAF Pros
+ ![image](https://user-images.githubusercontent.com/4239376/224510766-531c8c26-849f-4196-824e-2dee57e83263.png)
+ ### DoDAF Cons
+ ![image](https://user-images.githubusercontent.com/4239376/224510792-d8ba1e82-830f-4639-8c52-40c6655dff81.png)
+
+    
+ ![image](https://user-images.githubusercontent.com/4239376/224510685-50cac6b9-ea5f-4011-aa13-6dacdbcd9789.png)
+ ## Operational View. All-view
+ ![image](https://user-images.githubusercontent.com/4239376/224510704-74673c78-18d5-4411-9fa0-14bdab3902ef.png)
+ ![image](https://user-images.githubusercontent.com/4239376/224510720-5a8682bb-ea7b-466c-8174-29819b403323.png)
 </details>
 
 <details>
 <summary>Documentation in Agile. Alternatives to "Views and Beyond"</summary>
+
+  ## Summary
+  * ISO42010 works well in Agile environment, so better to go straight with this format
+  * Views and Beyond works well in Agile as well. Views and Beyond could be made compliant to ISO42010 in Agile environment as well
+   
+  ## General
+  ![image](https://user-images.githubusercontent.com/4239376/224510873-ed2677cd-ccc3-4e2e-b97a-45ec5715f174.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224510904-9e1151af-e449-4fea-965c-8e52d1089d16.png)
+
+  ## Points
+  ![image](https://user-images.githubusercontent.com/4239376/224510947-fbe89ef9-333e-4be8-8cf1-65eb6b7249f7.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224510972-d89186d5-8d07-4195-b74c-3dd8e3a5af5a.png)
+
+  ## BDUF and SAFe
+  ![image](https://user-images.githubusercontent.com/4239376/224510996-50b36471-9107-4624-9495-df6244647bec.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224511013-7b343795-fa2a-4d4b-ad8e-699ecae98543.png)
 
 </details>
     
