@@ -29,8 +29,9 @@
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
     c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)
-10. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
-11. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
+10. [Views and Beyond](#views-and-beyond)
+11. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
+12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
     
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
