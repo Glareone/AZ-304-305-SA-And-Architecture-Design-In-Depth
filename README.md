@@ -25,7 +25,7 @@
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
 8. [Documenting Architecture. Views. Combine Views. Hybrid view](#documenting-architecture)    
-9. [Documenting Complex Architecture Decisions. Part2](#documenting-architecture)   
+9. [Documenting Architecture. General Structure. General Principles. Mapping Requirements](#documenting-architecture)   
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
     c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)
