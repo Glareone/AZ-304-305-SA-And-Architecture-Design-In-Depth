@@ -703,11 +703,15 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
 </details>
 
-## Documenting Architecture
+## Documenting Architecture. General Structure. General Principles
 
 <details>
-<summary>General Principles</summary>
+<summary>General Document Structure. General Principles</summary>
+    
+  ### General Structure
+  ![image](https://user-images.githubusercontent.com/4239376/224507722-9e5f5e9c-5981-4bdc-af5c-55539ced7fc2.png)
 
+  ### Principles
   ![image](https://user-images.githubusercontent.com/4239376/222563674-d1be3db7-90f9-4917-895d-1be225da216b.png)
   ![image](https://user-images.githubusercontent.com/4239376/222563196-cac44204-8347-458f-b274-053b25166f48.png)
 </details>
@@ -945,6 +949,31 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/224507419-fe7938dc-2e72-41aa-b589-24d99c6c7c52.png)
 </details>
 
+## Views and Beyond
+
+<details>
+<summary>Views and Beyond. Template for Beyong view and rationale</summary>
+
+  ## General structure
+  ![image](https://user-images.githubusercontent.com/4239376/224508242-786bc9ab-7100-4b26-816a-8e3257571072.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224507837-e94c9cc7-d16a-431c-a572-78503490b63b.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224507888-fdfccf25-64f6-47f6-8c1e-d8ed276c8011.png)
+  
+    
+  ### Mapping
+  ![image](https://user-images.githubusercontent.com/4239376/224508039-e6ece4ee-9548-49a7-9d1e-484cdb9c4871.png)
+  ### Directory
+  * in directory you may find better outcome from stakeholders than you expect.
+  * here you can discuss acronyms
+  ![image](https://user-images.githubusercontent.com/4239376/224508116-3d4544c8-5c4a-489c-8ba6-1269fcdf1c2c.png)
+  ## Background
+  ![image](https://user-images.githubusercontent.com/4239376/224508175-046f748b-11e5-40e7-93d8-ff0e39c7af99.png)
+
+
+
+
+</details>
+    
 ## Reviewing Architecture Documentation. 6 Steps. Active Reviewing 
 
 <details>
