@@ -28,7 +28,7 @@
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
     c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)
-10. [Views and Beyond](#views-and-beyond)
+10. [Views and Beyond. Alternatives: DoDAF, ISO42010 \ IEEE1471-2000](#views-and-beyond-alternatives-isoiec-42010-dodaf-documentation-in-agile)
 11. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
     
@@ -968,7 +968,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/224507419-fe7938dc-2e72-41aa-b589-24d99c6c7c52.png)
 </details>
 
-## Views and Beyond
+## Views and Beyond. Alternatives: ISO\IEC 42010, DoDAF, Documentation in Agile
 
 <details>
 <summary>Views and Beyond. Template for Beyong view and rationale</summary>
@@ -978,7 +978,6 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/224507837-e94c9cc7-d16a-431c-a572-78503490b63b.png)
   ![image](https://user-images.githubusercontent.com/4239376/224507888-fdfccf25-64f6-47f6-8c1e-d8ed276c8011.png)
   
-    
   ### Mapping
   ![image](https://user-images.githubusercontent.com/4239376/224508039-e6ece4ee-9548-49a7-9d1e-484cdb9c4871.png)
   ### Directory
@@ -987,9 +986,37 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
   ![image](https://user-images.githubusercontent.com/4239376/224508116-3d4544c8-5c4a-489c-8ba6-1269fcdf1c2c.png)
   ## Background
   ![image](https://user-images.githubusercontent.com/4239376/224508175-046f748b-11e5-40e7-93d8-ff0e39c7af99.png)
+</details>
+    
+<details>
+<summary>ISO\IEC 42010 (also known as IEEE 1471-2000). Alternative to "Views and Beyond"</summary>
 
+  ## ISO\IEC 42010. Also known as IEEE 1471-2000. Enterprise standard.
+  ![image](https://user-images.githubusercontent.com/4239376/224509578-f4e4d2c7-a4e3-4ba9-9052-e45e4bb53de1.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224509656-ac1b8c34-d74c-4a29-90b1-0de7f756f7fe.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224509710-d3a2d5fb-dc97-4b11-b99c-029b4ebb26e4.png)
+  
+  ## Structure
+  ![image](https://user-images.githubusercontent.com/4239376/224509770-da33e570-588b-47a0-90d1-27be348af3fa.png)
+    
+  ## 42010 Also defines view as representation of the whole system from perspective of related concerns
+    ![image](https://user-images.githubusercontent.com/4239376/224509958-7a6c3bf4-936d-496d-9ad0-ca90d831ae67.png)
 
+  ## 42010. Content Requirements
+  ![image](https://user-images.githubusercontent.com/4239376/224510043-0673edbe-228f-4fe0-9aa6-cde4c15e9616.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224510165-c2ca1700-8bef-4d0e-b4f2-5dc890759709.png)
+  ![image](https://user-images.githubusercontent.com/4239376/224510187-4ad380de-18f6-4716-b8e7-aa3c3a3ba22c.png)
 
+    
+</details>
+    
+<details>
+<summary>DoDAF. Alternatives to "Views and Beyond"</summary>
+
+</details>
+
+<details>
+<summary>Documentation in Agile. Alternatives to "Views and Beyond"</summary>
 
 </details>
     
