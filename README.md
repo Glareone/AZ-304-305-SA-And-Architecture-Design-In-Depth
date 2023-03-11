@@ -1,4 +1,3 @@
-# Contents
 # Table of contents
 0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
 1. [Azure Solution Architect in Practice](#governance-and-compliance-materials)  
@@ -24,8 +23,8 @@
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-8. [Documenting Architecture. Views. Combine Views. Hybrid view](#documenting-architecture)    
-9. [Documenting Architecture. General Structure. General Principles. Mapping Requirements](#documenting-architecture)   
+8. [Architecture Views. Documenting Software Architecture. Properties to document in your Architecture Document](#architecture-views-documenting-software-architecture-properties-to-document-in-your-architecture-document)    
+9. [Documenting Architecture. General Structure. General Principles. Mapping Requirements](#documenting-architecture-general-structure-general-principles-mapping-requirements)   
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
     c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)
