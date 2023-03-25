@@ -194,8 +194,59 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 <details>
 <summary>Tactics: Performance</summary>
   
+  ![image](https://user-images.githubusercontent.com/4239376/227730740-5974fe2d-dd15-4930-ae10-da9668ea350b.png)
+
   ![image](https://user-images.githubusercontent.com/4239376/219783403-b62a5757-2dce-4a24-b6d8-8efa13f0f5f6.png)
+    
+  ### Control Resource Demand  
+One way to increase performance is to carefully manage the demand for resources. This can be done by reducing the number of events processed or by limiting the rate at which the system responds to events. In addition, a number of techniques can be applied to ensure that the resources that you do have are applied judiciously
+  * Manage work requests.  
+  One way to reduce work is to reduce the number of requests coming into the system to do work. Ways to do that include the following:
+  * Manage event arrival.   
+  A common way to manage event arrivals from an external system is to put in place a service level agreement (SLA) that specifies the maximum event arrival rate that you are willing to support
+  * Manage sampling rate.  
+  In cases where the system cannot maintain adequate response levels, you can reduce the sampling frequency of the stimuli—for example, the rate at which data is received from a sensor or the number of video frames per second that you process. Of course, the price paid here is the fidelity of the video stream or the information you gather from the sensor data. Nevertheless, this is a viable strategy if the result is “good enough.”
+  * Limit event response.  
+  When discrete events arrive at the system (or component) too rapidly to be processed, then the events must be queued until they can be processed, or they are simply discarded. You may choose to process events only up to a set maximum rate, thereby ensuring predictable processing for the events that are actually processed.
+
+  ### Reduce computational overhead
+  * Reduce indirection.  
+  The use of intermediaries (so important for modifiability, as we saw in Chapter 8) increases the computational overhead in processing an event stream, so removing them improves latency. This is a classic modifiability/performance tradeoff. Separation of concerns—another linchpin of modifiability—can also increase the processing overhead necessary to service an event if it leads to an event being serviced by a chain of components rather than a single component
+  * Co-locate communicating resources.  
+  Context switching and intercomponent communication costs add up, especially when the components are on different nodes on a network. One strategy for reducing computational overhead is to co-locate resources.z
+  * Periodic cleaning.  
+  A special case when reducing computational overhead is to perform a periodic cleanup of resources that have become inefficient. For example, hash tables and virtual memory maps may require recalculation and reinitialization.  
+  * Increase efficiency of resource usage.  
+  Improving the efficiency of algorithms used in critical areas can decrease latency and improve throughput and resource consumption.
+  
+  ### Manage Resources  
+  Even if the demand for resources is not controllable, the management of these resources can be. Sometimes one resource can be traded for another.
+  * Increase resources. Faster processors, additional processors, additional memory
+  * Introduce concurrency. If requests can be processed in parallel, the blocked time can be reduced
+  * Maintain multiple copies of computations. This tactic reduces the contention that would occur if all requests for service were allocated to a single instance.
+  * Maintain multiple copies of data. Two common examples of maintaining multiple copies of data are data replication and caching.
+  * Bound queue sizes. This tactic controls the maximum number of queued arrivals and consequently the resources used to process the arrivals.
+  * Schedule resources. Whenever contention for a resource occurs, the resource must be scheduled. Processors are scheduled, buffers are scheduled, and networks are scheduled
+    
+  ## Patterns
+  * Service Mesh   
+The service mesh pattern is used in microservice architectures. The main feature of the mesh is a sidecar—a kind of proxy that accompanies each microservice, and which provides broadly useful capabilities to address application-independent concerns such as interservice communications, monitoring, and security. A sidecar executes alongside each microservice and handles all interservice communication and coordination.
+  ![image](https://user-images.githubusercontent.com/4239376/227731599-8a717965-40c1-45f7-a604-5c4ef6eee536.png)
+
+  * Load Balancer  
+A load balancer is a kind of intermediary that handles messages originating from some set of clients and determines which instance of a service should respond to those messages. The key to this pattern is that the load balancer serves as a single point of contact for incoming messages—for example, a single IP address
+  ![image](https://user-images.githubusercontent.com/4239376/227731638-a91641e8-2351-49b4-8a2b-c2c1786f516a.png)
+  
+  * Throttling  
+The throttling pattern is a packaging of the manage work requests tactic. It is used to limit access to some important resource or service. In this pattern, there is typically an intermediary—a throttler—that monitors (requests to) the service and determines whether an incoming request can be serviced.
+  ![image](https://user-images.githubusercontent.com/4239376/227731675-cbfc412c-65a5-4eff-b9c2-a5369cc6359d.png)
+
+  * Map-Reduce
+The map-reduce pattern efficiently performs a distributed and parallel sort of a large data set and provides a simple means for the programmer to specify the analysis to be done. Unlike our other patterns for performance, which are independent of any application, the map-reduce pattern is specifically designed to bring high performance to a specific kind of recurring problem: sort and analyze a large data set. This problem is experienced by any organization dealing with massive data
+    ![image](https://user-images.githubusercontent.com/4239376/227731872-486833fe-3f19-4de3-8dff-d4d30ab746a2.png)
+
 </details>
+  
 
 <details>
 <summary>Tactics: Deployability. Patterns</summary>
