@@ -18,7 +18,8 @@
     d. [Architecture Influence Cycle](#architecture-influence-cycle)  
 4. [Architecture: Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
 5. [Architecture: Attribute-Driven Design](#attribute-driven-design-add)
-6. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)
+6. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)  
+    a. [Tactics](#tactics-to-achieve-quality-attributes)
 7. [Architecture: Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
@@ -161,8 +162,12 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 ![image](https://user-images.githubusercontent.com/4239376/216837739-a9fd6d0e-6640-4764-b49c-65e0869e08f0.png)
 </details>
 
+### Tactics to achieve Quality Attributes
+
 <details>
-<summary>Tactics to achieve Quality Attributes. Examples for Availability. Recovery From Faults</summary>
+<summary>Tactics: Availability. 3 types: fault detection, fault recovery, fault prevention</summary>
+
+![image](https://user-images.githubusercontent.com/4239376/227729293-3e0b5411-fd51-4879-b2e6-f8fcdaaaa444.png)
 
 ![image](https://user-images.githubusercontent.com/4239376/219443466-cafefd3a-c0e4-4b13-a899-85c3fefedbe3.png)
 
