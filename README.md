@@ -192,9 +192,56 @@ Each scenario should have 6 points starting from **what's happening**, **from wh
 </details>
 
 <details>
-<summary>Tactics: Performance Tactics</summary>
+<summary>Tactics: Performance</summary>
   
   ![image](https://user-images.githubusercontent.com/4239376/219783403-b62a5757-2dce-4a24-b6d8-8efa13f0f5f6.png)
+</details>
+
+<details>
+<summary>Tactics: Deployability. Patterns</summary>
+  
+  * Sample of Deployability scenario  
+  ![image](https://user-images.githubusercontent.com/4239376/227729937-d6ebe2d9-bbc6-44f8-95bd-bf3c607f2b89.png)
+    
+  * Tactics  
+  ![image](https://user-images.githubusercontent.com/4239376/227729969-fc5c9b33-75a2-4f2c-a445-8048e5b95caa.png)
+
+  ### Manage Deployment Pipeline
+    
+  #### Scale rollouts. 
+  Rather than deploying to the entire user base, scaled rollouts deploy a new version of a service gradually, to controlled subsets of the user population, often with no explicit notification to those users. (The remainder of the user base continues to use the previous version of the service.) By gradually releasing, the effects of new deployments can be monitored and measured and, if necessary, rolled back. This tactic minimizes the potential negative impact of deploying a flawed service. It requires an architectural mechanism (not part of the service being deployed) to route a request from a user to either the new or old service, depending on that user’s identity.
+  #### Roll back. 
+  If it is discovered that a deployment has defects or does not meet user expectations, then it can be “rolled back” to its prior state. Since deployments may involve multiple coordinated updates of multiple services and their data, the rollback mechanism must be able to keep track of all of these, or must be able to reverse the consequences of any update made by a deployment, ideally in a fully automated fashion.
+  #### Script deployment commands. 
+  Deployments are often complex and require many steps to be carried out and orchestrated precisely. For this reason, deployment is often scripted. These deployment scripts should be treated like code—documented, reviewed, tested, and version controlled. A scripting engine executes the deployment script automatically, saving time and minimizing opportunities for human error.
+
+  ### Manage Deployed System
+  #### Manage service interactions. 
+  This tactic accommodates simultaneous deployment and execution of multiple versions of system services. Multiple requests from a client could be directed to either version in any sequence. Having multiple versions of the same service in operation, however, may introduce version incompatibilities. In such cases, the interactions between services need to be mediated so that version incompatibilities are proactively avoided. This tactic is a resource management strategy, obviating the need to completely replicate the resources so as to separately deploy the old and new versions.
+
+  #### Package dependencies. 
+  This tactic packages an element together with its dependencies so that they get deployed together and so that the versions of the dependencies are consistent as the element moves from development into production. The dependencies may include libraries, OS versions, and utility containers (e.g., sidecar, service mesh), which we will discuss in Chapter 9. Three means of packaging dependencies are using containers, pods, or virtual machines; these are discussed in more detail in Chapter 16.
+
+  #### Feature toggle. 
+  Even when your code is fully tested, you might encounter issues after deploying new features. For that reason, it is convenient to be able to integrate a “kill switch” (or feature toggle) for new features. The kill switch automatically disables a feature in your system at runtime, without forcing you to initiate a new deployment. This provides the ability to control deployed features without the cost and risk of actually redeploying services.
+    
+  ## Patterns for Deployability
+  
+    ### Code organization point of view
+  ![image](https://user-images.githubusercontent.com/4239376/227730258-36d7a5f2-4c6e-4567-9843-91ca32a96e4d.png)
+    
+  * Benefits
+  ![image](https://user-images.githubusercontent.com/4239376/227730351-59581768-62e5-4b45-8f3f-8cebd0e1a068.png)
+  * Tradeoffs
+  ![image](https://user-images.githubusercontent.com/4239376/227730367-5149895c-c0a0-4fb3-8780-8e7332e08874.png)
+  
+    ### Deployment changes point of view
+  ![image](https://user-images.githubusercontent.com/4239376/227730474-a1077689-833c-4cc4-906e-7af8e4da38cd.png)
+  * Benefits and Tradeoffs
+  ![image](https://user-images.githubusercontent.com/4239376/227730555-5c1a8fb4-a255-45aa-80bc-55725df528c4.png)
+
+
+    
 </details>
 
 <details>
