@@ -33,7 +33,7 @@
 11. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 13. [Data Materials](#data-materials)  
-    a. [Design for Data Storage](#design-for-data-storage)
+    a. [Design for Data Storage](#design-for-data-storage)  
     b. [Data Replication. Leader-Follower & Quorum](#data-replication)
     
 # Other Good Articles
@@ -1456,6 +1456,8 @@ The Hyperscale service tier is currently available for Azure SQL Database, and n
 ![image](https://user-images.githubusercontent.com/4239376/162592288-e356d6d2-ce51-43c3-b242-3da051f5c880.png)
 
 ## Data Replication
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c306100d-e8f6-47f9-8f1b-f31420af3fd8)
+
 ### Leader and Follower Pattern
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/e17e4610-bb07-4e09-b498-cb6281da8abc)
 
