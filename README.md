@@ -32,6 +32,8 @@
 10. [Views and Beyond. Alternatives: DoDAF, ISO42010 \ IEEE1471-2000](#views-and-beyond-alternatives-iso-42010-isoiec-42010-dodaf-documentation-in-agile)
 11. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
+13. [Data Materials](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/edit/main/README.md#data-materials)  
+    a. [Data Replication. Leader-Follower & Quorum](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/edit/main/README.md#data-replication)
     
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
@@ -1451,6 +1453,15 @@ The next service tier to consider is Business Critical, which can generally achi
 The Hyperscale service tier is currently available for Azure SQL Database, and not Azure SQL Managed Instance. This service tier has a unique architecture because it uses a tiered layer of caches and page servers to expand the ability to quickly access database pages without having to access the data file directly.
 
 ![image](https://user-images.githubusercontent.com/4239376/162592288-e356d6d2-ce51-43c3-b242-3da051f5c880.png)
+
+## Data Replication
+### Leader and Follower Pattern
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/e17e4610-bb07-4e09-b498-cb6281da8abc)
+
+### Quorum in Databases
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/3c98834f-004f-44b5-9b51-f408c888223c)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/22bb9681-579a-4f7b-8ebc-14e598b7f862)
+
 
 ### Active Geo-Replication
 ![image](https://user-images.githubusercontent.com/4239376/162592346-69027042-6b4c-4b2d-a5a5-4bc054f9394a.png)
