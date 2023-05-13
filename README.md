@@ -1457,6 +1457,8 @@ The Hyperscale service tier is currently available for Azure SQL Database, and n
 
 ## Data Replication
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c306100d-e8f6-47f9-8f1b-f31420af3fd8)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/3d9e75a3-bd08-4a40-9523-cf4f1797a4d7)
+
 
 ### Leader and Follower Pattern
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/e17e4610-bb07-4e09-b498-cb6281da8abc)
