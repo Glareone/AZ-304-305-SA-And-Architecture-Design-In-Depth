@@ -32,8 +32,8 @@
 10. [Views and Beyond. Alternatives: DoDAF, ISO42010 \ IEEE1471-2000](#views-and-beyond-alternatives-iso-42010-isoiec-42010-dodaf-documentation-in-agile)
 11. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
-13. [Data Materials](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/edit/main/README.md#data-materials)  
-    a. [Data Replication. Leader-Follower & Quorum](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/edit/main/README.md#data-replication)
+13. [Data Materials](#data-materials)  
+    a. [Data Replication. Leader-Follower & Quorum](#data-replication)
     
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
