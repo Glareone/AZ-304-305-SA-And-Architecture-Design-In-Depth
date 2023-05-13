@@ -33,7 +33,8 @@
 11. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 13. [Data Materials](#data-materials)  
-    a. [Data Replication. Leader-Follower & Quorum](#data-replication)
+    a. [Design for Data Storage](#design-for-data-storage)
+    b. [Data Replication. Leader-Follower & Quorum](#data-replication)
     
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
