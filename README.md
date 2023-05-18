@@ -36,7 +36,8 @@
     a. [Design for Data Storage](#design-for-data-storage)  
     b. [Data Replication. Leader-Follower & Quorum](#data-replication)   
 14. [Cache. Read-Through, Cache-Aside](#cache)  
-15. [Governance and Compliance materials](#governance-and-compliance-materials)  
+    a. [Cache Consistency Models](#cache-consistency-models)
+16. [Governance and Compliance materials](#governance-and-compliance-materials)  
 
 
 # Other Good Articles
@@ -1391,6 +1392,9 @@ Policy:
 
 ## Cache
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0cc64ad1-1953-4bbe-a74e-0fde6b950630)
+
+### Cache consistency models
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/38914880-7807-4f1f-86b1-d8c98b580575)
 
 
 # Governance and Compliance materials
