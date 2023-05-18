@@ -34,8 +34,11 @@
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 13. [Data Materials](#data-materials)  
     a. [Design for Data Storage](#design-for-data-storage)  
-    b. [Data Replication. Leader-Follower & Quorum](#data-replication)
-    
+    b. [Data Replication. Leader-Follower & Quorum](#data-replication)   
+14. [Cache. Read-Through, Cache-Aside](#cache)  
+15. [Governance and Compliance materials](#governance-and-compliance-materials)  
+
+
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
     
@@ -837,8 +840,6 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
   ### Summary. Microsoft Reference Template
   ![image](https://user-images.githubusercontent.com/4239376/224509116-712e6221-efe0-444e-963b-3dc904303c2e.png)
-
-
 </details>
 
 ### Combine Views. Hydrid View
@@ -878,7 +879,6 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
 
   ## Summary
   ![image](https://user-images.githubusercontent.com/4239376/222926737-871d0a6e-0ccf-4eba-81fb-83c4e7c203ee.png)
-
 </details>
 
 <details>
@@ -901,8 +901,7 @@ Details: https://sites.google.com/site/softwarearchitectureinpractice/9-document
  ![image](https://user-images.githubusercontent.com/4239376/223843789-456293eb-4946-4fd5-84fd-9847d0932695.png)
     
  ## Summary
- ![image](https://user-images.githubusercontent.com/4239376/223845280-8bbf9e0e-e683-4542-bb16-888ef3314f20.png)
-    
+ ![image](https://user-images.githubusercontent.com/4239376/223845280-8bbf9e0e-e683-4542-bb16-888ef3314f20.png)   
 </details>
 
 ### Documenting Interfaces, Behavior, Context
@@ -1389,6 +1388,10 @@ Policy:
 * References architectures with threat models
 
 </details>
+
+## Cache
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0cc64ad1-1953-4bbe-a74e-0fde6b950630)
+
 
 # Governance and Compliance materials
 ## Design Governance 
