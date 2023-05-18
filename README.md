@@ -37,7 +37,8 @@
     b. [Data Replication. Leader-Follower & Quorum](#data-replication)   
 14. [Cache. Read-Through, Cache-Aside](#cache)  
     a. [Cache Consistency Models](#cache-consistency-models)  
-    b. [Cache Challenges](#cache-challenges)
+    b. [Cache Challenges](#cache-challenges)  
+    c. [Cache Replacement Policies](#cache-replacement-policies)
 16. [Governance and Compliance materials](#governance-and-compliance-materials)  
 
 
@@ -1402,6 +1403,10 @@ Policy:
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c5983305-9eab-4fc7-b8fd-3d5912cebbfb)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/6763cb7e-d5f9-4610-a166-c563900affec)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/bab64673-a299-43d2-9d9d-4b2bc901b90d)
+
+### Cache Replacement Policies
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4f2db3e1-9282-4c97-8578-85ca3c7c52be)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/6d3265ae-5941-4488-a29e-97ec14c0f082)
 
 
 # Governance and Compliance materials
