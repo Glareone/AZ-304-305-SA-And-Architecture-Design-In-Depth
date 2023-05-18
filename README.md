@@ -38,7 +38,8 @@
 14. [Cache. Read-Through, Cache-Aside](#cache)  
     a. [Cache Consistency Models](#cache-consistency-models)  
     b. [Cache Challenges](#cache-challenges)  
-    c. [Cache Replacement Policies](#cache-replacement-policies)
+    c. [Cache Replacement Policies](#cache-replacement-policies)  
+    d. [Cache Performance Metrics](#cache-performance-metrics)
 16. [Governance and Compliance materials](#governance-and-compliance-materials)  
 
 
@@ -1407,6 +1408,9 @@ Policy:
 ### Cache Replacement Policies
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4f2db3e1-9282-4c97-8578-85ca3c7c52be)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/6d3265ae-5941-4488-a29e-97ec14c0f082)
+
+### Cache Performance Metrics
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/ae21e276-7f03-4a78-bfa7-ff4e4ecd5026)
 
 
 # Governance and Compliance materials
