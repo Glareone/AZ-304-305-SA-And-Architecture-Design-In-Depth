@@ -42,7 +42,7 @@
     d. [Cache Performance Metrics](#cache-performance-metrics)
 16. [Governance and Compliance materials](#governance-and-compliance-materials)  
 17. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
-    a. [Kafka. Basics](#kafka-kafka-basics-kafka-cluster)  
+    a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
 
 
