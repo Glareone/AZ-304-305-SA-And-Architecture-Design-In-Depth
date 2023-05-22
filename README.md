@@ -41,6 +41,8 @@
     c. [Cache Replacement Policies](#cache-replacement-policies)  
     d. [Cache Performance Metrics](#cache-performance-metrics)
 16. [Governance and Compliance materials](#governance-and-compliance-materials)  
+17. [Kafka & Messaging patterns]
+    a. [Kafka. Introduction]
 
 
 # Other Good Articles
@@ -1521,4 +1523,79 @@ You can use active geo-replication to:
 | Active/Passive with pilot light	| You establish the standby environment with a minimal configuration; it has only the necessary services running to support a minimal and critical set of apps. In its default form, this approach can only execute minimal functionality. However, it can scale up and spawn more services, as needed, to take more of the production load during a failover. |
 | Active/Passive with warm standby | Your standby region is pre-warmed and is ready to take the base load. Auto scaling is on, and all the instances are up and running. This approach isn't scaled to take the full production load but is functional, and all services are up and running. |
 
+# Messaging Systems. Messaging Patterns. Kafka
+## Kafka. Kafka Basics. Kafka Cluster
+<details>
+<summary>Kafka Basics. Record. Topics. Consumers</summary>
+  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/f18025a6-8892-44f0-8362-6bdc7deb0136)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/1dd8e8cd-2621-4624-a197-5ffbd7858db9)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4e75e7c6-a870-4965-b6cc-6672b4ac6d26)
 
+### Consumers
+    Consumers are the applications that subscribe to (read and process) data from Kafka topics. Consumers subscribe **to one or more topics** and consume published messages by pulling data from the brokers.
+    
+### Records
+    A record is a message or an event that gets stored in Kafka. Essentially, it is the data that travels from producer to consumer through Kafka. A record contains a key, a value, a timestamp, and optional metadata headers.
+</details>
+
+<details>
+<summary>Kafka Cluster. Zoo Keeper</summary>
+    
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0dc04362-209d-428e-abab-864cbcdd49ab)
+
+### Kafka cluster
+    Kafka is deployed as a cluster of one or more servers, where each server is responsible for running one Kafka broker.
+
+### ZooKeeper
+    ZooKeeper is a distributed key-value store and is used for coordination and storing configurations. It is highly optimized for reads.  
+    Kafka uses ZooKeeper to coordinate between Kafka brokers; ZooKeeper maintains metadata information about the Kafka cluster.
+    
+</details>
+
+<details>
+<summary>Kafka vs RabbitMQ vs ActiveMQ vs Azure ServiceBus vs AWS SQS</summary>
+ 
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/5179792f-3706-4466-9352-3ea9dcd5d40e)
+
+## Kafka vs ServiceBus
+    
+    Kafka is ideal for streaming data in an at-least-once manner and provides powerful features such as transmission of data over partitions, replication, and high-availability across multiple data centers.  
+    It is optimized for large-scale data streaming and has built-in support for high throughput, low latency and scalability.   
+      
+    Azure Service Bus is used for messaging and not for streaming, and generally provides higher throughput and lower latency for scenarios where at-most-once messaging is required.    
+    It supports mobile devices, and provides integration with other Azure services such as Azure Storage and Service Fabric.  
+    
+## Kafka vs AWS SQS
+    Kafka is ideal for streaming data in an at-least-once manner and provides powerful features such as transmission of data over partitions, replication, and high-availability across multiple data centers.  
+    It can be used to ingest data from multiple sources to multiple destinations and is optimized for large-scale streaming.  
+  
+    AWS SQS is not suitable for streaming and is used for message queuing scenarios where at-most-once delivery is required.  
+    It supports mobile devices, and provides integration with other AWS services.  
+</details>
+
+## Patterns with Kafka and Other Services. Q&A
+<details>
+<summary>Messaging Patterns with Kafka. Point to Point. Pub-Sub. Request-Response.  Fan-Out/Fan-In (Scatter-Gather). Dead Letter Queue</summary>
+
+### Patterns are not covered in images:
+* Competing consumers
+* Guaranteed delivery
+* Content-based routing
+* Routing slip
+* Correlation identifier
+* Routing by header
+* Receiver-initiated workflow
+* Routing using selectors
+* Sagas
+    
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/22c186b0-14c8-4f7e-b0ad-d8f94863264a)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/708b92ed-7a28-4dca-b11a-242e2cc94b84)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/33edc6cd-6628-4c1b-ba6b-57e63e886d7c)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/447416eb-216b-409a-865c-4d49221bbc03)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/550e3fc4-0166-4746-b806-ac19924c6e05)
+    
+### Q&A:
+Which messaging pattern fits better for data stream processing?  
+    The best messaging pattern for data stream processing is Publish/Subscribe. This pattern is typically used for passing data between applications, decoupling producers and consumers, and ensuring that messages are distributed to all interested parties in the system.
+</details>
