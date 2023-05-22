@@ -1527,7 +1527,7 @@ You can use active geo-replication to:
 # Messaging Systems. Messaging Patterns. Kafka
 ## Kafka. Kafka Basics. Kafka Cluster
 <details>
-<summary>Kafka Basics. Record. Topics. Consumers</summary>
+<summary>Kafka Basics. Record. Topics. Consumers. Consumer Groups. Load Balancing. Compression and Batching</summary>
   
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/f18025a6-8892-44f0-8362-6bdc7deb0136)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/1dd8e8cd-2621-4624-a197-5ffbd7858db9)
@@ -1538,6 +1538,24 @@ You can use active geo-replication to:
     
 ### Records
     A record is a message or an event that gets stored in Kafka. Essentially, it is the data that travels from producer to consumer through Kafka. A record contains a key, a value, a timestamp, and optional metadata headers.
+    
+### Consumer Groups. Consumer group can have multiple consumers that subscribe to the same topic, allowing the system to process messages in parallel.
+    Consumer groups are a way to manage multiple consumers of a messaging system that work together to process messages from one or more topics.  
+    Each consumer group ensures that all messages in the topic are processed, and each message is processed by only one consumer within the group.  
+    This approach allows for parallel processing and load balancing among consumers.  
+    For example, in Apache Kafka, a consumer group can have multiple consumers that subscribe to the same topic, allowing the system to process messages in parallel and distribute the workload evenly.
+    
+### Load Balancing in Kafka (balancing messages in partitions)
+    Kafka uses a referred to as "sticky partitioning" to provide load balancing functionality.  
+    This algorithm locks each message to a specific partition, and then distributes new messages to the next available partition in a round-robin fashion. This ensures that load is spread evenly across partitions and that remain balanced.
+    
+### Compression and Batching in Kafka
+    Message batching is the process of combining multiple messages into a single batch before processing or transmitting them.  
+    This approach can improve throughput and reduce the overhead of processing individual messages.  
+      
+    Compression, on the other hand, reduces the size of the messages, leading to less network bandwidth usage and faster transmission.  
+    For example, Apache Kafka supports both batching and compression:  
+    Producers can batch messages together, and the system can compress these batches using various compression algorithms like Snappy or Gzip, reducing the amount of data transmitted and improving overall performance.
 </details>
 
 <details>
