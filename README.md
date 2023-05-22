@@ -41,8 +41,9 @@
     c. [Cache Replacement Policies](#cache-replacement-policies)  
     d. [Cache Performance Metrics](#cache-performance-metrics)
 16. [Governance and Compliance materials](#governance-and-compliance-materials)  
-17. [Kafka & Messaging patterns]
-    a. [Kafka. Introduction]
+17. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
+    a. [Kafka. Basics](#kafka-kafka-basics-kafka-cluster)  
+    b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
 
 
 # Other Good Articles
