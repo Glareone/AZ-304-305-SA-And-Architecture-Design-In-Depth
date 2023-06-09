@@ -40,7 +40,7 @@
     b. [Cache Challenges](#cache-challenges)  
     c. [Cache Replacement Policies](#cache-replacement-policies)  
     d. [Cache Performance Metrics](#cache-performance-metrics)
-15. [Traffic Manager](#traffic-Manager)
+15. [Traffic Manager](#traffic-manager)
 17. [Governance and Compliance materials](#governance-and-compliance-materials)  
 18. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
     a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
@@ -1425,6 +1425,10 @@ Policy:
 
 # Governance and Compliance materials
 ## Design Governance 
+
+<details>
+<summary>Lab. Microsoft Docs. Azure Blueprints. Additional Materials</summary>
+    
 Lab:   
 https://docs.microsoft.com/en-us/learn/paths/design-identity-governance-monitor-solutions/  
 
@@ -1450,6 +1454,10 @@ In other words, Azure creates a record that associates a resource with the bluep
 [Describe core Azure architectural components](https://docs.microsoft.com/en-us/learn/modules/azure-architecture-fundamentals/)  
 [Microsoft Cloud Adoption Framework for Azure](https://docs.microsoft.com/en-us/learn/modules/microsoft-cloud-adoption-framework-for-azure/)  
 [Intro to Azure blueprints](https://docs.microsoft.com/en-us/learn/modules/intro-to-azure-blueprints/)  
+
+    
+</details>
+
 
 # Data materials
 ## Design for Data Storage
