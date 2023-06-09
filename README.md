@@ -40,8 +40,9 @@
     b. [Cache Challenges](#cache-challenges)  
     c. [Cache Replacement Policies](#cache-replacement-policies)  
     d. [Cache Performance Metrics](#cache-performance-metrics)
-16. [Governance and Compliance materials](#governance-and-compliance-materials)  
-17. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
+15. [Traffic Manager](#traffic-Manager)
+17. [Governance and Compliance materials](#governance-and-compliance-materials)  
+18. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
     a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
 
@@ -1397,6 +1398,10 @@ Policy:
 </details>
 
 ## Cache
+
+<details>
+<summary>Cache. Patterns. Info</summary>
+  
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0cc64ad1-1953-4bbe-a74e-0fde6b950630)
 
 ### Cache consistency models
@@ -1413,7 +1418,9 @@ Policy:
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/6d3265ae-5941-4488-a29e-97ec14c0f082)
 
 ### Cache Performance Metrics
-![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/ae21e276-7f03-4a78-bfa7-ff4e4ecd5026)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/ae21e276-7f03-4a78-bfa7-ff4e4ecd5026)   
+</details>
+
 
 
 # Governance and Compliance materials
@@ -1446,27 +1453,37 @@ In other words, Azure creates a record that associates a resource with the bluep
 
 # Data materials
 ## Design for Data Storage
+    
+<details>
+<summary>Azure SQL Server vs Azure SQL managed instance. Difference</summary>
 
-* Azure SQL Server vs Azure SQL Managed Instance, difference: [CHECK THIS LINK](https://medium.com/awesome-azure/azure-difference-between-azure-sql-database-and-azure-sql-managed-instance-sql-mi-2e61e4485a65)  
+    * Azure SQL Server vs Azure SQL Managed Instance, difference: [CHECK THIS LINK](https://medium.com/awesome-azure/azure-difference-between-azure-sql-database-and-azure-sql-managed-instance-sql-mi-2e61e4485a65)  
+</details>
+   
+<details>
+<summary>AKS. Persistent Volumes - Types of replication</summary>
 
-In Case of AKS:  
-
+    In Case of AKS:  
+    
 **Infrastructure-based asynchronous replication**  
 * Your apps might require persistent storage. In Kubernetes, you can use persistent volumes to persist data storage. These persistent volumes are mounted to a node VM and then exposed to the pods. Typically, you provide a common storage point where apps write their data. This data is then replicated across regions and accessed locally, as displayed in the following graphic.  
 ![image](https://user-images.githubusercontent.com/4239376/162592090-a7dcaf19-4520-43a5-92a4-c432ced9e304.png)
 
-**Application-based asynchronous replication**  
-* Kubernetes currently provides no native implementation for application-based asynchronous replication. However, because containers and Kubernetes are loosely coupled, you should be able to use any traditional app or language approach to replicate storage.  
-![image](https://user-images.githubusercontent.com/4239376/162592096-c469aebf-51ec-4b41-965e-36210c5c3f0a.png)
+**Application-based asynchronous replication**    
+* Kubernetes currently provides no native implementation for application-based asynchronous replication. However, because containers and Kubernetes are loosely coupled, you should be able to use any traditional app or language approach to replicate storage.    
+![image](https://user-images.githubusercontent.com/4239376/162592096-c469aebf-51ec-4b41-965e-36210c5c3f0a.png)  
 
 **Consider Azure Backup or Velero**  
-As with any app, it's important you back up the data related to your AKS clusters and their apps. When your apps consume and store data which is persisted on disks or in files, you should schedule frequent backups or take regular snapshots of that data. You can use several tools for these backup operations, including:  
-
-* Azure Disks: Azure Disks can use built-in snapshot technologies. However, your apps might need to flush writes-to-disk before the snapshot operation.
-
-* Velero: Velero can back up persistent volumes along with additional cluster resources and configurations.
+As with any app, it's important you back up the data related to your AKS clusters and their apps. When your apps consume and store data which is persisted on disks or in files, you should schedule frequent backups or take regular snapshots of that data. You can use several tools for these backup operations, including:   
+* Azure Disks: Azure Disks can use built-in snapshot technologies. However, your apps might need to flush writes-to-disk before the snapshot operation.  
+* Velero: Velero can back up persistent volumes along with additional cluster resources and configurations.  
+</details>
 
 ## Design for Relational Data Storage
+
+<details>
+<summary>Business Critical Tier. General Purpose</summary>
+
 * [General Purpose:](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)  
 ![image](https://user-images.githubusercontent.com/4239376/162592247-1a1165a2-bb1c-4b18-ab2b-ba5a70853f95.png)
 
@@ -1474,8 +1491,11 @@ As with any app, it's important you back up the data related to your AKS cluster
 The next service tier to consider is Business Critical, which can generally achieve the highest performance and availability of all Azure SQL service tiers (General Purpose, Hyperscale, Business Critical). Business Critical is meant for mission-critical applications that need low latency and minimal downtime.
 
 ![image](https://user-images.githubusercontent.com/4239376/162592250-d8011db7-7076-4b5d-8bf6-8f0cff7691fa.png)
-
-
+</details>
+    
+<details>
+<summary>Patterns used in Databases</summary>
+    
 * [Hyperscale](https://docs.microsoft.com/en-us/learn/modules/design-for-high-availability/6-recommend-solution-for-relational-data-storage)
 The Hyperscale service tier is currently available for Azure SQL Database, and not Azure SQL Managed Instance. This service tier has a unique architecture because it uses a tiered layer of caches and page servers to expand the ability to quickly access database pages without having to access the data file directly.
 
@@ -1501,12 +1521,18 @@ Active geo-replication is available for:
 You can use active geo-replication to:   
 * Create a readable secondary replica in a different region.  
 * Fail over to a secondary database if your primary database fails or needs to be taken offline.  
+    
+</details>
 
 ## Design for Storage Accounts
 ## Design for Backups and Recovery
 ## Design Networking
 
 ### Traffic Manager
+    
+<details>
+<summary>Traffic manager. General Info</summary>
+    
 ![traffic manager](https://user-images.githubusercontent.com/4239376/162591418-4fbb911b-b8b7-4e92-b125-f5ce75e0514a.png)
 
 **Failover scenarios:**  
@@ -1523,6 +1549,10 @@ You can use active geo-replication to:
 | Active/Passive with cold standby	| Your VMs (and other appliances) that are running in the standby region aren't active until needed. However, your production environment is replicated to a different region. This approach is cost-effective but takes longer to undertake a complete failover. |
 | Active/Passive with pilot light	| You establish the standby environment with a minimal configuration; it has only the necessary services running to support a minimal and critical set of apps. In its default form, this approach can only execute minimal functionality. However, it can scale up and spawn more services, as needed, to take more of the production load during a failover. |
 | Active/Passive with warm standby | Your standby region is pre-warmed and is ready to take the base load. Auto scaling is on, and all the instances are up and running. This approach isn't scaled to take the full production load but is functional, and all services are up and running. |
+    
+</details>
+    
+
 
 # Messaging Systems. Messaging Patterns. Kafka
 ## Kafka. Kafka Basics. Kafka Cluster
