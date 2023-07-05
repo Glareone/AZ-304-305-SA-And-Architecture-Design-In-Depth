@@ -1668,6 +1668,21 @@ Which messaging pattern fits better for data stream processing?
 <details>
 <summary>Step by Step guide by Design Gurus. 3 Steps: Clarify Requirements, Expectations & Estimations, System interface definition</summary>
 
+ ### Clarify Requirements
+ 1) Ask questions about problems you are trying to solve; Design questions on interview are open-ended  
+    a) It has not ONE correct answer. You must clarify ambiguities  
+    b) Need to know on which aspects you must focus  
+
+Question examples:  
+* Will users of our service be able to post tweets and follow other people?  
+* Should we also design to create and display the user's timeline?  
+* Will tweets contain photos and videos?  
+* Are we focusing on the backend only, or are we developing the front-end too?  
+* Will users be able to search tweets?  
+* Do we need to display hot trending topics?  
+* Will there be any push notification for new (or important) tweets?  
+
+    
 </details>
 
 <details>
