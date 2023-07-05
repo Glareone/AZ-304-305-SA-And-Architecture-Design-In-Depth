@@ -48,7 +48,7 @@
 
 # SDI. System Design Interview. Q&A. Main Problems
 Table of Contents
-1. [Step-by-step guide by DesignGurus](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
+1. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
 2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
 
