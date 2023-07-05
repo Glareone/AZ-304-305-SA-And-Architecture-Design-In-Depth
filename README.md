@@ -1,4 +1,4 @@
-# Table of contents
+# Table of contents: System Design in general, System Design In Practice, System design for Azure  
 0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
 1. [Azure Solution Architect in Practice](#governance-and-compliance-materials)  
     a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)  
@@ -45,6 +45,11 @@
 18. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
     a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
+
+# SDI. System Design Interview. Q&A. Main Problems
+Table of Contents
+1. [Step-by-step guide by DesignGurus](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
+2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
 
 # Other Good Articles
@@ -1655,4 +1660,17 @@ You can use active geo-replication to:
 ### Q&A:
 Which messaging pattern fits better for data stream processing?  
     The best messaging pattern for data stream processing is Publish/Subscribe. This pattern is typically used for passing data between applications, decoupling producers and consumers, and ensuring that messages are distributed to all interested parties in the system.
+</details>
+
+# System Design Interview. Low-level System Design Interview. High-level System Design Interview
+## System Design Interview: General Rules. Step by Step guide
+
+<details>
+<summary>Step by Step guide by Design Gurus. 3 Steps: Clarify Requirements, Expectations & Estimations, System interface definition</summary>
+
+</details>
+
+<details>
+<summary>Step by Step guide by Design Gurus. Next 4 Steps: Define data model, High-level design, Detailed design, Bottlenecks</summary>
+
 </details>
