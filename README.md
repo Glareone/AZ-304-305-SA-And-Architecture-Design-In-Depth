@@ -1713,10 +1713,47 @@ Question examples:
 * Do we need to display hot trending topics?  
 * Will there be any push notification for new (or important) tweets?  
 
-    
+### Define API Interface
+* Define what APIs are expected from the system. This will establish the exact contract expected from the system and ensure if we haven't gotten any requirements wrong. Some examples of APIs for our Twitter-like service will be:  
+`postTweet(user_id, tweet_data, tweet_location, user_location, timestamp, …)`
+`generateTimeline(user_id, current_time, user_location, …)`
+`markTweetFavorite(user_id, tweet_id, timestamp, …)`
 </details>
 
 <details>
-<summary>Step by Step guide by Design Gurus. Next 4 Steps: Define data model, High-level design, Detailed design, Bottlenecks</summary>
+<summary>Step by Step guide by Design Gurus. Next 4 Steps: Define data model, Degine Database Type, High-level design</summary>
+
+### Defining Data Model
+* Defining the data model in the early part of the interview will clarify how data will flow between different system components. Later, it will guide for data partitioning and management.  
+* The candidate should identify various system entities, how they will interact with each other, and different aspects of data management like storage, transportation, encryption, etc. Here are some entities for our Twitter-like service:  
+
+  `User`: UserID, Name, Email, DoB, CreationDate, LastLogin, etc.  
+  `Tweet`: TweetID, Content, TweetLocation, NumberOfLikes, TimeStamp, etc.  
+  `UserFollow`: UserID1, UserID2  
+  `FavoriteTweets`: UserID, TweetID, TimeStamp  
+
+### Defining Database Type  
+Which database system should we use? Will **NoSQL** like **Cassandra** best fit our needs, or should we use a **SQL-like** solution? What kind of block storage should we use to store photos and videos?  
+
+Questions here:  
+    1) Do we need to be ACID-compliant?  
+    2) Do we need to support Strong Data Consistency and Transactions?  
+    3) What data structure do we have?  
+    4) Amount of Read\Write operations?  
+In case of Tweeter the answer is possible NoSQL, we can sacrifice Strong Consistency over Availability (Low Latency).   
+In terms of type we need to estimate the balance between read and write operations. Potentially, we read more often. So, it's a NO for Cassandra and probably it's better to go with MongoDB.  
+
+PS: If we are choosing among native NoSQL solutions, for DynamoDB there is only one good DB pattern named "One Big Table". Lots of patterns eventually say you to go with One Big Table: [https://www.alexdebrie.com/posts/dynamodb-single-table/](https://www.alexdebrie.com/posts/dynamodb-single-table/)   
+
+### High-Level Design
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/7d7490ea-c3da-4a68-b87b-fbb8236ea58d)
+* Draw a block diagram with 5-6 boxes representing the core components of our system. We should identify enough components that are needed to solve the actual problem from end to end.    
+* For Twitter, at a high level, we will need multiple application servers to serve all the read/write requests with load balancers in front of them for traffic distributions.  
+If we're assuming that we will have a lot more read traffic (compared to write), we can decide to have separate servers to handle these scenarios. On the back-end, we need an efficient database that can store all the tweets and support a large number of reads. We will also need a distributed file storage system for storing photos and videos.  
+
+</details>
+
+<details>
+<summary>Step by Step guide by Design Gurus. Last Step: Low-Level Design with details. Identify Bottlenecks</summary>
 
 </details>
