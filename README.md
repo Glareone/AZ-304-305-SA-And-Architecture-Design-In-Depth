@@ -47,9 +47,10 @@
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
 
 # SDI. System Design Interview. Q&A. Main Problems
-Table of Contents
-1. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
-2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
+Table of Contents  
+1. [CAP Theorem. PACELC]
+2. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
+3. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
 
 # Other Good Articles
@@ -1663,6 +1664,36 @@ Which messaging pattern fits better for data stream processing?
 </details>
 
 # System Design Interview. Low-level System Design Interview. High-level System Design Interview
+## CAP Themorem. PACELC Theorem. Examples
+<details>
+<summary>CAP Themorem</summary>
+
+  * Consistency ( C ): All nodes see the same data at the same time. This means users can read or write from/to any node in the system and will receive the same data. It is equivalent to having a single up-to-date copy of the data.  
+  * Availability ( A ): Availability means every request received by a non-failing node in the system must result in a response. Even when severe network failures occur, every request must terminate. In simple terms, availability refers to a system's ability to remain accessible even if one or more nodes in the system go down.  
+  * Partition tolerance ( P ): A partition is a communication break (or a network failure) between any two nodes in the system, i.e., both nodes are up but cannot communicate with each other.   
+  A partition-tolerant system continues to operate even if there are partitions in the system. Such a system can sustain any network failure that does not result in the failure of the entire network.   
+  Data is sufficiently replicated across combinations of nodes and networks to keep the system up through intermittent outages.   
+
+  ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/874112e7-9b85-47eb-af15-f9585c3817c4)
+</details>
+
+<details>
+<summary>PACELC Theorem. General Info: ACID vs BASE. PACELC Theorem Examples</summary>
+
+### General Info.
+  * We cannot avoid partition in a distributed system, therefore, according to the CAP theorem, a distributed system should choose between consistency or availability.   
+  * ACID (Atomicity, Consistency, Isolation, Durability) databases, such as RDBMSs like MySQL, Oracle, and Microsoft SQL Server, chose consistency (refuse response if it cannot check with peers), while BASE (Basically Available, Soft-state, Eventually consistent) databases, such as NoSQL databases like MongoDB, Cassandra, and Redis, chose availability (respond with local data without ensuring it is the latest with its peers).   
+
+  ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/b1dbbb7e-1290-4394-8e93-ff3516a0f0a4)  
+
+### Examples
+  * Dynamo and Cassandra are **PA/EL** systems: They choose availability over consistency when a partition occurs; otherwise, they choose lower latency.  
+  * BigTable and HBase are **PC/EC** systems: They will always choose consistency, giving up availability and lower latency.  
+  * MongoDB can be considered **PA/EC** (default configuration): MongoDB works in a primary/secondaries configuration. In the default configuration, all writes and reads are performed on the primary.  
+  As all replication is done asynchronously (from primary to secondaries), when there is a network partition in which primary is lost or becomes isolated on the minority side, there is a chance of losing data that is unreplicated to secondaries, hence there is a loss of consistency during partitions.  
+  Therefore it can be concluded that in the case of a network partition, MongoDB chooses availability, but otherwise guarantees consistency. Alternately, when MongoDB is configured to write on majority replicas and read from the primary, it could be categorized as **PC/EC**.  
+</details>
+
 ## System Design Interview: General Rules. Step by Step guide
 
 <details>
