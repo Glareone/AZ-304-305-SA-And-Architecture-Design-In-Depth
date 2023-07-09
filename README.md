@@ -1723,6 +1723,7 @@ Data partition and replication strategies lie at the core of any distributed sys
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/f1e50841-52cb-4792-a49c-961c72faa78a)  
 **PROS:**
 1. Easy to create and understand  
+
 **CONS:**  
 1. Hard to add or delete node  
 </details>
@@ -1742,6 +1743,7 @@ hus, the hash generated from the key tells us the node where the data will be st
 **PROS:**  
 1. When node added or deleted only limited amount of data is affected  
 2. When node deleted the next node starts being responsible for all operations of removed node  
+
 **CONS:**  
 1. Each node in Consistent Hashing represents a real server. Therefore, it shows not great load distribution  
 2. Works well only in homogenious systems. If you have different servers you cant balance them well  
@@ -1828,4 +1830,5 @@ If we're assuming that we will have a lot more read traffic (compared to write),
 <details>
 <summary>Step by Step guide by Design Gurus. Last Step: Low-Level Design with details. Identify Bottlenecks</summary>
 
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/48addba2-0e57-4448-8c32-6690ace968de)
 </details>
