@@ -1,4 +1,4 @@
-# Table of contents: System Design in general, System Design In Practice, System design for Azure  
+# Table of Contents: System Design in general, System Design In Practice, System design for Azure  
 0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
 1. [Azure Solution Architect in Practice](#governance-and-compliance-materials)  
     a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)  
@@ -47,10 +47,15 @@
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
 
 # SDI. System Design Interview. Q&A. Main Problems
+## Basics
+Table of Contents
+1. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
+2. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
+
+## System Design Interview. Q&A. Main Problems
 Table of Contents  
-1. [CAP Theorem. PACELC]
-2. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
-3. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
+1. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
+2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
 
 # Other Good Articles
@@ -1693,6 +1698,77 @@ Which messaging pattern fits better for data stream processing?
   As all replication is done asynchronously (from primary to secondaries), when there is a network partition in which primary is lost or becomes isolated on the minority side, there is a chance of losing data that is unreplicated to secondaries, hence there is a loss of consistency during partitions.  
   Therefore it can be concluded that in the case of a network partition, MongoDB chooses availability, but otherwise guarantees consistency. Alternately, when MongoDB is configured to write on majority replicas and read from the primary, it could be categorized as **PC/EC**.  
 </details>
+
+## Consistent Hashing. Data Partitioning. Data Replication.
+Q: Where Consistent Hashing is used for Data Partitioning?  
+A: Amazon's Dynamo and Apache Cassandra use Consistent Hashing to distribute and replicate data across nodes  
+Q: In what other scenarios we may use Consistent Hashing for Data Servers?
+A: In the following scenarios:
+    a. Any system working with a set of storage (or database) servers and needs to scale up or down based on the usage, e.g., the system could need more storage during Christmas because of high traffic.  
+    b. Any distributed system that needs dynamic adjustment of its cache usage by adding or removing cache servers based on the traffic load.  
+    c. Any system that wants to replicate its data shards to achieve high availability.  
+
+<details>
+<summary> Data Partitioning. Data Replication. Naive approach</summary>
+
+## Basics    
+Data partitioning: It is the process of distributing data across a set of servers. It improves the scalability and performance of the system.  
+Data replication: It is the process of making multiple copies of data and storing them on different servers. It improves the availability and durability of the data across the system.  
+Data partition and replication strategies lie at the core of any distributed system. A carefully designed scheme for partitioning and replicating the data enhances the performance, availability, and reliability of the system and also defines how efficiently the system will be scaled and managed.  
+
+## Naive Approach
+1. How do we know on which node a particular piece of data will be stored?  
+2. When we add or remove nodes, how do we know what data will be moved from existing nodes to the new nodes? Additionally, how can we minimize data movement when nodes join or leave?
+ 
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/f1e50841-52cb-4792-a49c-961c72faa78a)
+PROS:
+1. Easy to create and understand
+CONS:
+1. Hard to add or delete node 
+</details>
+
+<details>
+<summary>Consistent Hashing for Data Partitioning. Algorithm: MD5</summary>
+
+## Problem statement
+Distributed systems can use Consistent Hashing to distribute data across nodes. Consistent Hashing maps data to physical nodes and ensures that only a small set of keys move when servers are added or removed.  
+Consistent Hashing stores the data managed by a distributed system in a ring. Each node in the ring is assigned a range of data.  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c1cd0a4a-6b8e-42a0-9d5b-3d8bcfa3c60d)
+
+## How consistent hashing may help us
+Whenever the system needs to read or write data, the first step it performs is to apply the MD5 hashing algorithm to the key. The output of this hashing algorithm determines within which range the data lies and hence, on which node the data will be stored.  
+hus, the hash generated from the key tells us the node where the data will be stored.  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/366e22b7-f357-456f-abaa-88559345d608)
+
+PROS:
+1. When node added or deleted only limited amount of data is affected
+2. When node deleted the next node starts being responsible for all operations of removed node
+CONS:
+1. Each node in Consistent Hashing represents a real server. Therefore, it shows not great load distribution.
+2. Works well only in homogenious systems. If you have different servers you cant balance them well.
+3. High chance of hotspot issue (when one server uses more often than others)
+</details>
+
+<details>
+<summary>Consistent Hashing. Virtual Nodes</summary>
+
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/bfaad995-a62e-4ae4-9783-e171d7d51ba9)
+PROS:
+1. The load spreads more evenly across the physical nodes on the cluster by dividing the hash ranges into smaller subranges, this speeds up the rebalancing process after adding or removing nodes.  
+2. When a new node is added, it receives many Vnodes from the existing nodes to maintain a balanced cluster.
+3. Many nodes participate in the rebuild process when a node needs to be rebuilt.
+4. It's easier to maintain the data cluster if it consists of different machines (heterogenious servers). More powerful machines may have more Vnodes than others
+
+</details>
+
+<details>
+<summary>Consistent Hashing. Data Replication using Consistent Hashing</summary>
+
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/2f591809-428a-4898-a9c2-5b08ae79378f)
+
+    
+</details>
+
 
 ## System Design Interview: General Rules. Step by Step guide
 
