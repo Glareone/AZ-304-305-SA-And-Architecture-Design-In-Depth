@@ -39,7 +39,7 @@
     a. [Cache Consistency Models](#cache-consistency-models)  
     b. [Cache Challenges](#cache-challenges)  
     c. [Cache Replacement Policies](#cache-replacement-policies)  
-    d. [Cache Performance Metrics](#cache-performance-metrics)
+    d. [Cache Performance Metrics](#cache-replacement-policies)
 15. [Traffic Manager](#traffic-manager)
 17. [Governance and Compliance materials](#governance-and-compliance-materials)  
 18. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
@@ -1411,18 +1411,29 @@ Policy:
 ## Cache
 
 <details>
-<summary>Cache. Patterns. Info</summary>
+<summary>Cache. Patterns. Challenges. Info</summary>
   
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0cc64ad1-1953-4bbe-a74e-0fde6b950630)
 
 ### Cache consistency models
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/38914880-7807-4f1f-86b1-d8c98b580575)
 
+
+</details>
+
 ### Cache Challenges
+<details>
+<summary>Cache. Challenges</summary>
+
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/9351e134-fa8b-4f90-8642-6426233aed3b)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c5983305-9eab-4fc7-b8fd-3d5912cebbfb)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/6763cb7e-d5f9-4610-a166-c563900affec)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/bab64673-a299-43d2-9d9d-4b2bc901b90d)
+</details>
+
+### Cache Replacement Policies
+<details>
+<summary>Cache. Cache Replacement Policies. Performance Metrics</summary>
 
 ### Cache Replacement Policies
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4f2db3e1-9282-4c97-8578-85ca3c7c52be)
@@ -1431,8 +1442,6 @@ Policy:
 ### Cache Performance Metrics
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/ae21e276-7f03-4a78-bfa7-ff4e4ecd5026)   
 </details>
-
-
 
 # Governance and Compliance materials
 ## Design Governance 
