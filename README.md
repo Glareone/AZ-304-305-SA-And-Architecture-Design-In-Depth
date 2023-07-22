@@ -1539,6 +1539,7 @@ The Hyperscale service tier is currently available for Azure SQL Database, and n
 
 
 ### Leader and Follower Pattern
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/f5a771f1-668c-4fb1-a54d-136b39833d4e)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/e17e4610-bb07-4e09-b498-cb6281da8abc)
 
 ### Quorum in Databases
