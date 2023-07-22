@@ -34,7 +34,7 @@
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 13. [Data Materials](#data-materials)  
     a. [Design for Data Storage](#design-for-data-storage)  
-    b. [Data Replication. Leader-Follower & Quorum](#data-replication)   
+    b. [Data Replication. Leader-Follower & Quorum](#azure-sql-data-replication-types-and-strategies)   
 14. [Cache. Read-Through, Cache-Aside](#cache)  
     a. [Cache Consistency Models](#cache-consistency-models)  
     b. [Cache Challenges](#cache-challenges)  
@@ -1522,7 +1522,8 @@ The next service tier to consider is Business Critical, which can generally achi
 
 ![image](https://user-images.githubusercontent.com/4239376/162592250-d8011db7-7076-4b5d-8bf6-8f0cff7691fa.png)
 </details>
-    
+
+### Azure SQL Data Replication types and strategies
 <details>
 <summary>Patterns used in Databases</summary>
     
@@ -1533,6 +1534,7 @@ The Hyperscale service tier is currently available for Azure SQL Database, and n
 
 ## Data Replication
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c306100d-e8f6-47f9-8f1b-f31420af3fd8)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4d65de3f-0829-48e4-aa43-c9f5a321fdad)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/3d9e75a3-bd08-4a40-9523-cf4f1797a4d7)
 
 
