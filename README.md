@@ -34,7 +34,7 @@
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 13. [Data Materials](#data-materials)  
     a. [Design for Data Storage](#design-for-data-storage)  
-    b. [Data Replication. Leader-Follower & Quorum](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)   
+    b. [Data Replication. Leader-Follower & Quorum patterns in SQL](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)   
 14. [Cache. Read-Through, Cache-Aside](#cache)  
     a. [Cache Consistency Models](#cache-consistency-models)  
     b. [Cache Challenges](#cache-challenges)  
