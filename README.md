@@ -34,7 +34,7 @@
 12. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 13. [Data Materials](#data-materials)  
     a. [Design for Data Storage](#design-for-data-storage)  
-    b. [Data Replication. Leader-Follower & Quorum](#azure-sql-data-replication-types-and-strategies)   
+    b. [Data Replication. Leader-Follower & Quorum](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)   
 14. [Cache. Read-Through, Cache-Aside](#cache)  
     a. [Cache Consistency Models](#cache-consistency-models)  
     b. [Cache Challenges](#cache-challenges)  
@@ -1523,7 +1523,7 @@ The next service tier to consider is Business Critical, which can generally achi
 ![image](https://user-images.githubusercontent.com/4239376/162592250-d8011db7-7076-4b5d-8bf6-8f0cff7691fa.png)
 </details>
 
-### Azure SQL Data Replication types and strategies
+### Azure SQL Data Replication types and strategies. Quorum and Leader-Follower patterns: Pros & Cons
 <details>
 <summary>Patterns used in Databases</summary>
     
