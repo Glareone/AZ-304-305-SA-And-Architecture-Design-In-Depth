@@ -58,7 +58,7 @@ Table of Contents
 2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
 ## System Design Interview. Examples
-1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.%20High%20Level%20-%20Low%20Level%20System%20Design)
+1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)
 
 
 # Other Good Articles
