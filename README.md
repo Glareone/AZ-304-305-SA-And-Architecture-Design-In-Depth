@@ -57,8 +57,9 @@ Table of Contents
 1. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
 2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
-## System Design Interview. High-Level SDI
-https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/High%20Level%20system%20design%20Interview.md
+## System Design Interview. Examples
+1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.%20High%20Level%20-%20Low%20Level%20System%20Design)
+
 
 # Other Good Articles
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
