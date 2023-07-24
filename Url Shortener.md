@@ -9,10 +9,11 @@ Here is a link to Miro: https://miro.com/app/board/uXjVMzmvKEQ=/?moveToWidget=34
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/31ab6eff-79ce-4cc0-b1ce-5dfc02811867)
 
 
-
 ## API. Endpoints. Protection. Throughput
 
 ## Database rationale. Throughput, organization
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/624e52ff-5751-4792-9bec-df58a95d0bc1)
+
 
 ## High-level System Design
 
