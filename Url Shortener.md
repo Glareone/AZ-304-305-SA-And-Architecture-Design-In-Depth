@@ -10,14 +10,24 @@ Here is a link to Miro: https://miro.com/app/board/uXjVMzmvKEQ=/?moveToWidget=34
 
 
 ## API. Endpoints. Protection. Throughput
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0e236708-8c5a-4867-847a-844d216a7d30)
 
-## Database rationale. Throughput, organization
-![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/11b20d48-7311-4dc6-b440-6af4c11cb6f7)
+
+## Database rationale. Database Organization. Storage Estimation
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/2e38a237-51ec-4533-b1c8-dd565b8cb376)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/eeef3668-8500-4d25-8ff9-6e009d34a1de)
+
+## Cache Estimation
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/35744085-de52-4d45-a62f-d124ac230db9)
 
 ## Traffic & Bandwidth Estimation
-![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/8dc7df93-a244-49cd-bdcb-673d416b2cb1)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/95c52cb7-4a1b-4fbf-a863-41dca380028f)
 
 
 ## High-level System Design
+### Approach with Database
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/da4d6b39-db6f-4f03-9efa-cc5383d56633)
+### Approach with random string generator
+### Approach with generate-on-the-fly
 
 ## Low-level System Design
