@@ -6,7 +6,7 @@ Here is a link to Miro: https://miro.com/app/board/uXjVMzmvKEQ=/?moveToWidget=34
 
 
 ## Functional and Non-Functional attributes (Constraints & QA) of the system
-![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/da1bf6f6-9013-43bf-92e4-05ba72c0d05b)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/554035c8-4cd5-4c4a-b7c0-959ae5643e6a)
 
 
 ## API. Endpoints. Protection. Throughput
