@@ -30,6 +30,9 @@ Azure Monitor stores log data in a Log Analytics workspace, which is an Azure re
 
 * Hybrid: Security audit compliance requirements further complicate this scenario because many organizations implement both deployment models in parallel. This commonly results in a complex, expensive, and hard-to-maintain configuration with gaps in logs coverage.
 
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/0fa3a0fa-0c3b-4ec9-b6c2-8f868775a3ca)
+
+
 ## Azure Workspace:
 It's a separate place where you can put your logs for Azure Monitor. Could be located in different region (from your application).
 **Could be bound together with Azure RBAC**
