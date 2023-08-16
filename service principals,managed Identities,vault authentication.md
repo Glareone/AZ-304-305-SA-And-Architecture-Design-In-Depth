@@ -16,6 +16,9 @@ Resources that support system assigned managed identities allow you to:
 ### System-assigned vs User-assigned managed identity
 **System-assigned:**  
 Some Azure services allow you to enable a managed identity directly on a service instance. When you enable a system-assigned managed identity an identity is created in Azure AD that is tied to the lifecycle of that service instance. So when the resource is deleted, Azure automatically deletes the identity for you. By design, only that Azure resource can use this identity to request tokens from Azure AD.  
+
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/11138262-6180-4ee0-91ad-37a64403f376)
+
    
 WHEN: 
 * Workloads that are contained within a single Azure resource
