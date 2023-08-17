@@ -29,3 +29,6 @@
 ## How to apply best Practices. Azure Policies
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/245cb308-6e44-407e-af19-4fbfa5d91c71)
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/1928b581-2106-4023-b663-fc0317944d02)
+
+### Azure Policies Remediation
+https://learn.microsoft.com/en-us/azure/governance/policy/how-to/remediate-resources?tabs=azure-portal  
