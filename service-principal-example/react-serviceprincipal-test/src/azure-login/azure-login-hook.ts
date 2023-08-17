@@ -1,5 +1,7 @@
 // Azure authentication dependency
-import { InteractiveBrowserCredential } from "@azure/identity"
+import {
+  InteractiveBrowserCredential,
+} from "@azure/identity"
 import { Subscription, SubscriptionClient } from "@azure/arm-subscriptions"
 import { useCallback, useEffect, useState } from "react"
 // Acquire credential
@@ -7,7 +9,7 @@ const tokenCredential = new InteractiveBrowserCredential({
     tenantId: import.meta.env.VITE_AZURE_TENANT_ID,
     clientId: import.meta.env.VITE_AZURE_CLIENT_ID,
     loginStyle: 'redirect',
-    redirectUri: 'http://localhost:5173/',
+    redirectUri: 'http://localhost:5173',
 })
 
 export function useAppHook() {
