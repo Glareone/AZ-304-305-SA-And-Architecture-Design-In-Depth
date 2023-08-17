@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "biJU1zsJbojMoeB8ciogoXd0mdDFdNRJYwxLnY0BZcc=",
+  "Source": "WebApi-Service-Principal-test",
+  "BasePath": "_content/WebApi-Service-Principal-test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
