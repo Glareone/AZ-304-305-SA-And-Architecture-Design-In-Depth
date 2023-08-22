@@ -1524,6 +1524,11 @@ The next service tier to consider is Business Critical, which can generally achi
 ![image](https://user-images.githubusercontent.com/4239376/162592250-d8011db7-7076-4b5d-8bf6-8f0cff7691fa.png)
 </details>
 
+### Azure SQL Types. Difference
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/fce7ecd9-66bc-4df3-863a-93686e0e739d)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/74378197-be59-4426-bea4-7c41799dd8a7)
+
+
 ### Azure SQL Data Replication types and strategies. Quorum and Leader-Follower patterns: Pros & Cons
 <details>
 <summary>Patterns used in Databases</summary>
