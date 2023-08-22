@@ -44,7 +44,8 @@
 17. [Governance and Compliance materials](#governance-and-compliance-materials)  
 18. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
     a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
-    b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)
+    b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)  
+19. [Azure Data Factory](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-datafactory.md)
 
 # SDI. System Design Interview. Q&A. Main Problems
 ## Basics
