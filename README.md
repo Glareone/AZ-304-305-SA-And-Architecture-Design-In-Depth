@@ -1566,6 +1566,13 @@ You can use active geo-replication to:
     
 </details>
 
+### Data Retention in Azure SQL DBs (Managed Instance and SQL Server)
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/214a6e53-802b-4663-8238-0b710694e25e)
+
+### How to manage situations when you need data retention for more than 35 days
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/b029f8ee-b80c-4521-a3e7-e10e07b004ee)
+
+
 ## Design for Storage Accounts: File Share, Managed Disks (used by Azure VMs), Blob Storage
 Materials are taken from this site: https://rajanieshkaushikk.com/2023/04/08/azure-blob-storage-vs-file-storage-vs-disk-storage-which-is-right-for-you/#:~:text=Azure%20File%20storage%20is%20not,low%20latency%20and%20high%20IOPS.
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4a555864-c67f-471a-a454-0238c89d9cc1)
