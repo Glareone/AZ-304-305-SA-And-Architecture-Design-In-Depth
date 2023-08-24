@@ -35,6 +35,7 @@
 13. [Data Materials](#data-materials)  
     a. [Design for Data Storage](#design-for-data-storage)  
     b. [Azure SQL. Data Retention](#data-retention-in-azure-sql-dbs-managed-instance-and-sql-server)  
+    c. [Azure SQL DB Data Retention for more than 35 days. Tip](#how-to-manage-situations-when-you-need-data-retention-for-more-than-35-days)  
     c. [Data Replication. Leader-Follower & Quorum patterns in SQL](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)  
     d. [Blob Storage vs File Share vs Managed Disks](#design-for-storage-accounts-file-share-managed-disks-used-by-azure-vms-blob-storage)  
 15. [Cache. Read-Through, Cache-Aside](#cache)  
