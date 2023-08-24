@@ -46,6 +46,7 @@
     a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)  
 19. [Azure Data Factory](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-datafactory.md)
+20. Azure Proximity Groups. Configuring Low-latency VMs
 
 # SDI. System Design Interview. Q&A. Main Problems
 ## Basics
