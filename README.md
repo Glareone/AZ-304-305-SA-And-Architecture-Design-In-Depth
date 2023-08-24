@@ -1565,7 +1565,16 @@ You can use active geo-replication to:
     
 </details>
 
-## Design for Storage Accounts
+## Design for Storage Accounts: File Share, Managed Disks (used by Azure VMs), Blob Storage
+Materials are taken from this site: https://rajanieshkaushikk.com/2023/04/08/azure-blob-storage-vs-file-storage-vs-disk-storage-which-is-right-for-you/#:~:text=Azure%20File%20storage%20is%20not,low%20latency%20and%20high%20IOPS.
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/4a555864-c67f-471a-a454-0238c89d9cc1)
+
+### Azure File Share vs Azure Managed Disks vs Blob Storage
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/c1ad2292-d3f7-45a1-a2fb-0ca3a0dc8772)  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/fda56485-cb27-48b3-9c3f-a91ab151859b)  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/d0778042-e19f-428c-9dc6-75329fb37c35)  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/5a877b8d-c64f-4bdd-9678-25007b8e9c58)  
+
 ## Design for Backups and Recovery
 ## Design Networking
 
