@@ -1,6 +1,6 @@
 # Table of Contents: System Design in general, System Design In Practice, System design for Azure  
 0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
-1. [Azure Solution Architect in Practice](#governance-and-compliance-materials)  
+1. [Azure: Solution Architect in Practice](#governance-and-compliance-materials)  
     a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)  
     b. [Azure: Authentication & Authorization](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/authentication%20authorization.md)  
     c. [Azure: Service Principal, Managed Identity, and Service Connection](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/service%20principals%2Cmanaged%20Identities%2Cvault%20authentication.md)  
@@ -10,7 +10,8 @@
     g. [Azure: Networking](#design-networking)  
     h. [Azure: High Availability and Traffic Manager](#high-availability-with-traffic-manager)  
     i. [Azure: Architecture examples by Microsoft](https://learn.microsoft.com/en-us/azure/architecture/browse)  
-    j. [Azure Migration Strategy by Microsoft](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWF4QT)  
+    j. [Azure Migration Strategy by Microsoft](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWF4QT)
+2. [Azure: High Availability. Disaster Recovery for Azure Functions. Strategies](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/high-availability-strategies-in-azure.md)
 3. [Azure: Skylines Academies materials](#skylines-academy-materials)
 4. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
     a. [Architecture lifecycle](#architecture-patterns)  
