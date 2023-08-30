@@ -179,7 +179,19 @@ You may need them for:
 ![image](https://user-images.githubusercontent.com/4239376/219738320-b984478d-3469-4b6d-ad35-6ac1638b58d4.png)
 </details>
 
-## Quality Attributes. Tactics to achieve Quality Attributes
+## Quality Attributes. Tactics to achieve Quality Attributes.
+### Functional vs Non-Func Attributes. Testing Process
+<details>
+<summary>Functional vs Non-Functional attributes. Non-Functional Testing Process. Testing Cycle</summary>
+
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/df9d790b-86af-4c49-b1fc-8f364d397855)  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/889565e0-5c88-4f49-b2fd-66c01926e36f)   
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/7dedfb1d-d51b-4bb7-aa95-d174eaffca96)  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/12f06fae-8a8b-4c28-86bb-71525e00df32)  
+![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/06109941-43a1-40f1-b711-8a0e0175f9e3)  
+
+</details>
+
 <details>
 <summary>Quality attributes. How better bescribe them. Concrete examples.</summary>
 
