@@ -1,3 +1,5 @@
+> Data presented here is gathered from different courses: Standford University, Carnegie Mellon University, Different Books, Udemy and Oreilly courses.  
+
 # Table of Contents: System Design in general, System Design In Practice, System design for Azure  
 0. [AWS: Solution Architect in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
 1. [Azure: Solution Architect in Practice](#governance-and-compliance-materials)  
