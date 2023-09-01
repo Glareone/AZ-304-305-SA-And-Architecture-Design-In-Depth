@@ -1,5 +1,7 @@
-# Design Service Principals
+# Design Service Principals & Managed Identities
 ## Managed Identities
+List of resources which can use managed identity: https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/managed-identities-status  
+
 * A common challenge for developers is the management of secrets and credentials used to secure communication between different components making up a solution.
 Managed identities eliminate the need for developers to manage credentials. Managed identities provide an identity for applications
 to use when connecting to resources that support Azure Active Directory (Azure AD) authentication.
