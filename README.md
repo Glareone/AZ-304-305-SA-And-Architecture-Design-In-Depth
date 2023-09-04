@@ -15,7 +15,7 @@
     j. [Azure Migration Strategy by Microsoft](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWF4QT)  
     k. [Azure Additional Links to Different Materials](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/azure-additional-links-resources.md)  
     l.[Azure: Articles which covers everything in Azure. Third-Party repo I cloned](https://github.com/Glareone/azure-content/tree/master/articles)  
-3. [Azure: High Availability. Disaster Recovery for Azure Functions. Strategies](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/high-availability-strategies-in-azure.md)
+3. [Azure: High Availability. Disaster Recovery for Azure Functions. Strategies](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/high-availability-strategies-in-azure.md)  
     a.[Azure Service Bus: Performance Improvements Best Practices](https://github.com/Huachao/azure-content/blob/master/articles/service-bus/service-bus-performance-improvements.md)  
 5. [Azure: Skylines Academies materials](#skylines-academy-materials)
 6. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
