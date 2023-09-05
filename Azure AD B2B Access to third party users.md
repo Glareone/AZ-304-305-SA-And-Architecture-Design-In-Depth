@@ -1,6 +1,7 @@
 #Entitlement Management  
 
 * Useful for Single-tenant application when you need to grant access for users outside of your organization
+* Useful if you have AAD tenant `yourcompany.com` and you need to grant access to other devs from `their-company.com` Azure AD tenant outside of your org.
 
 https://learn.microsoft.com/en-us/azure/active-directory/governance/entitlement-management-external-users
 > Entitlement management uses Azure AD business-to-business (B2B) to share access so you can collaborate with people outside your organization.
