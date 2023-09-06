@@ -1,4 +1,3 @@
-
 # Azure B2B & B2C
 
 | If you need this	                                                                                 | Use this                               |
@@ -110,4 +109,10 @@ A user risk represents the probability that a given identity or account is compr
 ![risk policies](https://user-images.githubusercontent.com/4239376/162588667-59488621-6d43-48cc-9322-90727a101d3a.png)  
 ![risk policies flow](https://user-images.githubusercontent.com/4239376/162588679-bfe2e683-8f0d-4e2c-99ec-dbb5aee6adfa.png)  
 
+## Azure AD DS Authentication & Authorization for File Shares
 
+https://learn.microsoft.com/en-us/azure/storage/files/storage-files-identity-auth-domain-services-enable?tabs=azure-portal
+
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/3afbba8c-de2c-4876-aa7c-e6cf556d77d2)
+
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/d3136891-3527-40c4-bc85-0860cf92bd46)
