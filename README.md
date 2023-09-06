@@ -17,7 +17,7 @@
     l. [API Management and VNet + APIM with Gateway for On-Premise](https://learn.microsoft.com/en-us/azure/api-management/api-management-using-with-vnet?tabs=stv2)  
 3. [Azure B2B, B2C, Entitlement, Guest Users. App roles & delegated permissions](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Azure%20AD%20B2B%20Access%20to%20third%20party%20users.md)   
     a. [Azure: B2B & B2C, Azure AD DS Domain Services](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Azure%20B2B,%20B2C,%20Azure%20AD%20DS.md)  
-    b. [Azure Entitlement](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Azure%20AD%20B2B%20Access%20to%20third%20party%20users.md)  
+    b. [Azure Entitlement](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Entitlement:%20Azure%20AD%20B2B%20Access%20to%20third%20party%20users.md)  
     c. [Azure Delegate Permissions (User to Azure App)](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview)  
     d. [Azure Assign App roles to another App. Api Permissions](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-add-app-roles-in-apps#assign-app-roles-to-applications)   
 4. [Azure: High Availability. Disaster Recovery for Azure Functions. Strategies](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/high-availability-strategies-in-azure.md)  
