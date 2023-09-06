@@ -1,4 +1,4 @@
-#Entitlement Management  
+# Entitlement Management  
 
 * Useful for Single-tenant application when you need to grant access for users outside of your organization
 * Useful if you have AAD tenant `yourcompany.com` and you need to grant access to other devs from `their-company.com` Azure AD tenant outside of your org.
