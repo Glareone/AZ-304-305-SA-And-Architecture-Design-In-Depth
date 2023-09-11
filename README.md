@@ -1,4 +1,4 @@
-> Data presented here is gathered from different courses: Standford University, Carnegie Mellon University, Different Books, Udemy-DesignGuru-Alex Xu-Oreilly courses, etc.  
+> Data presented here is gathered from different courses: Stanford University, Carnegie Mellon University, Different Books, Udemy-DesignGuru-Alex Xu-Oreilly courses, etc.  
 
 # Table of Contents: System Design in general, System Design In Practice, System design for Azure  
 0. [AWS: Solution Architecture in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
