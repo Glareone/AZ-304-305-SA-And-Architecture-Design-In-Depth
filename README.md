@@ -1768,6 +1768,8 @@ Which messaging pattern fits better for data stream processing?
 </details>
 
 ## Consistent Hashing. Data Partitioning. Data Replication.  
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/f55f8513-f094-4efe-8056-57dde64e3906)  
+
 Q: Where Consistent Hashing is used for Data Partitioning?   
 A: Amazon's Dynamo and Apache Cassandra use Consistent Hashing to distribute and replicate data across nodes   
 Q: In what other scenarios we may use Consistent Hashing for Data Servers?  
