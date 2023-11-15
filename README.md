@@ -72,13 +72,14 @@ Table of Contents
 1. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
 2. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
 
-## System Design Interview. Q&A. Main Problems
+## Practice in System Design Interview. Q&A. Main Problems
 Table of Contents  
 1. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
 2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
 ## System Design Interview. Examples
-1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)
+1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)  
+2. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Pastebin%20in%20practice.md)  
 
 
 # Other Good Articles
