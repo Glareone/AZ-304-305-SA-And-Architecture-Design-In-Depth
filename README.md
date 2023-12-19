@@ -47,7 +47,7 @@
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
     c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)  
-    d. [Architecture Decision Records (ADR\MADR). How to Document your architecture decisions and their consequences](https://github.com/Glareone/good-example-of-architecture-decision-records/tree/develop/doc/architecture/decisions)  
+    d. [Example: Architecture Decision Records (ADR\MADR). How to Document your architecture decisions and their consequences](https://github.com/Glareone/good-example-of-architecture-decision-records/tree/develop/doc/architecture/decisions)  
 16. [Views and Beyond. Alternatives: DoDAF, ISO42010 \ IEEE1471-2000](#views-and-beyond-alternatives-iso-42010-isoiec-42010-dodaf-documentation-in-agile)
 17. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 18. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
