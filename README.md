@@ -69,6 +69,7 @@
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)  
 24. [Azure Data Factory](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-datafactory.md)
 25. [Azure Proximity Placement Groups. Configuring Low-latency VMs in one DataCenter](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-proximity-placement-groups.md)
+26. [Azure App Configuration. Feature Flags and Configurations](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/4-app-configuration-feature-management)  
 
 # SDI. System Design Interview. Q&A. Main Problems
 ## Basics
