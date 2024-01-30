@@ -87,8 +87,10 @@ Table of Contents
 2. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Pastebin%20in%20practice.md)  
 
 
-# Other Good Articles
+# Other Good Articles & Must Read Books
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
+2. [Designing Data-Intensive Applications, M.Kleppmann](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
+3. [System Design Interview, Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF/?_encoding=UTF8&pd_rd_w=dSR9B&content-id=amzn1.sym.cf86ec3a-68a6-43e9-8115-04171136930a&pf_rd_p=cf86ec3a-68a6-43e9-8115-04171136930a&pf_rd_r=141-9978081-1899260&pd_rd_wg=JfweX&pd_rd_r=30cd8cba-7060-488f-8f0c-035712be0551&ref_=aufs_ap_sc_dsk)  
     
 # How Much of Architecture is needed?
 
