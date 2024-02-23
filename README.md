@@ -72,6 +72,9 @@
 23. [Azure App Configuration. Feature Flags and Configurations](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/4-app-configuration-feature-management)
 24. [Darp. The Distributed Application Runtime](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Darp.md)  
 
+# ToGAF. Architecture Development Method(ADM). High-level approach to design
+0. [General info](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf.md)
+
 # SDI. System Design Interview. Q&A. Main Problems
 ## Basics
 Table of Contents
@@ -86,7 +89,6 @@ Table of Contents
 ## Practice in System Design Interview. Examples
 1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)  
 2. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Pastebin%20in%20practice.md)  
-
 
 # Other Good Articles & Must Read Books
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
