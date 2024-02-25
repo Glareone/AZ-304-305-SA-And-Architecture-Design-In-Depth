@@ -16,7 +16,11 @@ So, Architecture is:
 5. Architecture Building Blocks -> "ABBs" abbreviation is used
 6. Solution Building Blocks -> "SBBs" abbreviation is used
 
-
+## ToGAF Level 1 Certification
+1. 40 questions over 60 minutes
+2. multiple answers, only one correct answer
+3. need to pass 55%, 22 answers out of 40 should be correct
+4. each correct answer is worth 1 point
 
 ## The Open Group Architecture Foundation. Principles
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/b802ae96-b7ff-4796-a765-53d7515cd33a)
