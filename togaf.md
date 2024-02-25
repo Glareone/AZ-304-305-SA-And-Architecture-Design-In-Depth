@@ -4,6 +4,7 @@
 2. [Togaf 9.x vs 10](#togaf-9x-vs-10-changes)
 3. [Togaf Level 1 Certification](#togaf-level-1-certification)
 4. [Togaf Level 2 Certification](#togaf-level-2-certification)
+5. [7 Core Concepts](#7-core-concepts)
 
 ## Basics
 **Architecture** by ToGAF:  
@@ -44,3 +45,12 @@ Enterprise Architecture Capability & Governance - the ability of an organization
 
 ## The Open Group Architecture Foundation. Principles
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/b802ae96-b7ff-4796-a765-53d7515cd33a)
+
+## 7 Core Concepts
+* The definition of enterprise
+* BDAT. The Architecture Domains
+* ADM. The Architecture Development Method
+* Deliverables, Artifacts, and Building blocks
+* The Enterprise Continuum
+* The Architecture Repository
+* Defining Architecture Capability 
