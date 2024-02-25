@@ -22,5 +22,13 @@ So, Architecture is:
 3. need to pass 55%, 22 answers out of 40 should be correct
 4. each correct answer is worth 1 point
 
+## ToGAF Level 2 Certification
+1. A test how you apply the ToGAF Standard
+2. Must have passed Level 1. 
+3. A scenario based test, gradient scoring
+4. Open Book Exam
+5. 8 questions over 90 minutes
+6. need 60% to pass
+
 ## The Open Group Architecture Foundation. Principles
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/b802ae96-b7ff-4796-a765-53d7515cd33a)
