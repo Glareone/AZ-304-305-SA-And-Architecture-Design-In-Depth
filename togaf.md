@@ -20,6 +20,11 @@ ADM - Architecture Development Method
 Architecture Content - Artifacts, Documents, Lists, and all stuff comes to your repository
 Enterprise Architecture Capability & Governance - the ability of an organization to execute its strategy effectively with the help of its architecture
 
+### Why do I need Enterprise Architecture. Advantaged of using ToGAF and Enterprise Architecture
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/94262c28-5c90-4ed5-a49f-51e8c138d2de)
+
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/bf589bcb-3b64-4481-8235-ded8f91f9cbf)
+
 
 ## ToGAF 9.x vs 10. Changes
 1. Standard Information Base -> Standards Library
@@ -48,6 +53,8 @@ Enterprise Architecture Capability & Governance - the ability of an organization
 
 ## 7 Core Concepts
 * The definition of enterprise
+    - Highest level of description for an organization
+    - The main goal - is to find your Scope, to get where the scope is before you start. The worst - do the job for departments which never ever will read your documents
 * BDAT. The Architecture Domains
 * ADM. The Architecture Development Method
 * Deliverables, Artifacts, and Building blocks
