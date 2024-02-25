@@ -1,6 +1,9 @@
 # ToGAF
 ## Table of Content
 1. [Basics](#basics)
+2. [Togaf 9.x vs 10](#togaf-9x-vs-10-changes)
+3. [Togaf Level 1 Certification](#togaf-level-1-certification)
+4. [Togaf Level 2 Certification](#togaf-level-2-certification)
 
 ## Basics
 **Architecture** by ToGAF:  
