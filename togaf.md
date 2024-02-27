@@ -56,6 +56,11 @@ Enterprise Architecture Capability & Governance - the ability of an organization
     - Highest level of description for an organization
     - The main goal - is to find your Scope, to get where the scope is before you start. The worst - do the job for departments which never ever will read your documents
 * BDAT. The Architecture Domains
+    - BDAT acronym means: Business, Data, Application, Technology.
+        * Business - how you accepts customers, how do you create products. Processes about how do you conduct your business.
+        * Data - is about data and databases, content in these databases
+        * Application - is all about software. Out of shelf software or custom designed software you use to run in your organization
+        * Technology - the lowest level. Your IT infrastructure, servers, cables
 * ADM. The Architecture Development Method
 * Deliverables, Artifacts, and Building blocks
 * The Enterprise Continuum
