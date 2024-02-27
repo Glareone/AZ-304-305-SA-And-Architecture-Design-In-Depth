@@ -6,6 +6,10 @@
 4. [Togaf Level 2 Certification](#togaf-level-2-certification)
 5. [7 Core Concepts](#7-core-concepts)
 
+## Recommended courses:
+https://www.udemy.com/course/togaf10-part1  
+
+
 ## Basics
 **Architecture** by ToGAF:  
 "It is the structure of components, their interrelationships and the principles and guidelines governing their design and evolution over time."
@@ -61,7 +65,15 @@ Enterprise Architecture Capability & Governance - the ability of an organization
         * Data - is about data and databases, content in these databases
         * Application - is all about software. Out of shelf software or custom designed software you use to run in your organization
         * Technology - the lowest level. Your IT infrastructure, servers, cables
-* ADM. The Architecture Development Method
+* ADM. The Architecture Development Method. Phases from A -> H
+    - ADM is the process you can follow to define the Enterprise architecture.
+    - It consists of several phases, from A -> H in a circle:
+        * Preliminary Phase - it's just setting the stage to get started and check you have all you need to get started creating enterprise architecture
+        * Phase A: Vision - is about articulating the business objectives and the broader vision for your organization. It involves defining how you'll structure each architectural domain to align with and achieve these business goals.
+        * Phases B, C, D: Phases related to BDAT. Putting them together you get the Enterprise Architecture. At the end of phase D you have a draft version of Enterprise Architecture.
+        * Phases E, F: Planning. Address your business' readiness to transformation
+        * Phase G: Implementation. You communicate with the teams and departments and say here is the plan we are going to go over next months. It should not be a shock to them.
+        * Phase H: Change Management. Monitoring and making minor changes. Monitoring that your vision is being met. On this stage you can make small changes to your architecture if you see that something does not exacly working as expected without having to go through the whole cycle (A->H) again.
 * Deliverables, Artifacts, and Building blocks
 * The Enterprise Continuum
 * The Architecture Repository
