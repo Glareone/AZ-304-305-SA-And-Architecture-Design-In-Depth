@@ -22,7 +22,8 @@ So, Architecture is:
 Abbreviatures:
 ADM - Architecture Development Method
 Architecture Content - Artifacts, Documents, Lists, and all stuff comes to your repository
-Enterprise Architecture Capability & Governance - the ability of an organization to execute its strategy effectively with the help of its architecture
+Enterprise Architecture Capability & Governance - the ability of an organization to execute its strategy effectively with the help of its architecture.
+
 
 ### Why do I need Enterprise Architecture. Advantaged of using ToGAF and Enterprise Architecture
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/94262c28-5c90-4ed5-a49f-51e8c138d2de)
@@ -54,6 +55,12 @@ Enterprise Architecture Capability & Governance - the ability of an organization
 
 ## The Open Group Architecture Foundation. Principles
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/b802ae96-b7ff-4796-a765-53d7515cd33a)
+
+## Enterprise Continuum
+On the left you have the most generic documents that can be called foundation architectures, and on
+the right you have organization specific architectures that are only specific to your organization,
+and then you have a couple of things in between.
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/f7333c11-ae74-4b21-be0c-958952ad0fa8)
 
 ## 7 Core Concepts
 * The definition of enterprise
@@ -87,6 +94,9 @@ Enterprise Architecture Capability & Governance - the ability of an organization
     - ABBs. Architecture Building Blocks - potentially reusable components and designs. You could reuse your diagrams on other iterations. For example if you have an architecture for a call center you may reuse it if you need another call center for another purposes. It's more capability associated rather than SBBs.
     - SBBs. Solution Building Blocks - this is how the required capability is implemented, implementation side of ABBs. Talking about call center from ABB, the solution will be the software, the people, the building, the floor, the cables, etc. Those are building blocks for solutions.
       Another example for ABB and SBB is - if customer is needed to manage the data, the ABB is the capability to manage this data, solution is CRM system you decided to build.
-* The Enterprise Continuum
+* The Enterprise Continuum. It's a way to classify all documents you gathered whether they are source documents or outputs which you gather in a journey to create your Enterprise Architecture.
+    - Could be extremely generic types of documents to extremely specific. Or something in between. Usually represents as a line from left to right, from generic to specific.
+    - 
+    - 
 * The Architecture Repository
 * Defining Architecture Capability 
