@@ -74,7 +74,18 @@ Enterprise Architecture Capability & Governance - the ability of an organization
         * Phases E, F: Planning. Address your business' readiness to transformation
         * Phase G: Implementation. You communicate with the teams and departments and say here is the plan we are going to go over next months. It should not be a shock to them.
         * Phase H: Change Management. Monitoring and making minor changes. Monitoring that your vision is being met. On this stage you can make small changes to your architecture if you see that something does not exacly working as expected without having to go through the whole cycle (A->H) again.
-* Deliverables, Artifacts, and Building blocks
+* Deliverables, Artifacts, and Building blocks - outputs fall under broad category named Architecture Content Framework
+    - Artifacts - architectural work product which describes an aspect of the architecture. It's not a full document, it's not a draft architecture.
+        * (List, Matrix, Grid, Diagram) Typically it's list or matrix that show the relationship between things. These things may go into different documents.
+    - Deliverables - architectural work product that was created. It's formally reviewed, approved, and signed off by stakeholders.  
+      For deliverables you should make their copies and version them to be able to get back to one of previous versions created a long ago.
+        * The result of ADM process is the set of key deliverables.
+        * They might be Architectural Specifications for DBAT
+        * Migration Plans
+        * Implementation Plans
+        * They specify the output of the entire process.
+    - ABBs. Architecture Building Blocks - potentially reusable components and designs. You could reuse your diagrams on other iterations. For example if you have an architecture for a call center you may reuse it if you need another call center for another purposes.
+    - SBBs. Solution Building Blocks - this is how the required capability is implemented. Talking about call center from ABB, the solution will be the software, the people, the building, the floor. Those are building blocks for solutions.
 * The Enterprise Continuum
 * The Architecture Repository
 * Defining Architecture Capability 
