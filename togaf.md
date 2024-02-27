@@ -84,8 +84,9 @@ Enterprise Architecture Capability & Governance - the ability of an organization
         * Migration Plans
         * Implementation Plans
         * They specify the output of the entire process.
-    - ABBs. Architecture Building Blocks - potentially reusable components and designs. You could reuse your diagrams on other iterations. For example if you have an architecture for a call center you may reuse it if you need another call center for another purposes.
-    - SBBs. Solution Building Blocks - this is how the required capability is implemented. Talking about call center from ABB, the solution will be the software, the people, the building, the floor. Those are building blocks for solutions.
+    - ABBs. Architecture Building Blocks - potentially reusable components and designs. You could reuse your diagrams on other iterations. For example if you have an architecture for a call center you may reuse it if you need another call center for another purposes. It's more capability associated rather than SBBs.
+    - SBBs. Solution Building Blocks - this is how the required capability is implemented, implementation side of ABBs. Talking about call center from ABB, the solution will be the software, the people, the building, the floor, the cables, etc. Those are building blocks for solutions.
+      Another example for ABB and SBB is - if customer is needed to manage the data, the ABB is the capability to manage this data, solution is CRM system you decided to build.
 * The Enterprise Continuum
 * The Architecture Repository
 * Defining Architecture Capability 
