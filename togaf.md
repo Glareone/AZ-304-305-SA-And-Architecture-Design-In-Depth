@@ -62,6 +62,11 @@ the right you have organization specific architectures that are only specific to
 and then you have a couple of things in between.
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/f7333c11-ae74-4b21-be0c-958952ad0fa8)
 
+* Foundational Architecture could be applied in almost any company in the world in almost any industry
+* Common System Architectures goes a little bit deeper. Service Oriented Architecture call be an example of Common System Architectures. Not any business can apply SOA, but it's still quite generic.
+* Industry Architectures - architectures and standards with specifics for certain business domains like banking. If you are not in baking you dont need to worry about
+* Organization-Specific Architectures - the most specific architectures, generally you or someone in your team created
+
 ## 7 Core Concepts
 * The definition of enterprise
     - Highest level of description for an organization
