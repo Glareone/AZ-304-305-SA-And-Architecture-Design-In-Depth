@@ -112,4 +112,17 @@ and then you have a couple of things in between.
         * Industry Architectures - architectures and standards with specifics for certain business domains like banking. If you are not in baking you dont need to worry about
         * Organization-Specific Architectures - the most specific architectures, generally you or someone in your team created
 * The Architecture Repository
+    - it is a place where you store different classes of your architectural output at different levels of abstraction, various artifacts and various deliverables:
+        * Architecture Metamodel - describes the organization and relationships between different types of architectural descriptors, artifacts, and building blocks
+        * Architecture Capability
+        * Architecture Landscape
+        * Standards Library (formely Standards Information Base, SIB)
+        * Reference Library - any documents which are industry standards or specifications that are outside of the scope of your company but still a part of your references
+        * Governance Repository (formely Governance Logs) - any kind of governance
+        * Architecture Requirement Repository (new in 9.2)
+        * Solution Landscape (new in 9.2)
+    - Central storage for your architecture documents
+    - Should support document versioning
+    - Should be available for all authorized people
+of abstraction.
 * Defining Architecture Capability 
