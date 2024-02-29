@@ -62,6 +62,11 @@ the right you have organization specific architectures that are only specific to
 and then you have a couple of things in between.
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/f7333c11-ae74-4b21-be0c-958952ad0fa8)
 
+## Solution Continuum
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/95ca9cee-17d5-4f66-a259-acec55d0e518)
+* Architecture answers on questions "what should be done"  
+* Solution answers on "how it could be achieved"  
+
 * Foundational Architecture could be applied in almost any company in the world in almost any industry
 * Common System Architectures goes a little bit deeper. Service Oriented Architecture call be an example of Common System Architectures. Not any business can apply SOA, but it's still quite generic.
 * Industry Architectures - architectures and standards with specifics for certain business domains like banking. If you are not in baking you dont need to worry about
