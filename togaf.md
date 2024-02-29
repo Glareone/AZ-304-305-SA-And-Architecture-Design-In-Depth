@@ -132,4 +132,5 @@ of abstraction.
     - TOGAF does contain an architecture or capability method inside the standard
     - Requires effort to grow into developing architecture capability
     - So the architecture capability is evaluated in the preliminary phase of the ADM.
-    - Capability has relationship to Governance and Architecture Repository
+    - Capability has relationship to Governance and Architecture Repository.
+    - Architecture capability is in some degree based on your ability to get the business to agree on creating an architecture process, going through the ADM and coming out with an enterprise architecture.
