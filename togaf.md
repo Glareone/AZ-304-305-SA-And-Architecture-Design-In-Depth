@@ -1,10 +1,12 @@
 # ToGAF
 ## Table of Content
 1. [Basics](#basics)
-2. [Togaf 9.x vs 10](#togaf-9x-vs-10-changes)
-3. [Togaf Level 1 Certification](#togaf-level-1-certification)
-4. [Togaf Level 2 Certification](#togaf-level-2-certification)
-5. [7 Core Concepts](#7-core-concepts)
+2. [Enterprise Continuum shortly](#enterprise-continuum)
+3. [Togaf 9.x vs 10](#togaf-9x-vs-10-changes)
+4. [Togaf Level 1 Certification](#togaf-level-1-certification)
+5. [Togaf Level 2 Certification](#togaf-level-2-certification)
+6. [7 Core Concepts](#7-core-concepts)
+7. [The ADM](#adm)
 
 ## Recommended courses:
 https://www.udemy.com/course/togaf10-part1  
@@ -134,3 +136,5 @@ of abstraction.
     - So the architecture capability is evaluated in the preliminary phase of the ADM.
     - Capability has relationship to Governance and Architecture Repository.
     - Architecture capability is in some degree based on your ability to get the business to agree on creating an architecture process, going through the ADM and coming out with an enterprise architecture.
+
+## ADM
