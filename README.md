@@ -1,7 +1,10 @@
 > Data presented here is gathered from different courses: Stanford University, Carnegie Mellon University, Different Books, Udemy-DesignGuru-Alex Xu-Oreilly courses, etc.  
 
 # Table of Contents: System Design in general, System Design In Practice, System design for Azure  
-0. [AWS: Solution Architecture in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
+## AWS
+1. [AWS: Solution Architecture in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
+
+## Azure
 1. [Azure: Solution Architecture in Practice](#governance-and-compliance-materials)  
     a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)  
     b. [Azure: Service Principal, Managed Identity, and Service Connection](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/service%20principals%2Cmanaged%20Identities%2Cvault%20authentication.md)  
@@ -24,73 +27,73 @@
     a. [Azure Service Bus: Performance Improvements Best Practices](https://github.com/Huachao/azure-content/blob/master/articles/service-bus/service-bus-performance-improvements.md)  
     b. [Azure App Service Disaster Recovery. Active-Active, Active-Passive, Active-Cold](https://learn.microsoft.com/en-us/azure/app-service/overview-disaster-recovery)  
 4. [Azure: Skylines Academies materials](#skylines-academy-materials)
-5. [Architecture in Practice. System Design Interview. Q&A. Main Problems](#sdi-system-design-interview-qa-main-problems)  
-    a. [System Design Interview In practice](#practice-in-system-design-interview-examples)  
-    b. [URL Shortener](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)   
-    c. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Pastebin%20in%20practice.md)  
-6. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
+5. [Data & Data Storage Materials](#data-materials)  
+    a. [Design for Data Storage](#design-for-data-storage)  
+    b. [Azure SQL. Data Retention](#data-retention-in-azure-sql-dbs-managed-instance-and-sql-server)  
+    c. [Azure SQL DB Data Retention for more than 35 days. Tip](#how-to-manage-situations-when-you-need-data-retention-for-more-than-35-days)  
+6. [Traffic Manager](#traffic-manager)
+7. [Azure Data Factory](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-datafactory.md)  
+8. [Azure Proximity Placement Groups. Configuring Low-latency VMs in one DataCenter](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-proximity-placement-groups.md)  
+9. [Azure App Configuration. Feature Flags and Configurations](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/4-app-configuration-feature-management)  
+
+## Architecture. ToGAF & ATAM
+1. [ToGAF. ADM. Basics](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf.md)
+2. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
     a. [Architecture lifecycle](#architecture-patterns)  
     b. [Architecture patterns](#architecture-patterns)  
     c. [Architecture style vs pattern](#architecture-style-vs-pattern)  
     d. [Architecture Influence Cycle](#architecture-influence-cycle)  
-7. [Architecture: Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
-8. [Architecture: Attribute-Driven Design](#attribute-driven-design-add)
-9. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)  
+3. [Architecture: Jeffrey Richter's Course materials](#jeffrey-richters-course-slides)
+4. [Architecture: Attribute-Driven Design](#attribute-driven-design-add)
+5. [Architecture: Quality Attributes and Tactics to achieve them](#quality-attributes-tactics-to-achieve-quality-attributes)  
     a. [Functional vs Non-Functional. Test Process](#functional-vs-non-func-attributes-testing-process)  
     b. [Tactics to Achieve Quality Attributes](#tactics-to-achieve-quality-attributes)  
-10. [Architecture: Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
+6. [Architecture: Architecture Style](#architecture-styles-and-their-documentation-module-styles-cc-styles-allocation-styles)  
     a. [Module Styles](#module-styles-general-information)  
     b. [Component & Connectors Styles](#components-and-connectors-styles)  
     c. [Allocation Styles](#allocation-styles)  
-11. [Architecture Views. Documenting Software Architecture. Properties to document in your Architecture Document](#architecture-views-documenting-software-architecture-properties-to-document-in-your-architecture-document)    
-12. [Documenting Architecture. General Structure. General Principles. Mapping Requirements](#documenting-architecture-general-structure-general-principles-mapping-requirements)   
+7. [Architecture Views. Documenting Software Architecture. Properties to document in your Architecture Document](#architecture-views-documenting-software-architecture-properties-to-document-in-your-architecture-document)    
+8. [Documenting Architecture. General Structure. General Principles. Mapping Requirements](#documenting-architecture-general-structure-general-principles-mapping-requirements)   
     a. [Documenting: Combining Views. Hybrid View](#combine-views-hydrid-view)  
     b. [Documenting: Interfaces, Behavior, Context](#documenting-interfaces-behavior-context)  
     c. [View Packets. Alternatives](#view-packets-alternatives-how-to-build-and-document)  
     d. [Example: Architecture Decision Records (ADR\MADR). How to Document your architecture decisions and their consequences](https://github.com/Glareone/good-example-of-architecture-decision-records/tree/develop/doc/architecture/decisions)  
-13. [Views and Beyond. Alternatives: DoDAF, ISO42010 \ IEEE1471-2000](#views-and-beyond-alternatives-iso-42010-isoiec-42010-dodaf-documentation-in-agile)
-14. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
-15. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
-16. [Data Materials](#data-materials)  
-    a. [Design for Data Storage](#design-for-data-storage)  
-    b. [Azure SQL. Data Retention](#data-retention-in-azure-sql-dbs-managed-instance-and-sql-server)  
-    c. [Azure SQL DB Data Retention for more than 35 days. Tip](#how-to-manage-situations-when-you-need-data-retention-for-more-than-35-days)  
-    c. [Data Replication. Leader-Follower & Quorum patterns in SQL](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)   
-    d. [Blob Storage vs File Share vs Managed Disks](#design-for-storage-accounts-file-share-managed-disks-used-by-azure-vms-blob-storage)  
-17. [Cache. Read-Through, Cache-Aside](#cache)  
+9. [Views and Beyond. Alternatives: DoDAF, ISO42010 \ IEEE1471-2000](#views-and-beyond-alternatives-iso-42010-isoiec-42010-dodaf-documentation-in-agile)
+10. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
+11. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
+
+## Architecture in Common
+1. [Data & Data Storage Materials](#data-materials)  
+    a. [Data Replication. Leader-Follower & Quorum patterns in SQL](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)   
+    b. [Blob Storage vs File Share vs Managed Disks](#design-for-storage-accounts-file-share-managed-disks-used-by-azure-vms-blob-storage)  
+2. [Cache. Read-Through, Cache-Aside](#cache)  
     a. [Cache Consistency Models](#cache-consistency-models)  
     b. [Cache Challenges](#cache-challenges)  
     c. [Cache Replacement Policies](#cache-replacement-policies)  
     d. [Cache Performance Metrics](#cache-replacement-policies)
-18. [Traffic Manager](#traffic-manager)
-19. [Governance and Compliance materials](#governance-and-compliance-materials)  
-20. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
+3. [Governance and Compliance materials](#governance-and-compliance-materials)  
+4. [Kafka & Messaging patterns](#messaging-systems-messaging-patterns-kafka)  
     a. [Kafka. Basics. Consumer Group. Compression & Batching. Load Balancing](#kafka-kafka-basics-kafka-cluster)  
     b. [Messaging Patterns suitable for Kafka and for other services. Q&A](#patterns-with-kafka-and-other-services-qa)  
-21. [Azure Data Factory](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-datafactory.md)
-22. [Azure Proximity Placement Groups. Configuring Low-latency VMs in one DataCenter](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-proximity-placement-groups.md)
-23. [Azure App Configuration. Feature Flags and Configurations](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/4-app-configuration-feature-management)
-24. [Darp. The Distributed Application Runtime](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Darp.md)  
+5. [Darp. The Distributed Application Runtime](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Darp.md)  
+6. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
+7. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
 
-# ToGAF. Architecture Development Method(ADM). High-level approach to design
-0. [ToGAF. ADM. Basics](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf.md)
+## Architecture in Practice. System Design Interview Questions. Main Problems
+1. [Architecture in Practice. System Design Interview. Q&A. Main Problems](#sdi-system-design-interview-qa-main-problems)  
+    a. [System Design Interview In practice](#practice-in-system-design-interview-examples)  
+    b. [URL Shortener](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)   
+    c. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Pastebin%20in%20practice.md)  
+2. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
+3. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
 
-# SDI. System Design Interview. Q&A. Main Problems
-## Basics
-Table of Contents
-1. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
-2. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
 
-## System Design Interview. Q&A. Main Problems
+## System Design Interview. Low-Level System Design Interview. High-Level System Design Interview
 Table of Contents  
 1. [System Design Interview. Low-Level SDI, High-level SDI](#system-design-interview-low-level-system-design-interview-high-level-system-design-interview)  
 2. [Step-by-step guide by DesignGurus](#system-design-interview-general-rules-step-by-step-guide)  
 
-## Practice in System Design Interview. Examples
-1. [Url Shortener](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Url%20Shortener.md)  
-2. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Pastebin%20in%20practice.md)  
-
-# Other Good Articles & Must Read Books
+## Other Good Articles & Must Read Books
 1. [System Design Complete Guide by Karan Pratap Singh](https://dev.to/karanpratapsingh/system-design-the-complete-course-10fo)
 2. [Designing Data-Intensive Applications, M.Kleppmann](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321)
 3. [System Design Interview, Alex Xu](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF/?_encoding=UTF8&pd_rd_w=dSR9B&content-id=amzn1.sym.cf86ec3a-68a6-43e9-8115-04171136930a&pf_rd_p=cf86ec3a-68a6-43e9-8115-04171136930a&pf_rd_r=141-9978081-1899260&pd_rd_wg=JfweX&pd_rd_r=30cd8cba-7060-488f-8f0c-035712be0551&ref_=aufs_ap_sc_dsk)  
