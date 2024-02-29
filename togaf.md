@@ -96,7 +96,10 @@ and then you have a couple of things in between.
       Another example for ABB and SBB is - if customer is needed to manage the data, the ABB is the capability to manage this data, solution is CRM system you decided to build.
 * The Enterprise Continuum. It's a way to classify all documents you gathered whether they are source documents or outputs which you gather in a journey to create your Enterprise Architecture.
     - Could be extremely generic types of documents to extremely specific. Or something in between. Usually represents as a line from left to right, from generic to specific.
-    - 
-    - 
+    - Foundational Architectures -> Common System Architectures -> Industry Architectures -> Organization-Specific Architectures
+        * Foundational Architecture could be applied in almost any company in the world in almost any industry
+        * Common System Architectures goes a little bit deeper. Service Oriented Architecture call be an example of Common System Architectures. Not any business can apply SOA, but it's still quite generic.
+        * Industry Architectures - architectures and standards with specifics for certain business domains like banking. If you are not in baking you dont need to worry about
+        * Organization-Specific Architectures - the most specific architectures, generally you or someone in your team created
 * The Architecture Repository
 * Defining Architecture Capability 
