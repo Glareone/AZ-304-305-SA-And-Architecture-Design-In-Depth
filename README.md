@@ -73,7 +73,7 @@
 24. [Darp. The Distributed Application Runtime](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/Darp.md)  
 
 # ToGAF. Architecture Development Method(ADM). High-level approach to design
-0. [General info](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf.md)
+0. [ToGAF. ADM. Basics](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf.md)
 
 # SDI. System Design Interview. Q&A. Main Problems
 ## Basics
