@@ -118,11 +118,18 @@ and then you have a couple of things in between.
         * Architecture Landscape
         * Standards Library (formely Standards Information Base, SIB)
         * Reference Library - any documents which are industry standards or specifications that are outside of the scope of your company but still a part of your references
-        * Governance Repository (formely Governance Logs) - any kind of governance
+        * Governance Repository (formely Governance Logs) - any kind of governance. Control measures and control change, control that your plan is followed through.
         * Architecture Requirement Repository (new in 9.2)
         * Solution Landscape (new in 9.2)
     - Central storage for your architecture documents
     - Should support document versioning
     - Should be available for all authorized people
+    - Has relationship to Architecture Capability and Governance
 of abstraction.
-* Defining Architecture Capability 
+* Architecture Capability
+    - It is basically your ability to do Enterprise Architecture. It's possible that you're just getting started down this road, that your enterprise, your organization, really doesn't have a history of doing enterprise architecture. Maybe you just started in this role and there's just no capability currently. That's certainly possible.
+    - Ability to create documents, put them into repository, and follow the processes controlled by governance 
+    - TOGAF does contain an architecture or capability method inside the standard
+    - Requires effort to grow into developing architecture capability
+    - So the architecture capability is evaluated in the preliminary phase of the ADM.
+    - Capability has relationship to Governance and Architecture Repository
