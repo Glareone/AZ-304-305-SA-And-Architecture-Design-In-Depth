@@ -6,7 +6,7 @@
 4. [Togaf Level 1 Certification](#togaf-level-1-certification)
 5. [Togaf Level 2 Certification](#togaf-level-2-certification)
 6. [7 Core Concepts](#7-core-concepts)
-7. [The ADM](#adm)
+7. [The ADM](#adm-architecture-development-method)
 
 ## Recommended courses:
 https://www.udemy.com/course/togaf10-part1  
@@ -137,4 +137,13 @@ of abstraction.
     - Capability has relationship to Governance and Architecture Repository.
     - Architecture capability is in some degree based on your ability to get the business to agree on creating an architecture process, going through the ADM and coming out with an enterprise architecture.
 
-## ADM
+## ADM. Architecture Development Method
+So to understand the ADM, the ADM is the process by which an enterprise architecture is defined.  
+So as you start through the process, you might find yourself again having to gather documents, ask questions,  
+interview people, and as you go through it, you're going to end up with an architecture definition,  
+a migration plan and finally into implementation and also change management along the way.
+
+**Consist of 10 phases**
+10 yellow cycles here are phases of the ADM  
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/716f8ac2-27d4-4edd-b1b4-581f0007c5c9)
+
