@@ -147,6 +147,18 @@ a migration plan and finally into implementation and also change management alon
 10 yellow cycles here are phases of the ADM  
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/716f8ac2-27d4-4edd-b1b4-581f0007c5c9)
 
+### ADM Iterative Process example.
+<img width="524" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/2106b2da-2e61-4791-af75-dd6d47163de4">  
+
+**Main goal is to be flexible, tailored. You can add steps if it's required in your organization**   
+
+* You can go from the preliminary phase to the vision phase and then back to the preliminary phase, back to the vision phase. It's possible.  
+* You can do A, B, C, and D, or even all the way to F and then loop back to B.  
+* You can flip between E and F multiple times as you're finding the gap analysis and getting into migration  
+* Maybe you have security being high on your list of issues and you've got a security team and a security department and a chief security officer. And so you're going to have to adapt the TOGAF, ADM to involve your security department at certain points along the process. And that could just be new steps that are added, new stakeholders, new documents to be written and new certifications to be gained.  
+* May be you need to get certain certifications for your product, in this case you can also add additional step in your cycle.
+* If one or some of steps that dont apply to you - you can just remove these steps and associated documents. 
+
 **1st phase is "Preliminary"** - first phase. You can return to it anytime if you wish. But generally the preliminary phase is done one time.  
 **8 phases from A to H** Then there are eight phases labeled A through H in a cycle called the architecture development cycle.  
 **Requirements Management** sitting in the center - is ongoing phase that can happen any time.  
@@ -158,3 +170,9 @@ a migration plan and finally into implementation and also change management alon
 2. It gets easier and the second time you go through it:
    * you have your architecture repository does have documents (from previous runs on this project or in this company).
    * Some of your requirements arent being affected
+#### Requirements Management & Additional info
+1. Phase H could be quite lenghty sometimes because you need to wait for the implementation and then to see if you need to make changes to the requirements. Therefore thereis pauses in this Phase H.
+2. Once phase H is completed you are going to start A phase again.
+3. Requirements Management - is the concept where at some point something can happen and you can't just say "No, I can't deal with that, I am already on Phase D".
+   * Instead you need to deal with this, you should be albe to handle things that happen as they happen.
+   * If competitor's product was released you need to deal with this, you nede to go back to the Vision Phase and revise company's vision on business goals.
