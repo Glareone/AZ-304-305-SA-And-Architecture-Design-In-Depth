@@ -163,16 +163,48 @@ a migration plan and finally into implementation and also change management alon
 **8 phases from A to H** Then there are eight phases labeled A through H in a cycle called the architecture development cycle.  
 **Requirements Management** sitting in the center - is ongoing phase that can happen any time.  
 
-### ADM. 8 Phases from A to H.
-#### Initial State
-0. When you start your Architecture Repository is empty (or probably should be pretty empty in the beginning)  
+## ADM. 8 Phases from A to H.
+### Before start. Initial State
+0. When you start your the Architecture Repository is empty (or probably should be pretty empty in the beginning)  
 1. Usually when you do ADM for the first time your Architecture Capability (Capability to create Architecture is zero or one, so pretty low capability). It's more as upskilling process
 2. It gets easier and the second time you go through it:
    * you have your architecture repository does have documents (from previous runs on this project or in this company).
    * Some of your requirements arent being affected
-#### Requirements Management & Additional info
+
+### Requirements Management & Additional info
 1. Phase H could be quite lenghty sometimes because you need to wait for the implementation and then to see if you need to make changes to the requirements. Therefore thereis pauses in this Phase H.
 2. Once phase H is completed you are going to start A phase again.
 3. Requirements Management - is the concept where at some point something can happen and you can't just say "No, I can't deal with that, I am already on Phase D".
    * Instead you need to deal with this, you should be albe to handle things that happen as they happen.
    * If competitor's product was released you need to deal with this, you nede to go back to the Vision Phase and revise company's vision on business goals.
+
+## ADM. Preliminary Phase
+<img width="161" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/ba7eb91b-8f44-404e-99a8-ef65d5b41954">
+
+**Inputs to Preliminary Phase**  
+Inputs could be organized differently. They could be Reference Materials, Non-architectural and architectural inputs  
+1. ToGAF Library - the all of the documentation, the official standards, the series guides and the other documentation that can go along with TOGAF.
+2. Other Architecture Frameworks - any other architecture frameworks that you deal with.
+3. Board strategies and Board Business plans, Business Strategy, IT Strategy, Business Principles, Business Goals, Business Drivers - Anything that comes from your board of directors in terms of business plans, business strategies, IT strategies, what are the business principles that are defined at that level? Business goals and why are we even doing what we do?  
+4. Major Business Operating Frameworks (e.g. SCRUM) - So do you do an Agile development process using Scrum, or what is your what is your business process and what other frameworks are happening?
+5. Governance and Legas Frameworks, including Architecture Governance Strategy. - any kind of governance or anything that's that you can gather in terms of those areas, partnerships and contract areas and things like that.
+6. Architecture Capability - an evaluation of your architecture capability.
+   * It also includes any other documents relating to it, team members and things like that.
+7. Partnership and contract agreements. 
+8. Existing documents related to architecture capability. 
+9. Organizational Model for Enterprise Architecture.
+    * And so this is basically what scope of organizations are impacted your gaps:
+         - maturity assessment,
+         - budget requirements,
+         - roles and responsibilities,
+         - etcetera.
+10. Existing Architecture Framework.
+    * Any other architecture, specifically architecture frameworks besides TOGAF that you're dealing with? The gap may be the only one, but maybe you've been doing this before, or you have other architecture frameworks in your organization.  
+
+**Two primary objectives:**
+1. Define the architecture capability desired.
+   * Often called "Where, What, Why, Who, and How we do architecture"
+        - What to do with this?
+        - Why are we even starting this process?
+        - Who is involved?
+3. Establish the architecture capability including defining your architecture principles
