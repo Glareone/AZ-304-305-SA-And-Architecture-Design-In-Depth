@@ -143,7 +143,18 @@ So as you start through the process, you might find yourself again having to gat
 interview people, and as you go through it, you're going to end up with an architecture definition,  
 a migration plan and finally into implementation and also change management along the way.
 
-**Consist of 10 phases**
+**Consist of 10 phases in total**
 10 yellow cycles here are phases of the ADM  
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/716f8ac2-27d4-4edd-b1b4-581f0007c5c9)
 
+**1st phase is "Preliminary"** - first phase. You can return to it anytime if you wish. But generally the preliminary phase is done one time.  
+**8 phases from A to H** Then there are eight phases labeled A through H in a cycle called the architecture development cycle.  
+**Requirements Management** sitting in the center - is ongoing phase that can happen any time.  
+
+### ADM. 8 Phases from A to H.
+#### Initial State
+0. When you start your Architecture Repository is empty (or probably should be pretty empty in the beginning)  
+1. Usually when you do ADM for the first time your Architecture Capability (Capability to create Architecture is zero or one, so pretty low capability). It's more as upskilling process
+2. It gets easier and the second time you go through it:
+   * you have your architecture repository does have documents (from previous runs on this project or in this company).
+   * Some of your requirements arent being affected
