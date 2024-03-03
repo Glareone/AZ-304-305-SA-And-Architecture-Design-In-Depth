@@ -7,10 +7,11 @@
 5. [Togaf Level 2 Certification](#togaf-level-2-certification)
 6. [7 Core Concepts](#7-core-concepts)
 7. [The ADM](#adm-architecture-development-method)
+   - [Initial State. Basics](#before-start-initial-state)
+   - [Preliminary Step](#adm-preliminary-phase)
 
 ## Recommended courses:
 https://www.udemy.com/course/togaf10-part1  
-
 
 ## Basics
 **Architecture** by ToGAF:  
@@ -21,11 +22,14 @@ So, Architecture is:
 
 **Architecture framework** answers on another question: "How do we do architecture?"  
 
-Abbreviatures:
-ADM - Architecture Development Method
-Architecture Content - Artifacts, Documents, Lists, and all stuff comes to your repository
-Enterprise Architecture Capability & Governance - the ability of an organization to execute its strategy effectively with the help of its architecture.
+Abbreviatures:  
+**ADM** - Architecture Development Method  
+**Architecture Content** - Artifacts, Documents, Lists, and all stuff comes to your repository  
+**Enterprise Architecture Capability & Governance** - the ability of an organization to execute its strategy effectively with the help of its architecture.  
 
+**Deliverables vs Artifacts**  
+Artifact doesn't get signed off on and approved. But this is something you're going to end up living by as you go through the rest of Enterprise Architecture process.  
+* Principles Catalog (Preliminary Phase) - example of such artifact    
 
 ### Why do I need Enterprise Architecture. Advantaged of using ToGAF and Enterprise Architecture
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/94262c28-5c90-4ed5-a49f-51e8c138d2de)
@@ -181,7 +185,9 @@ a migration plan and finally into implementation and also change management alon
 ## ADM. Preliminary Phase
 <img width="161" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/ba7eb91b-8f44-404e-99a8-ef65d5b41954">
 
-**Inputs to Preliminary Phase**  
+* In preliminary phase you can tailor TOGAF. it couldn't be done throught the process, only in Preliminary Phase.
+
+### Inputs to Preliminary Phase
 Inputs could be organized differently. They could be Reference Materials, Non-architectural and architectural inputs  
 1. ToGAF Library - the all of the documentation, the official standards, the series guides and the other documentation that can go along with TOGAF.
 2. Other Architecture Frameworks - any other architecture frameworks that you deal with.
@@ -201,10 +207,45 @@ Inputs could be organized differently. They could be Reference Materials, Non-ar
 10. Existing Architecture Framework.
     * Any other architecture, specifically architecture frameworks besides TOGAF that you're dealing with? The gap may be the only one, but maybe you've been doing this before, or you have other architecture frameworks in your organization.  
 
-**Two primary objectives:**
+### Two primary objectives
 1. Define the architecture capability desired.
    * Often called "Where, What, Why, Who, and How we do architecture"
         - What to do with this?
         - Why are we even starting this process?
         - Who is involved?
 3. Establish the architecture capability including defining your architecture principles
+
+### Steps to Preliminary Phase
+1. Scope the enterprise organizations impacted
+2. Confirm governance and support frameworks
+3. Define and establish Architecture Team
+4. Identify and Establish Archiecture Principles
+5. Tailor ToGAF and Other Frameworks
+   * making changes and tailoring TOGAF and any other frameworks: Adding or deleting steps\things
+6. Implement Architecture Tools
+   * If you have an architecture repository or a CRM for knowledge management, getting that stuff installed and getting everybody access happens in the preliminary phase.
+  
+### Outputs from Preliminary Phase
+1. Organizational Model for Enterprise Architecture
+   - It's like the roles and responsibilities, the budget, any kind of constraints that you have, what is your gaps or maturity assessments, etc.
+2. Tailored Architecture Framework - version of ToGAF ADM process you gonna apply and go through for exact organization 
+3. Initial Architecture Repository
+   - set up initially architecture repository. It could be empty, but it's not going to be completely empty because you're going to have some of those documentations that were created in the input phase.
+4. Business principles, business goals, business drivers
+   - any kind of business principles, business goals, business drivers that goes into the the architecture repository.
+5. Request for Architecture Work (optional)
+   - somebody outside your team is going to actually formally ask you to perform this.
+   - and it's formally written down what it is that they want you to do.
+6. Architecture Governance Framework
+   - governance is this concept is about "how you handle change"
+   - If somebody wants to make a change request, it goes through the governance framework.
+   - If somebody wants to revise a particular document outside of your team, then there's a whole process for "what do you do?", "Do you stop what you're doing?", "Do you go back to the previous phase?"
+     * You kind of need a set of people who can make some decisions and everything gets documented.
+
+### Artifacts Produced
+* Principles Catalog - this is something you're going to end up living by as you go through the rest of this process.
+   - Principles hardly ever change.
+   - Principles make it actually easier to make decisions. It's easy to say no because this goes against my principle.
+examples:
+    * Might be that you prefer to get off the shelf software,third party software, as opposed to always designing custom software.
+    * Could just be a preference that your organization has and that could be a principle as well
