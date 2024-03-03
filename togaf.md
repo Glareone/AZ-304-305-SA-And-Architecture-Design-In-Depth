@@ -1,4 +1,4 @@
-# ToGAF
+<img width="1023" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/8a256ffa-1c69-45ea-9bdb-ee4fefa542b3"># ToGAF
 ## Table of Content
 1. [Basics](#basics)
 2. [Enterprise Continuum shortly](#enterprise-continuum)
@@ -26,10 +26,21 @@ Abbreviatures:
 **ADM** - Architecture Development Method  
 **Architecture Content** - Artifacts, Documents, Lists, and all stuff comes to your repository  
 **Enterprise Architecture Capability & Governance** - the ability of an organization to execute its strategy effectively with the help of its architecture.  
+**Architecture Capability Framework** - is a set of resources, guidelines, templates, background information, etc. which provide help the architect to establish an architecture practice within an organization.    
+**The Architecture Content Framework** - is a detailed model that outlines the types of architectural outputs or artifacts that will come out of the TOGAF cycle.  
+   - Deliverables: These are contractually specified outputs of the project that are often made available to stakeholders. These might include architecture definitions, models, and contracts.  
+   - Artifacts: These are components that make up an architectural deliverable. Examples could be diagrams, matrices, and inventories.  
+   - Architecture Building Blocks (ABB) : These represent components at varying levels of detail that make up the system. They include functional elements, and their interrelationships, grouped to serve a specific purpose or function.  
+**Architecture Deliveables**
+**Deliverable** - a work product. Should be formally reviewed, agreed, and signed off by the stakeholders.  
+**Artifact** -  an Architectural work product that describes an aspect of the architecture.  
 
 **Deliverables vs Artifacts**  
 Artifact doesn't get signed off on and approved. But this is something you're going to end up living by as you go through the rest of Enterprise Architecture process.  
-* Principles Catalog (Preliminary Phase) - example of such artifact    
+Deliverable should be formally reviewed, agreed, and signed off by the stakeholders.  
+Artifact 
+* Principles Catalog (Preliminary Phase) - example of such artifact
+* Architecture Building Blocks - example of deliverables which are the output of ADM process (or could be an input on Preliminary Phase)
 
 ### Why do I need Enterprise Architecture. Advantaged of using ToGAF and Enterprise Architecture
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/94262c28-5c90-4ed5-a49f-51e8c138d2de)
@@ -213,7 +224,9 @@ Inputs could be organized differently. They could be Reference Materials, Non-ar
         - What to do with this?
         - Why are we even starting this process?
         - Who is involved?
-3. Establish the architecture capability including defining your architecture principles
+3. Establish the architecture capability including defining your architecture principles.
+<img width="1023" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/93e40b67-a758-4149-a8ea-852a810750b8">
+
 
 ### Steps to Preliminary Phase
 1. Scope the enterprise organizations impacted
