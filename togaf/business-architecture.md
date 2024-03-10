@@ -6,7 +6,9 @@ Example:
    - We want to become the most customer friendly organization in our whole industry.
    - We want to become famous for customer service.
    - Whatever your vision is, you've defined that.
-Now you need to put more details.  
+Now you need to put more details.
+**Generally you should realize that Phase B is the business requirements phase.**
+   - And so you're going to have to at some point defined the business requirements.
 
 ## Purpose of Business Architecture
 1) develop what's called the target business architecture.
@@ -49,3 +51,40 @@ Now you need to put more details.
   -  draft architecture document that was done
   -  draft version of all baselines
   -  target BDAT documents
+
+## Steps
+1) Select Reference models, viewpoints, and tools
+   - So you're looking at the amount of external reference materials you have available and choosing relevant ones that can help you.
+2) Develop baseline Business Architecture Description
+   - So how your business is designed today
+3) Develop target Business Architecture Description
+   - your target business architecture, how your business is going to be designed.
+4) Perform Gap Analysis
+   - what's the differences between the baseline and the target?
+   - Maybe there's large parts of your business that don't have to change The baseline and the target are the same.
+   - And so that means you don't have gaps in that area.
+   - But if you have parts of the business that do have to change, you have to identify those, pull that into a separate document.
+5) Define Candidate Roadmap Components
+   - Answers on how you gonna cover all gaps you found
+   - So if you're going to have to change your process of defining the process, or modifying the process
+       * all of the things that go along with that, go on to your roadmap
+6) Resolve Impacts across the architecture landscape
+   - Impacts are the conflicts between between what you are desiring to improve:
+       * Improve the quality of the service
+       * Cost of the product
+       * Cost of the ownershipping
+       * How are you going to add more staff members to the customer service department but also meet the overall?
+       * Reduce expenses
+   - You need to identify where the conflicts between your ideas
+   - Come to an agreement how you are going to resolve them
+7) Conduct formal stakeholder review
+   - Is about how you gonna changing the business processes, not about technologies or application stuff yet.
+   - present what you found to your stakeholders
+   - formal stakeholders review
+   - submit the list of issues or what stakeholders would like to see
+   - what conflicts you found and how you gonna mitigate them
+8) Finalize Business Architecture
+   - put everything you get on previous stages, and finalize them. After that you may start creating Architecture Definition Document
+9) Create Architecture Definition Document
+    - This is the foundation for what you're going to do for the rest of this project for the next several months or years is once you've defined that, how you're changing the business.
+    - Everything else needs to fall in line to assist with that
