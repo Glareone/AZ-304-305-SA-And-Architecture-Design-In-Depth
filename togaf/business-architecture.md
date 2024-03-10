@@ -1,14 +1,18 @@
 # Business Architecture. B. 2st Phase of ADM
 <img width="482" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/5ec23b0e-67a5-4cdb-b5fb-9ba106146cc6">
+<img width="564" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/f416488e-88e5-4bc1-ac99-d05ea67f802d">
 
-**Fully based on Architecture Vision you created on the step A**  
-Example:  
+**Phase A, which is the architecture vision phase that is about your vision, that is about your goals, thinking in the future where you like the business to go.**  
+**Phase B was the business architecture phase, and that is the things that you need to actually do to get your business from A to B.**  
+**Fully based on Architecture Vision you created on the step A**    
+Example:   
    - We want to become the most customer friendly organization in our whole industry.
    - We want to become famous for customer service.
    - Whatever your vision is, you've defined that.
 Now you need to put more details.
-**Generally you should realize that Phase B is the business requirements phase.**
-   - And so you're going to have to at some point defined the business requirements.
+
+**Generally you should realize that Phase B is the business requirements phase.**  
+   - And so you're going to have to at some point defined the business requirements.  
 
 ## Purpose of Business Architecture
 1) develop what's called the target business architecture.
@@ -52,7 +56,7 @@ Now you need to put more details.
   -  draft version of all baselines
   -  target BDAT documents
 
-## Steps
+## Steps of Business Architecture
 1) Select Reference models, viewpoints, and tools
    - So you're looking at the amount of external reference materials you have available and choosing relevant ones that can help you.
 2) Develop baseline Business Architecture Description
@@ -88,3 +92,47 @@ Now you need to put more details.
 9) Create Architecture Definition Document
     - This is the foundation for what you're going to do for the rest of this project for the next several months or years is once you've defined that, how you're changing the business.
     - Everything else needs to fall in line to assist with that
+
+## Outputs of Business Architecture
+1) Refine your Architecture Vision (A) Deliverables
+   - So if you've had to change any of your Phase A's, so if your vision had to be tweaked or if your any of your goals or drivers or things like that needed additional refinement, that obviously gets updated.
+2) Draft version of Architecture Definition Document
+   - approved baseline Business Architecture
+   - approved target Business Architecture
+   - the target business architecture up to a final version 1.0.
+3) Draft version of Architecture Requirements Specification. Gap Analysis
+   - what the gap between the baseline and target, how we gonna mitigate, how to achieve target goals
+4) Business Architecture Components of Architecture Roadmap
+   - we've now filled in the business components, not necessarily the others.
+
+<img width="565" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/9698dcfb-81c7-4697-9282-283012555e58">
+
+## Artifacts Produced at the end of Business Architecture Phase
+* These are all business terms.
+* None of them are technology terms.
+* None of them are application or data terms.
+* These are all processes, businesses, models, actors, roles.
+
+1) Catalogs:
+   * Value Stream Catalog
+   * Value Stream Stages Catalog
+   * Business Capabilities Catalog
+   * Organization and\or Actors Catalog
+   * Drivers, goals, objectives Catalog
+   * Role catalog
+   * Business Service, function Catalog
+   * Location Catalog
+   * Contract\Measure Catalog
+2) Matrices:
+   * Value Stream \ Capability Matrix
+   * Strategy \ Capability Matrix
+   * Organization Capability Matrix
+   * Business Interaction Matrix
+   * Actors \ Role Matrix
+3) Diagrams:
+   * Business Model Diagram
+   * Business Capability Map
+   * Value Stream Map
+   * Organization Map
+   * Business Information Map
+   * 
