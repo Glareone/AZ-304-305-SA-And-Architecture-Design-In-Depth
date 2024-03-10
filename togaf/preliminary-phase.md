@@ -66,6 +66,6 @@ Inputs could be organized differently. They could be Reference Materials, Non-ar
    - Principles hardly ever change.
    - Principles make it actually easier to make decisions. It's easy to say no because this goes against my principle.
      
-examples:  
-* Might be that you prefer to get off the shelf software,third party software, as opposed to always designing custom software.
-* Could just be a preference that your organization has and that could be a principle as well
+* Examples of Principles:  
+   - Might be that you prefer to get off the shelf software,third party software, as opposed to always designing custom software.
+   - Could just be a preference that your organization has and that could be a principle as well
