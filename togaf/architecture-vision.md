@@ -26,17 +26,40 @@
    - your kickoff session with your team. "Hey guys, we are over the next few months going to do the following. Here's our timeline, here's our budget. This is what we're going to do."  
 2) Identifying who is your key stakeholders, concerns and business requirements
    - who is the actual stakeholder, which has a business interest in the output
-   - who are just people who are concerned and what are their concerns
+   - who are just people who are concerned and what are their concerns  
+3) Confirm business goals
    - what are the business requirements coming from the stakeholders confirming that the goals, drivers and constraints are still valid.
-3) Evaluating Organizational Capabilities
+4) Evaluating Organizational Capabilities
    - This is different than evaluating your architecture capabilities.
    - This is looking to see what is it that your company does well, What doesn't it do well?
    - Where do we rank among our competitors, among the industry, among customer expectations?
    - How great our competitors in what we are trying to do?
+5) Assess Readiness for transformations
    - TOGAF Business Readiness, The Transformation Risks and the Readiness for Transformation:
        * some companies are remarkably agile and flexible when it comes to handling change, and some businesses are not as as comfortable handling change.
        * estimate resistance and readiness for transformations.
+6) Define the Scope
    - Understand the scope of the project:
        * Are you trying to define the enterprise architecture for the full enterprise?
        * Are you focused in this particular iteration of the cycle on only a specific component of that?
-
+7) Confirm Architecture Principles, including business principles
+   - confirm that the architecture principles that were defined in the preliminary phase are still valid and including the business principles.
+8) Develop Architecture Vision
+   - Bring everything together
+   - You're coming together with an architecture to help the business meets the expected future:
+       * cheaper product
+       * better quality of products
+       * be more flexible
+       * be more responsive to client needs
+   - Then you're going to have to develop a business case around that:
+       * if you meet your architecture vision, then what kind of value are you unlocking?
+9) Define the target architecture value and KPI
+   - Key Performance Indicator and so that's how you're going to measure this.
+10) Identify Risks of Transformation
+   -  Maybe competition changes, maybe your product isn't well received.
+   -  There's a lot of risks and what are the mitigations you can put against that?
+11) Develop Statement of Architecture Work, secure approval
+   - at the end of your when you've got your vision, your value and KPIs, identified the risks and the mitigations for that
+   - you put that all together and then you have to sell it to your stakeholders, your CEO, your heads of each of the departments
+      * Do you guys agree we start doing this and this and this, do you agree?
+   - You still have to define the requirements and still have to come up with a plan.
