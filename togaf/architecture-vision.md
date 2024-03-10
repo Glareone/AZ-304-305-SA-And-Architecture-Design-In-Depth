@@ -1,6 +1,14 @@
 # Architecture Vision. 1st ADM Phase
 <img width="359" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/c6a2ee86-8a92-40e0-9c50-6af938c2adb1">
 
+## Purpose. Basics
+1) The purpose is to have a high level vision, including any emerging technologies that are impacting your industry.
+   - So if you know that AI is the next big thing and you have to understand how is your company going to incorporate AI, how is it going to respond to AI or whatever is happening in the world? This gets included in your vision and it's very high level.
+2) It is a rough description or design of what the end state of your architecture is going to be.
+   - If in the end you're going to have to break up your main product into several smaller projects, make it modular and have customers be able to add additional add ons
+3) You're going to have a rough idea of this is the end state of your of your company's.
+   
+companies develop add ons for it.
 ## Objectives
 1) Build high-level vision of business value to be delivered
    - So, you consider your organization's aspirations. What abilities or qualities does it seek to acquire or develop?
@@ -83,3 +91,14 @@
    - certain stakeholders at different levels are going to need different levels of communication.
 9) Additional Content in the Architecture Repository
    - And any additional content that got generated or you came across that goes into the architecture repository.
+
+## Artifacts Produced
+### You can look at the architecture content in TOGAF standard to see examples of this or blank versions of this maps and diagrams
+1) Matrices: Stakeholders Map Matrix
+2) Diagrams:
+   - Business Model Diagram
+   - Business Capability Map
+   - Value stream Map
+   - Value chain Diagram
+   - Solution Concept Diagram
+     
