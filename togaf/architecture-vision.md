@@ -63,3 +63,23 @@
    - you put that all together and then you have to sell it to your stakeholders, your CEO, your heads of each of the departments
       * Do you guys agree we start doing this and this and this, do you agree?
    - You still have to define the requirements and still have to come up with a plan.
+
+## Outputs of Architecture Vision
+1) Approved Statement of Architecture Work
+   - So that document with the signatures on it
+2) Refined Statement of business principles, goals, and drivers
+3) Architecture Principles
+4) Organizational Capability Assessment
+   - Any kind of assessment that you made of the capabilities of your organization
+5) Tailored Architecture Framework
+6) Architecture Vision
+   - you certainly must understand how your business operatestoday.
+   - You know what it's doing, how it does it, what kind of changes need to be made in those departments?
+7) Draft Architecture Definition Document (may include baseline and target BDAT documents)
+   - have a rough idea of that and so you can create a rough document outlining the kinds of changes that need to be made.
+   - (!!!!) these get refined in phases B, C and D.
+8) Communications Plan
+   - how often you communicate with who.
+   - certain stakeholders at different levels are going to need different levels of communication.
+9) Additional Content in the Architecture Repository
+   - And any additional content that got generated or you came across that goes into the architecture repository.
