@@ -8,13 +8,13 @@ It almost has 2 phases in 1:
 
 Objectives, Inputs, Steps, Outputs are almost the same for both.  
 
-## Purpose
+## Data Architecture. Purpose (Objectives)
 1) Develop the Target Information Systems Architectures
 2) Develop Architecture Roadmap items based on gaps.
-
 In other words it's the same purpose as the business phase, but now you are dealing with Data and Application (instead of Business, obviously).
 
-## Data Architecture. Objectives
+
+Additional:
 1) Data Understanding: One of the main objectives of Data Architecture is to create a unified understanding of data among all stakeholders. This includes defining key data-related terms, their meanings, and relationships.
 2) Data Governance: Establishing rules for data management and usage is another goal of Data Architecture. This helps ensure data is appropriately controlled, protected, and accurate.
 3) Data Integration: Data Architecture aims to facilitate smooth data integration. It ensures that data from multiple sources can be easily combined and used effectively in a unified manner.
@@ -31,8 +31,9 @@ In other words it's the same purpose as the business phase, but now you are deal
 5) Communication Plan (Phase A, same in B)
 6) Organization Model for Enterprise Architecture (Preliminary Phase, same in B)
 7) Tailored Architecture Framework (Preliminary Phase, same in B)
+   - customized to suit the specific needs, culture, and maturity of an organization.
 8) Data Principles (The TOGAF Standard: ADM Techniques)
-    - data principles and you can read about that in the specification
+   - data principles and you can read about that in the specification
 9) Approved Statement of Architecture Work (Phase A)
 10) Architecture Vision (Phase A)
 11) Architecture Repository (Preliminary Phase)
@@ -94,3 +95,70 @@ In other words it's the same purpose as the business phase, but now you are deal
    * Data Entity / Data Function Matrix, Application/Data Matrix
 3) Diagrams: Conceptual data diagram, logical data diagram, data dissemination diagram, data security diagram, data migration diagram, data lifecycle diagram
 
+## Application Architecture. Purpose (Objectives)
+1) Develop Target Application Architecture
+2) Develop Architecture Roadmap items based on gaps.
+
+## Application Architecture. Inputs
+1) External Reference Materials
+2) Request for Architecture Work (optional,from Preliminary phase)
+3) Organization Capability Assessment (Phase A, same in B)
+4) Communication Plan (Phase A, same in B)
+5) Organization Model for Enterprise Architecture (Preliminary Phase, same in B)
+6) Tailored Architecture Framework (Preliminary Phase, same in B)
+   - customized to suit the specific needs, culture, and maturity of an organization.
+7) Application Principles (the ToGAF Standard: ADM Techniques)
+8) Approved Statement of Architecture work (from Phase A)
+9) Architecture Vision (from Phase A)
+10) Architecture Repository (from Preliminary Phase)
+11) Draft Architecture Documents and Draft Requirements (from Phase B)
+12) Business and Data Related Architecture Roadmap (from Phase B)
+   - How to implement the new data storage and management technologies
+   - Introduction of new data governance policies
+   - Initiatives for data cleansing or data migration
+   - Development of a data dictionary or catalog
+   - Measures to improve data security, privacy, or compliance
+
+## Application Architecture. Steps
+1) Select Reference Models, Viewpoints, And Tools
+2) Develop Baseline Application Architecture Description
+   - How are the software within your organization working today
+3) Develop Target Application Architecture Description
+   - how should the software and the organization work in the future?
+4) Perform Gap Analysis
+   - What are the gaps between then and now and what are the work items that need to be defined in order to resolve those gaps
+5) Define Candidate Roadmap Components
+   - How to implement the new data storage and management technologies
+   - Introduction of new data governance policies
+   - Initiatives for data cleansing or data migration
+   - Development of a data dictionary or catalog
+   - Measures to improve data security, privacy, or compliance
+6) Resolve impacts across the architecture landscape
+7) Conduct Formal Stakeholder Review
+   - you can review that design with your formal stakeholders,
+   - get their sign off on that,
+   - get their feedback
+8) Finalize Application Architecture
+9) Create Architecture Definition Document
+   - put the applicationelements into your architecture definition document.
+  
+## Application Architecture. Outputs
+1) Refined Phase A Deliverables
+2) Draft Architecture Definition Document
+   - Baseline Application Architecture, approved version
+   - Target Application Architecture, approved version
+3) Draft Architecture Requirements specification - gap analysis
+4) Application Architecture Components of an Architecture Roadmap
+
+## Artifacts Produced
+1) Catalogs: Application Portfolio catalog, interface catalog
+2) Matrices: Application / Organization Matrix, Role / Application Matrix, Application Function matrix, application interaction matrix
+3) Diagrams:
+   - Application Communication diagram,
+   - Application and User Location Diagram,
+   - Application Use-Case diagram,
+   - Enterprise Manageability diagram,
+   - Process/Application Realization Diagram,
+   - Software Engineering Diagram,
+   - Application Migration Diagram,
+   - Software Distribution Diagram
