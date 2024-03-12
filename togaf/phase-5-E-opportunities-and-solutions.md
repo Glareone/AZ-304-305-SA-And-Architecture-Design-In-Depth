@@ -36,7 +36,11 @@
     - Components you get analyzed your gaps
 
 ## Steps
-So we're no longer defining our business architectures or our architectures we are now planning.
+So we're no longer defining our business architectures or our architectures we are now planning.  
+Interesting thing, because at the end of this you really just coming up with a draft strategy, your your strategy and your plans and your roadmaps.  
+* We really haven't put the teams together.  
+* We really haven't introduced this plan into other people yet.  
+* You're just doing the planning part before you get into bringing in other people.  
 
 1) Determine key corporate change attributes
 2) Determine business constraints for implementation
@@ -52,4 +56,46 @@ So we're no longer defining our business architectures or our architectures we a
 6) Refine and Validate Dependencies
    - Maybe there is projects that are underway that are going to be impacted.
    - So understanding various dependencies.
+7) Confirm readiness and risk for business transformation
+   - So there is a business transformation readiness assessment that was conducted in Phase A,
+   - and you have basically already identified what are the risks for your business in doing large changes
+   - Now, maybe your business doesn't handle very large changes very well and things have to be done very slowly
+   - So you go back to your business transformation for readiness assessment and look at your impact on your architecture roadmap and your implementation strategy.
+8) Formulate implementation and migration strategy
+   - So you go back to your business transformation for readiness assessment
+   - and look at your impact on your architecture roadmap and your implementation strategy.
+   - If you have to purchase things, do you have to hire consultants?
+   - You're going to have to kick off projects?
+   - Who's going to do what?
+   - What is achievable?
+   - What is going to be a challenge?
+9) Indentify and group major work packages
+   - put stuff into work packages
+   - So let's say you've decided you've got to do transfer to transition architectures and you have to do these four things in the first phase, these three things in the second phase. And finally the last phase can do the rest.
+   - This is also when you put your transition architectures together.
+10) Identify Transition Architectures
+   - So documenting what is your architecture going to look like at the end of the first phase of implementation while you still have a lot of work to do?
+11) Create the architecture roadmap & implementation and migration plan
+   - So you're consolidating your work packages, your transition architectures.
+   - That becomes your draft architecture roadmap.
+   - That's going to be the timeline of going from a baseline architecture to a target architecture.
+   - And this is basically a draft document that you've come up with to say what is basically the migration phase.
 
+## Outputs
+1) Refined Phase A deliverables
+2) Draft Architecture Definition document
+   - including baseline and target BDAT architectures, approved version
+   - including transition architectures if needed
+   - architecture views
+3) Draft Architecture Requirements Specification
+   - including gap analysis
+4) Organization Capability assessments
+5) Architecture Roadmap
+   - including work package portfolio
+6) Implementation and migration plan, draft version
+
+## Artifacts
+Very few artifacts on this phase.  
+Now phase does combine into phase F (Migration Planning), which is the migration plan formally, and that's when you do start working with third parties, other people in your company and getting them to prepare to start projects.
+
+**Diagrams**: Product context diagram, benefits diagram  
