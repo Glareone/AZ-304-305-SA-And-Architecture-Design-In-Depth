@@ -26,7 +26,7 @@
 13. Architecture Roadmap, draft version (Phase E Opportunities)
 14. Implementation and migration plan, draft (Phase E Opportunities, output of)
 
-## Steps for migration plan
+## Steps for migration planning
 1. Confirm management framework interactions
 2. Assign a business value to each work package
    - So in the last phase you identified what the work packages are and now you're going to basically say what is the value that we're unlocking?
@@ -49,3 +49,32 @@
 **Need to clarify how different frameworks in your organization will work together:**  
 * "Work with certain frameworks. So business planning frameworks. Enterprise architecture frameworks. The project management frameworks and the operations frameworks. And so if you might have it over here and PMP over here and Agile and all of these different frameworks.  
 How does that all going to work?"
+
+## Output of Migration Planning
+1. Approved version of Implementation and Migration Plan
+   - So you've got your strategy, you've got different projects and portfolios,
+   - who's doing what?
+   - What's going to end at the end of this project?
+   - What's going to happen?
+   - What are the milestones, the timing?
+   - How that relates to the target architecture?
+2. Finalized the Architecture Definition Document
+   - your baseline and target
+3. Finalized Architecture Requirements
+4. Finalized Architecture roadmap
+5. Reusable Architecture Building Blocks (architectures which could be reused)
+   - You identified Solution Building blocks previously.
+   - Now you can go to the abstract and go to the architecture building blocks.
+6. Request for Architecture Work for the next ADM cycle (if any)
+7. implementation of governance model
+   - are going to be able to deliver those things that that provide the value.
+   - The costs are in line.
+8. Change requests for architecture capability from lessons learned
+   - So again, architecture capability,
+   - more people,
+   - new training,
+   - new techniques,
+   - new software
+  
+## Artifacts products
+None
