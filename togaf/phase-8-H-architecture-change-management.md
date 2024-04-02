@@ -37,8 +37,22 @@ And so now you just have to make sure that now that you've done the work, that t
 
 1. Establish Value Realization Process
 2. Deploy Monitoring Tools
-3. Manage Risks
+3. Manage Risks - plan based on monitoring tools how to manage different situations and find new opportunities
 4. Provide Analysis for Architecture Change Management
+   - So if someone comes and says, okay, we need to add a new piece of third party software, this is something that's come up. How does that fit into your architecture and architecture change management?
 5. Develop Change Requirements to Meet Performance Target
+   - Now, if your architecture is not meeting its performance targets, so let's say you did the work and it's just not quite living up to expectations, then you might then end up having to make some change requirements. So it may be that, Oh, you know what, we underestimated this or we overestimated this and we do have to do a couple more pieces of work to realize that value.
 6. Manage Governance Process
 7. Activate the process to Implmenet Change
+
+## Output
+May last very short. But at some point that's done and you are ready to start a new ADM cycle.
+1. Architecture updates (maintenance)
+2. Change to Architecture Framework and principles (maintenance)
+3. New Request for Architecture Work (for major changes)
+4. Statement of Architecture Work (update if necessary)
+5. Architecture Contract (update if necessary)
+6. Compliance Assessment (update if necessary)
+
+## Artifacts
+None
