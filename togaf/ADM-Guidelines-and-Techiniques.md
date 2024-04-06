@@ -1,6 +1,6 @@
 # ADM Guidelines and Techniques
 
-* Architecture Principles
+* [Architecture Principles](togaf/ADM-Technique-1-Architecture-Principles.md)
 * Stakeholders Management
 * Architecture Patterns
 * Gap Analysis
