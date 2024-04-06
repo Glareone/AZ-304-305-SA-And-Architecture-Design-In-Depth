@@ -47,3 +47,15 @@ So let's make a list, a catalog in the parlance of the TOGAF standard of all of 
 - You can even use like a green yellow red color coding so that people will know the states of various services after each transition architecture.
 ![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/75777e68-c6fe-4ce9-8b2d-d50553888a65)
 
+### Business Value Assessment Technique
+A Technique to assess the business value based on risks versus value.
+
+Example:
+- when you are in the implementation, you will have your projects in various states that are either on track or they're at risk of being behind or they're actually behind.
+- And you have certain business values associated with each project.
+- And so it's not enough just to know that one particular team is behind.
+- But what is the impact that team being late to deliver their implementation is going to have on your overall business value?
+
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/70cff3a5-c5e3-44d7-9839-262d68468f1c)
+- The size of the circle indicates the amount of money you're spending on the project or the value you're getting.
+- And this green, orange, red or green, yellow, red to indicate the state of the project.
