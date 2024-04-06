@@ -2,7 +2,7 @@
 
 * [Architecture Principles](ADM-Technique-1-Architecture-Principles.md)
 * [Stakeholders Management](ADM-Technique-2-Stakeholder-Management.md)
-* Architecture Patterns
+* [Architecture Patterns](ADM-Technique-3-Architecture-Patterns.md)
 * Gap Analysis
 * Migration Planning Techniques
 * Interoperability Requirements
