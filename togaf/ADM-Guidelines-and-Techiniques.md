@@ -4,7 +4,7 @@
 * [Stakeholders Management](ADM-Technique-2-Stakeholder-Management.md)
 * [Architecture Patterns](ADM-Technique-3-Architecture-Patterns.md)
 * [Gap Analysis](ADM-Techniques-4-Gap-Analysis.md)
-* Migration Planning Techniques
+* [Migration Planning Techniques](ADM-Techniques-5-Migration-Planning-Techniques.md)
 * Interoperability Requirements
 * Business Transformation Readiness Assessment
 * Risk Management
