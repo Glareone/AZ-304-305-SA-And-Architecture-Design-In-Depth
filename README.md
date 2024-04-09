@@ -47,7 +47,7 @@
 8. [ToGAF. F. Migration Planning](togaf/phase-6-F-migration-planning.md)
 9. [ToGAF. G. Governance](togaf/phase-7-G-Governance.md)  
 10. [ToGAF. H. Architecture Change Management](togaf/phase-8-H-architecture-change-management.md)
-11. 
+11. [ADM. Guidelines and Techniques. Table of Content](togaf/ADM-Guidelines-and-Techiniques.md)  
 
 ## Architecture. ATAM. Principles
 
