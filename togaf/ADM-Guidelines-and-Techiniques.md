@@ -7,5 +7,5 @@
 * [Migration Planning Techniques](ADM-Techniques-5-Migration-Planning-Techniques.md)
 * [Interoperability Requirements](ADM-Techniques-6-Interoperability-Requirements.md)
 * [BTRA. Business Transformation Readiness Assessment](ADM-Techniques-7-BTRA-Business-Transformation-Readiness-Assessment.md)
-* Risk Management
+* [Risk Management](ADM-Techniques-8-Risk-Management.md)
 * Architecture Alternatives and Trade-offs
