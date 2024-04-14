@@ -5,7 +5,7 @@
 * [Architecture Patterns](ADM-Technique-3-Architecture-Patterns.md)
 * [Gap Analysis](ADM-Techniques-4-Gap-Analysis.md)
 * [Migration Planning Techniques](ADM-Techniques-5-Migration-Planning-Techniques.md)
-* Interoperability Requirements
+* [Interoperability Requirements](ADM-Techniques-6-Interoperability-Requirements.md)
 * Business Transformation Readiness Assessment
 * Risk Management
 * Architecture Alternatives and Trade-offs
