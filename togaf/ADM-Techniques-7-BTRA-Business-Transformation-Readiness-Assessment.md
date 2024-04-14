@@ -34,3 +34,27 @@ Might be people don't have the understanding of the overall vision of the busine
 And so there's some basic management communication that needs to happen to know what the drivers of the business are, what's the scope of the project.
 
 2. **Present the readiness factors using Maturity Model**
+  - we were talking about architectural maturity, and that's just your capability to do architecture.
+  - But different parts of your organization have different maturities.
+  - Maybe there's an IT maturity that we need to evaluate.
+  - Determine the baseline Maturity
+  - Determine the target Maturity
+    * So what do we need to do to get to this team or this business section up to the speed where we need them to be?
+    * How can we shortcut that
+
+3. **Assess the readiness factors, including readiness factor rating**
+   - Another workshop, multidisciplinary workshop
+   - You're going to use these maturity models and you're going to have to basically determine how ready people are for these change
+   - You're going to rank them on certain criteria
+    * How urgent is it?
+    * What?
+    * How difficult is it?
+    * What are the risks?
+
+4. Assessing risks for each readiness factor and how can you mitigate that risk?
+   - Probably another workshop where you are going to discuss this.
+5. Work these actions into Phase E (opportunities and solutions) and Phase F (implementation & migrations plans)
+   -  in phases E and F, as you're coming out with breaking up architectures into transition architectures.
+   - breaking up roadmap into work packages
+   - that's going to be based on your business, business, readiness to accept change.
+   
