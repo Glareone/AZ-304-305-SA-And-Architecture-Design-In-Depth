@@ -4,4 +4,4 @@
 * [Architecture Board](Arch-Governance-Architecture-Board.md)
   - Group of people who is responsible for Architecture + Key Stakeholders
 * Architecture Contracts
-* Architecture Compliance
+* [Architecture Compliance](Arch-Governance-4-Architecture-Compliance.md)
