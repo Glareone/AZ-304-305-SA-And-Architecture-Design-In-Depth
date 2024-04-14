@@ -8,4 +8,4 @@
 * [Interoperability Requirements](ADM-Techniques-6-Interoperability-Requirements.md)
 * [BTRA. Business Transformation Readiness Assessment](ADM-Techniques-7-BTRA-Business-Transformation-Readiness-Assessment.md)
 * [Risk Management](ADM-Techniques-8-Risk-Management.md)
-* Architecture Alternatives and Trade-offs
+* [Architecture Alternatives and Trade-offs](ADM-Techniques-9-Architecture-Alternatives-And-Tradeoffs.md)
