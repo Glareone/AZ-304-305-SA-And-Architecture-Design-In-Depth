@@ -6,6 +6,6 @@
 * [Gap Analysis](ADM-Techniques-4-Gap-Analysis.md)
 * [Migration Planning Techniques](ADM-Techniques-5-Migration-Planning-Techniques.md)
 * [Interoperability Requirements](ADM-Techniques-6-Interoperability-Requirements.md)
-* [Business Transformation Readiness Assessment](ADM-Techniques-7-BTRA-Business-Transformation-Readiness-Assessment.md)
+* [BTRA. Business Transformation Readiness Assessment](ADM-Techniques-7-BTRA-Business-Transformation-Readiness-Assessment.md)
 * Risk Management
 * Architecture Alternatives and Trade-offs
