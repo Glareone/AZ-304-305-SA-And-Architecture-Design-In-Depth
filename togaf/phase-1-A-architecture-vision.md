@@ -1,7 +1,7 @@
 # Architecture Vision. 1st ADM Phase
 <img width="359" alt="image" src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/c6a2ee86-8a92-40e0-9c50-6af938c2adb1">
 
-Phase A, which is the architecture vision phase that is about your vision, that is about your goals, thinking in the future where you like the business to go.
+**Phase A, which is the architecture vision phase that is about your vision, that is about your goals, thinking in the future where you like the business to go.**  
 
 ## Purpose. Basics
 1) The purpose is to have a high level vision, including any emerging technologies that are impacting your industry.
