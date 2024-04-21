@@ -3,6 +3,9 @@
 Compliance is basically the way that you judge whether an implementation matches the requirements that have been outlined.  
 It's a formal process of making sure that what's been implemented matches.
 
+![image](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/ff867caf-c854-4fa2-9f27-ec1ff821479b)
+
+
 Architecture Governance metrics:
 1. Irrelevant
    - It's that what development team is implemented does not include the requirement at all.
