@@ -42,6 +42,11 @@
 6. Perform Post-Implementation Review and Close the implementation
    - any changes that need to come are obviously going to be part of a new a new cycle
 
+## Architecture Compliance Review
+![image](https://pubs.opengroup.org/architecture/togaf8-doc/arch/Figures/revuproc.gif)  
+[https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap24.html](https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap24.html)  
+[https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap24.html](https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap24.html)  
+
 ## Techniques
 [Architecture Governance Techniques](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf/Architecture-Governance-Techniques.md)
 
