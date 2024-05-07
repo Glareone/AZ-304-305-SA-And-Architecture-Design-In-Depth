@@ -42,6 +42,9 @@
 6. Perform Post-Implementation Review and Close the implementation
    - any changes that need to come are obviously going to be part of a new a new cycle
 
+## Techniques
+[Architecture Governance Techniques](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf/Architecture-Governance-Techniques.md)
+
 ## Output of Phase G
 1. Architecture Contract
    - So this is the a joint agreement between development partners and sponsors, which are your business partners on the deliverables, quality and fitness for purpose of an architecture.
