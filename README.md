@@ -1,10 +1,10 @@
 > Data presented here is gathered from different courses: Stanford University, Carnegie Mellon University, Different Books, Udemy-DesignGuru-Alex Xu-Oreilly courses, etc.  
 
 # Table of Contents: System Design in general, System Design In Practice, System design for Azure  
-## AWS
+## AWS <img src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/ecfa35ae-3001-4600-a9ee-e7158770f945" width="80" height="50" />
 1. [AWS: Solution Architecture in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
 
-## Azure
+## Azure <img src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/32dd19a5-8468-4044-937a-158443f49772" width="50" height="50" />
 1. [Azure: Solution Architecture in Practice](#governance-and-compliance-materials)  
     a. [Azure: Logging & Monitoring](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/Logging%2CMonitoring.md)  
     b. [Azure: Service Principal, Managed Identity, and Service Connection](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/service%20principals%2Cmanaged%20Identities%2Cvault%20authentication.md)  
@@ -36,7 +36,8 @@
 8. [Azure Proximity Placement Groups. Configuring Low-latency VMs in one DataCenter](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/blob/main/azure-proximity-placement-groups.md)  
 9. [Azure App Configuration. Feature Flags and Configurations](https://learn.microsoft.com/en-us/training/modules/implement-azure-app-configuration/4-app-configuration-feature-management)  
 
-## Enterprise Architecture. ToGAF
+## Enterprise Architecture. ToGAF <img src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/457f5abf-aea3-430a-b3e3-ffda0d7e137a" width="300" height="100" />
+
 1. [ToGAF. ADM. Basics](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf.md)
 2. [ToGAF. Preliminary Phase](togaf/phase-0-preliminary-phase.md)
 3. [ToGAF. A. Architecture Vision](togaf/phase-1-a-architecture-vision.md)
@@ -53,6 +54,7 @@
 12. [Architecture Governance Techniques. Table of Content](togaf/Architecture-Governance-Techniques.md)
 
 ## Architecture. ATAM. Principles
+<img src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/63963821-df71-4f71-9423-d9fa3dc4d7ad" width="300" height="300" />
 
 1. [Architecture: How Much of Architecture is needed](#how-much-of-architecture-is-needed)  
     a. [Architecture lifecycle](#architecture-patterns)  
