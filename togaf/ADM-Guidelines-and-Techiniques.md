@@ -12,4 +12,4 @@
 * Capability-Based Planning (in Progress) [Togaf Capability-Based Planning](https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap28.html)
   - What technique does TOGAF recommend that focuses on achieving business outcomes rather than just technical deliverables?
   - A business planning technique that focuses on business outcomes.
-* Architecture Compliance Review (in progress)
+* [Architecture Compliance Review](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf/Arch-Governance-4-Architecture-Compliance.md)
