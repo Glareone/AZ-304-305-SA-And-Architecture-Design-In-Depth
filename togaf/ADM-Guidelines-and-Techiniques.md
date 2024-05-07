@@ -9,3 +9,6 @@
 * [BTRA. Business Transformation Readiness Assessment](ADM-Techniques-7-BTRA-Business-Transformation-Readiness-Assessment.md)
 * [Risk Management](ADM-Techniques-8-Risk-Management.md)
 * [Architecture Alternatives and Trade-offs](ADM-Techniques-9-Architecture-Alternatives-And-Tradeoffs.md)
+* Capability-Based Planning (in Progress) [Togaf Capability-Based Planning](https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap28.html)
+  - What technique does TOGAF recommend that focuses on achieving business outcomes rather than just technical deliverables?
+  - A business planning technique that focuses on business outcomes.
