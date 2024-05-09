@@ -8,6 +8,8 @@ Full information could be found here: https://circle.visual-paradigm.com/docs/to
 2) Reference Library: Reference Architectures and their ABB (building blocks) coming from 3rd party resources on which we can have only reference. They may live on different levels - Foundation architectures, Common, Industry, Organization-Specific (enterprises similar to ours)
 3) Governance Log: Architecture Decision Log (our decisions, what and why we have done), Compliance assessment (Runs and results)
 4) Standard Information Base: a repository area to hold a set of specifications, to which architectures must conform.
+5) Architecture Metamodel: describes the organizationally tailored application of an architecture framework, including a method for architecture development and a metamodel for architecture content
+6) Architecture Capability defines the parameters, structures, and processes that support governance of the Architecture Repository.
 
 
 
