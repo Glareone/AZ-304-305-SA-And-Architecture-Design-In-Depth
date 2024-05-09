@@ -17,4 +17,4 @@
 # Architecture Governance Techniques
 **[MAIN PAGE](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf/Architecture-Governance-Techniques.md)**
 
-* [Architecture Compliance Review](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/togaf/Architecture-Governance/Arch-Governance-4-Architecture-Compliance.md)
+* [Architecture Compliance Review](Architecture-Governance/Arch-Governance-4-Architecture-Compliance.md)
