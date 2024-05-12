@@ -8,7 +8,7 @@
    - make sure that the migration plan does match with the enterprise current approach to change.
    - different organizations handle change differently at different speeds. They need different things in place to get things done.
 * Ensure the business value and the cost of work packages is understood
-   - If you're you're recommending that the company move their computer systems from the old way of doing business to this new way of doing business, you're going to have to be able to say and this is going to unlock this much in revenue over this many years and is going to cost this much to do the translation and therefore it's worth doing.
+   - If you're recommending that the company move their computer systems from the old way of doing business to this new way of doing business, you're going to have to be able to say and this is going to unlock this much in revenue over this many years and is going to cost this much to do the translation and therefore it's worth doing.
  
 ## Inputs to Phase F
 1. External Reference Materials
