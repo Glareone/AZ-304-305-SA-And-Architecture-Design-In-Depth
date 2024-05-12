@@ -6,12 +6,13 @@
 1. Maintain the Architecture Lifecycle  
    * you're just going to be monitoring the implementation, making sure the implementation is working according to the plan.  
    * you're monitoring that you are achieving the key deliverables and the business value that you are hoping to unlock  
-
+   * maintaining the changes to the architecture after the initial project is finished. This involves continual monitoring and a structured process for affecting change in the IT architecture of the enterprise in response to changing business requirements.
 2. Execute Governance over your Architecture  
    * making sure that your solutions maintain compliance to your architecture designs
 3. Maintain Architecture Capability
    * You don't want your architecture capability, which is yourself and your team, to lose their skills or get get dispersed or whatever.
    * You maintain or improve your architecture capability.
+4. Measure Business Grows is also an objective of this phase (found in materials)
   
 ## Inputs
 1. External Reference Materials
