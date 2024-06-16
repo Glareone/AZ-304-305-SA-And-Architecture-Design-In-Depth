@@ -1769,9 +1769,9 @@ Which messaging pattern fits better for data stream processing?
 </details>
 
 # System Design Interview. Low-level System Design Interview. High-level System Design Interview
-## CAP Themorem. PACELC Theorem. Examples
+## CAP Theorem. PACELC Theorem. Examples
 <details>
-<summary>CAP Themorem</summary>
+<summary>CAP Theorem</summary>
 
   * Consistency ( C ): All nodes see the same data at the same time. This means users can read or write from/to any node in the system and will receive the same data. It is equivalent to having a single up-to-date copy of the data.  
   * Availability ( A ): Availability means every request received by a non-failing node in the system must result in a response. Even when severe network failures occur, every request must terminate. In simple terms, availability refers to a system's ability to remain accessible even if one or more nodes in the system go down.  
