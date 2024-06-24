@@ -80,7 +80,7 @@
 9. [Reviewing Architecture Documentation](#reviewing-architecture-documentation-6-steps-active-reviewing)
 10. [Architecture Evaluation](#architecture-evaluation-measure-and-output-atam)
 
-## Architecture in Common
+## General Architecture Principles. Data. Caching. Messaging. Distributed Systems
 1. [Data & Data Storage Materials](#data-materials)  
     a. [Data Replication. Leader-Follower & Quorum patterns in SQL](#azure-sql-data-replication-types-and-strategies-quorum-and-leader-follower-patterns-pros--cons)   
     b. [Blob Storage vs File Share vs Managed Disks](#design-for-storage-accounts-file-share-managed-disks-used-by-azure-vms-blob-storage)  
