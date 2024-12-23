@@ -10,7 +10,7 @@ Inputs could be organized differently. They could be Reference Materials, Non-ar
 2. Other Architecture Frameworks - any other architecture frameworks that you deal with.
 3. Board strategies and Board Business plans, Business Strategy, IT Strategy, Business Principles, Business Goals, Business Drivers - Anything that comes from your board of directors in terms of business plans, business strategies, IT strategies, what are the business principles that are defined at that level? Business goals and why are we even doing what we do?  
 4. Major Business Operating Frameworks (e.g. SCRUM) - So do you do an Agile development process using Scrum, or what is your what is your business process and what other frameworks are happening?
-5. Governance and Legas Frameworks, including Architecture Governance Strategy. - any kind of governance or anything that's that you can gather in terms of those areas, partnerships and contract areas and things like that.
+5. Governance and Legal Frameworks, including Architecture Governance Strategy. - any kind of governance or anything that's that you can gather in terms of those areas, partnerships and contract areas and things like that.
 6. Architecture Capability - an evaluation of your architecture capability.
    * It also includes any other documents relating to it, team members and things like that.
 7. Partnership and contract agreements. 
