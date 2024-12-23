@@ -1,6 +1,25 @@
 # URL Shortener
 Here is a link to Miro: https://miro.com/app/board/uXjVMzmvKEQ=/?moveToWidget=3458764560014074766&cot=14
 
+## Important moments to be touched during interview:
+### ID generator options: 
+1) Universal Unique ID (PROS and Cons)
+2) Multi-Master ID generation
+<img width="996" alt="image" src="https://github.com/user-attachments/assets/b8a6ff82-bc74-4899-b125-6319003c1446" />
+
+
+3) Ticket Server (Bottleneck and one point of failure)
+  <img width="991" alt="image" src="https://github.com/user-attachments/assets/de08159d-6010-4e9e-b10c-5ed079aa37a2" />
+
+4) Twitter SnowFlake (combined UID with `timestamp-datacenterId-machineId-incrementalRequestIdInThisMilisecond`)
+<img width="1020" alt="image" src="https://github.com/user-attachments/assets/0d68da23-44e6-4c40-a11b-b1c9371fff62" />
+
+### Redirect options:
+1) 301 Constant Redirect: browser caches this and next time will redirect you immediately
+2) 302 Temporary Redirect: browser caches it for the short period of time. Useful for visit analytics
+
+### Hash function vs Base62 (UID -> shortUrl transformer)
+
 ## Questions and answers from Product owners
 ![image](https://github.com/Glareone/AZ-304-SA-And-Architecture-Design-In-Depth/assets/4239376/331533a0-29e5-4628-b706-3ae02d502f0a)
 
