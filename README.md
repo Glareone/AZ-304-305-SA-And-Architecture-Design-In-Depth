@@ -4,7 +4,6 @@
 * [Azure Solution Architecture](#-azure-cloud)
 * [TOGAF Enterprise Architecture](#-enterprise-architecture-togaf)
 * Solution and System Design examples
-* [Microservices In Depth. Patterns. Approaches](microservices-approaches-patterns/readme.md)
 * [ATAM. Architecture Trade-off Analysis Management](#architecture-atam-principles)
 * [Architecture. Patterns. General.](#architecture-patterns)
 * High and Low Level Design. Examples
@@ -111,9 +110,9 @@
     a. [System Design Interview In practice](#practice-in-system-design-interview-examples)  
     b. [URL Shortener](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice/Url%20Shortener.md)   
     c. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice/Pastebin%20in%20practice.md)  
-    d. [Web Crawler](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice/Web%20Crawler.md)  
-3. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
-4. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
+    d. [Web Crawler](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice/Web%20Crawler.md) 
+2. [CAP Theorem. PACELC](#cap-themorem-pacelc-theorem-examples)
+3. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
 
 
 ## System Design Interview. Low-Level System Design Interview. High-Level System Design Interview
