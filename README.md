@@ -1,10 +1,14 @@
 > Data presented here is gathered from different courses: Stanford University, Carnegie Mellon University, Different Books, Udemy-DesignGuru-Alex Xu-Oreilly courses, etc.  
 
-# Categories of presented materials
-* Azure Solution Architecture
-* TOGAF Enterprise Architecture
+# Categories of materials
+* [Azure Solution Architecture](#azure-cloud)
+* [TOGAF Enterprise Architecture](#enterprise-architecture-togaf)
 * Solution and System Design examples
-* Advanced topics regarding different aspects of solution architecture
+* [Microservices In Depth. Patterns. Approaches](microservices-approaches-patterns/readme.md)
+* [ATAM. Architecture Trade-off Analysis Management](#atam-conceptual-flow)
+* [Architecture. Patterns. General.](#architecture-patterns)
+* High and Low Level Design. Examples
+* [Microservices. Patterns. Approaches](/microservices-approaches-patterns/readme.md)
 
 ## <img src="https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/assets/4239376/ecfa35ae-3001-4600-a9ee-e7158770f945" width="80" height="40" /> AWS Cloud
 1. [AWS: Solution Architecture in Practice](https://github.com/Glareone/AWS-Certified-Solution-Architect)
