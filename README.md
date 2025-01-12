@@ -1,11 +1,11 @@
 > Data presented here is gathered from different courses: Stanford University, Carnegie Mellon University, Different Books, Udemy-DesignGuru-Alex Xu-Oreilly courses, etc.  
 
 # Categories of materials
-* [Azure Solution Architecture](#azure-cloud)
-* [TOGAF Enterprise Architecture](#enterprise-architecture-togaf)
+* [Azure Solution Architecture](#-azure-cloud)
+* [TOGAF Enterprise Architecture](#-enterprise-architecture-togaf)
 * Solution and System Design examples
 * [Microservices In Depth. Patterns. Approaches](microservices-approaches-patterns/readme.md)
-* [ATAM. Architecture Trade-off Analysis Management](#atam-conceptual-flow)
+* [ATAM. Architecture Trade-off Analysis Management](#architecture-atam-principles)
 * [Architecture. Patterns. General.](#architecture-patterns)
 * High and Low Level Design. Examples
 * [Microservices. Patterns. Approaches](/microservices-approaches-patterns/readme.md)
