@@ -37,6 +37,19 @@
 ![IMAGE 2025-01-14 23:38:42](https://github.com/user-attachments/assets/8cc38374-5bd2-46d2-b98d-db704b32e9d0)
 
 ### Storage Scaling. Consistent Hashing vs Shard Mapping 
+**Application-Level Sharding**
+For implementing consistent hashing more directly or for more complex sharding strategies, you might consider handling shard key mappings at the application level:
+
+* Custom Shard Key: Implement a function in your application that generates shard keys based on consistent hashing of relevant Trie node attributes.
+* Middleware or Service Layer: Develop a service layer that manages the distribution of data to MongoDB based on your custom shard logic. This layer would direct CRUD operations to the appropriate shard.
+
+**Third-Party Solutions and Frameworks**
+If you're looking for out-of-the-box solutions that might support a more direct implementation of consistent hashing or advanced sharding strategies, you might consider:
+
+* Apache Cassandra: Known for its robust handling of massive amounts of data with its ring-based consistent hashing mechanism.
+* Couchbase: Supports flexible and powerful sharding mechanisms and might offer closer control over data distribution.
+* Redis Enterprise: Offers a form of consistent hashing with its clustering capabilities.
+
 ![IMAGE 2025-01-14 23:39:26](https://github.com/user-attachments/assets/3960cfd4-1343-457f-a815-0ee2cf245fe9)
 ![IMAGE 2025-01-14 23:39:34](https://github.com/user-attachments/assets/a468e0e9-3c23-47f5-b0cc-433f2b48fc47)
 
