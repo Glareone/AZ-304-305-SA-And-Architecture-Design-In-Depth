@@ -30,6 +30,7 @@ For simplicity, we only calculate the cost of video streaming.
 
 ### High Level Design
 <img width="802" alt="image" src="https://github.com/user-attachments/assets/661c79d6-20c5-46da-a1b3-a9050e875b82" />
+
 * CDN and blob storage are the cloud services we will leverage.
 
 ### Video Uploading Flow
