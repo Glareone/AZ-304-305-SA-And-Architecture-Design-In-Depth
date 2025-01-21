@@ -106,7 +106,7 @@
 7. [Consistent Hashing for Data Replication and Data Partitioning](#consistent-hashing-data-partitioning-data-replication)
 
 ## Architecture in Practice. System Design Interview Questions. Main Problems
-1. [Architecture in Practice. System Design Interview. Q&A. Main Problems](#sdi-system-design-interview-qa-main-problems)  
+1. [Architecture in Practice. System Design Interview. Q&A. Main Problems](https://github.com/Glareone/Azure-Solution-and-Enterprise-Architecture-in-Depth/tree/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice)  
     a. [System Design Interview In practice](#practice-in-system-design-interview-examples)  
     b. [URL Shortener](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice/Url%20Shortener.md)   
     c. [Pastebin](https://github.com/Glareone/AZ-304-305-SA-And-Architecture-Design-In-Depth/blob/main/System%20Design%20Interview%20%26%20Architecture%20in%20Practice/Pastebin%20in%20practice.md)  
